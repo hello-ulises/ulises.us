@@ -6,7 +6,7 @@ title: No. 4 Education
 categories: right
 tags:
   - education
-event_date: 'December 2017 through February 2018'
+event_date: December 2017 through February 2018
 ---
 
 
@@ -15,8 +15,6 @@ event_date: 'December 2017 through February 2018'
 ## Contributors
 
 ### Pablo Helguera
-
-### Caroline Woolard
 
 ### Dushko Petrovich
 
