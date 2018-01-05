@@ -1,7 +1,7 @@
 ---
 layout: post
 date: '2018-01-05 11:02 -0500'
-published: false
+published: true
 title: Education Launch & Back–to–School Sale
 event_date: 'Friday, January 13, 2018, 6:30PM'
 categories: left
@@ -13,6 +13,4 @@ tags:
 
 Join us in celebrating our fourth quarterly season, Education, with a party and back-to-school sale! The festivities begin at 6:30 PM. Warm libations and PB&Js will be provided along with a special DJ set by Rana Ransom. 
 
-Sale Sale Sale: 15% off select items all weekend long! 
-
-
+Sale Sale Sale: 15% off select items all weekend long!
