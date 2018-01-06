@@ -2,7 +2,7 @@
 layout: post
 date: '2018-01-05 11:02 -0500'
 published: true
-title: Education Launch & Back–to–School Sale
+title: Education Launch Party & Back–to–School Sale
 event_date: 'Friday, January 12, 2018, 6:30PM'
 categories: left
 tags:
