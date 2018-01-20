@@ -15,7 +15,7 @@ event_date: December 2017 through February 2018
 ## Upcoming Programs
 - Saturday, January 27, 2–3:30PM
 Book launch of "Muriel Cooper" by David Reinfurt and Robert Wiesenberger along with a lively discussion between author David Reinfert, designer Mark Owens, and Katie Reilly the William T. Ranney Director of Publishing at Philadelphia Museum of Art.
-- Sunday, January 28, 2–4PM, "Reading Out Loud" How do we read? Why do we read? With whom? When and where? Through a series of reading exercises Sepake Angiama will explore the relationship between reading out loud and the body.
+- [Sunday, January 28, 2–4PM, "Reading Out Loud"](https://www.facebook.com/events/135470050591335/?notif_t=plan_user_joined&notif_id=1516456506312979) How do we read? Why do we read? With whom? When and where? Through a series of reading exercises Sepake Angiama will explore the relationship between reading out loud and the body.
 
 
 
