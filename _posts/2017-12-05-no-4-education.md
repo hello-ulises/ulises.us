@@ -13,9 +13,8 @@ event_date: December 2017 through February 2018
 “Education” considers the ways non-traditional approaches to learning and instruction by artists, researchers, and organizers can effect social transformation. This quarter, Ulises examines the enduring legacies of self-organized and experimental pedagogies. Ulises will probe the broad, urgent challenges to access, power, and value within and outside educational institutions today. While publications are instruments of both self-directed and institutional learning, Ulises celebrates their radical potential to upend knowledge and challenge understandings.
 
 ## Upcoming Programs
-- Saturday, January 27, 2–3:30PM
-Book launch of "Muriel Cooper" by David Reinfurt and Robert Wiesenberger along with a lively discussion between author David Reinfert, designer Mark Owens, and Katie Reilly the William T. Ranney Director of Publishing at Philadelphia Museum of Art.
-- [Sunday, January 28, 2–4PM, "Reading Out Loud"](https://www.facebook.com/events/135470050591335/?notif_t=plan_user_joined&notif_id=1516456506312979) How do we read? Why do we read? With whom? When and where? Through a series of reading exercises Sepake Angiama will explore the relationship between reading out loud and the body.
+- [January 27, 2–3:30PM, "I guess I’m never sure that print is truly linear:" Q&A](https://www.facebook.com/events/191290224948844/?notif_t=plan_user_joined&notif_id=1516472980094867) Launch of David Reinfurt and Robert Wiesenberger's book, "Muriel Cooper,"  along with a lively discussion between David Reinfert, Mark Owens, and Katie Reilly.
+- [January 28, 2–4PM, "Reading Out Loud"](https://www.facebook.com/events/135470050591335/?notif_t=plan_user_joined&notif_id=1516456506312979) Through a series of reading exercises Sepake Angiama will explore the relationship between reading out loud and the body.
 
 
 
