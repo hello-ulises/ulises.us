@@ -6,6 +6,7 @@ title: 'Adjunct Commuter Weekly: Round Table with Dushko Petrovich'
 event_date: 'Saturday, February 3, 2–4PM'
 tags:
   - education
+categories: left
 ---
 ![Adjunct.jpg]({{site.baseurl}}/assets/img/Adjunct.jpg)
 
