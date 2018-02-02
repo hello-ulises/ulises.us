@@ -11,7 +11,7 @@ categories: left
 ![Adjunct.jpg]({{site.baseurl}}/assets/img/Adjunct.jpg)
 
 
-Educator and artist, publisher of [Adjunct Commuter Weekly](https://adjunctcommuterweekly.com/), founder of Paper Monument, Dushko Petrovich, will discuss life on the art and academic road in a round table with Jennie Shanker, Gregory Laynor, and Daniel Pieczkolon this Saturday, Feb 3, as part of Ulises's current quarterly season, "Education."
+Educator, artist, and publisher of [Adjunct Commuter Weekly](https://adjunctcommuterweekly.com/),  Dushko Petrovich, will discuss life on the art and academic road in a round table with Jennie Shanker, Gregory Laynor, and Daniel Pieczkolon. [RSVP](https://www.facebook.com/events/181343182466723/)
 
 Adjunct Commuter Weekly was the first magazine to address the lifestyle needs and shared interests of a rapidly growing and increasingly influential demographic. Edited and published by Dushko Petrovich—who for a number of years commuted to teach at Yale, RISD, and Boston University—the inaugural issue of Adjunct Commuter Weekly was created entirely by current and former adjunct commuters. It had it all: news, opinion, interviews, features, fashion shoot, photo essays, games, syllabi, poetry, fiction, personal memoirs and advertisements for products of interest to the adjunct commuter. First published on July 30, 2015 the print publication was shuttered on August 10, 2015, due to the financial and time constraints of the adjunct commuting staff, but the original issue, and newer content were rebranded as ACW, which can be found at www.adjunctcommuterweekly.com.
 
@@ -19,4 +19,4 @@ Jennie Shanker is an artist and adjunct activist, initially working with the Uni
 
 Gregory Laynor, poet and scholar of media and performance, works as a medical librarian and humanities adjunct at Temple University.
 
-Daniel Pieczkolon is an adjunct, poet, and activist. He currently teaches Writing courses at Arcadia University & Literature courses at Rowan University and works as an organizer for the United Academics of Philadelphia.  
+Daniel Pieczkolon is an adjunct, poet, and activist. He currently teaches Writing courses at Arcadia University & Literature courses at Rowan University and works as an organizer for the United Academics of Philadelphia.
