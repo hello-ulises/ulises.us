@@ -10,8 +10,9 @@ tags:
 ---
 ![PastedGraphic-1.png]({{site.baseurl}}/assets/img/PastedGraphic-1.png)
 
-- Support Workshop: 1:30-4:00pm at the ICA
-- Risograph Workshop: 4:30-6:00pm at the ICA
+Support Workshop: 1:30-4:00pm at the ICA
+
+Risograph Workshop: 4:30-6:00pm at the ICA
 
 [Please RSVP](https://www.facebook.com/events/1591081160970349/)
 
