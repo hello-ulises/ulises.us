@@ -2,7 +2,7 @@
 layout: post
 date: '2018-02-04 16:57 -0500'
 published: true
-title: ''
+title: Àsìkò Book Launch
 categories: left
 event_date: 'Sunday, February 11, 2–4PM'
 tags:
