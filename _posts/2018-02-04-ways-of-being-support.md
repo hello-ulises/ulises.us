@@ -2,7 +2,7 @@
 layout: post
 date: '2018-02-04 17:11 -0500'
 published: true
-title: Ways of Being (Support)
+title: Ways of Being with BFAMFAPhD
 categories: left
 event_date: 'Thursday, February 8'
 tags:
