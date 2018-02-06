@@ -17,7 +17,7 @@ event_date: December 2017 through February 2018
 - [January 28, 2–4PM, "Reading Out Loud"](https://www.facebook.com/events/135470050591335/?notif_t=plan_user_joined&notif_id=1516456506312979) Through a series of reading exercises Sepake Angiama will explore the relationship between reading out loud and the body.
 - February 3, "[Adjunct Commuter Weekly](https://adjunctcommuterweekly.com/):" Round Table with Dushko Petrovich,founder of ACW, who will discuss life on the art and academic road in a round table with Jennie Shanker, Gregory Laynor, and Daniel Pieczkolon.
 - [February 8, 1:30–4:30PM](https://www.facebook.com/events/1591081160970349/), Workshop and Riso Printing with [BFAMFAPhD](http://bfamfaphd.com/)
-- ![]({{site.baseurl}}/https://www.facebook.com/events/1582297128551354/), Frampton Tolbert, Deputy Director of the [The Center for Urban Pedagogy](http://welcometocup.org/) will present a talk on Design and Civic Engagement. The talk will focus on the history of CUP, its mission and recent projects, along with ongoing initiatives.
+- [February 10, 2–4PM](https://www.facebook.com/events/1582297128551354/?notif_t=plan_user_joined&notif_id=1517605077830986), Frampton Tolbert, Deputy Director of the [The Center for Urban Pedagogy](http://welcometocup.org/) will present a talk on Design and Civic Engagement. The talk will focus on the history of CUP, its mission and recent projects, along with ongoing initiatives.
 - [February 11, 2–4PM](https://www.facebook.com/events/431279823956031/), Book launch and conversation for "[Àsìkò](http://www.asikoartschool.org/): On the Future of Artistic and Curatorial Pedagogies in Africa" with the publication's editorial director Stephanie Baptist and designer Nontsikelelo Mutiti.
 
 ## Contributors
