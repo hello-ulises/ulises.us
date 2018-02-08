@@ -1,6 +1,6 @@
 ---
 layout: post
-date: '2018-02-04 17:00 -0500'
+date: '2018-02-05 17:00 -0500'
 published: true
 title: 'Presentation: The Center for Urban Pedagogy'
 categories: left
