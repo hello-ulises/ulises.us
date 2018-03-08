@@ -1,4 +1,5 @@
 
+
 // mixins & constants
 
 @mixin border {
@@ -320,4 +321,38 @@ article.post div.post-content {
     .ps__scrollbar-y-rail{ right: 0.2rem; }
     .ps__scrollbar-x-rail{ display: none; }
 
+}
+
+// * * * * * Splash Page Elements * * * * *
+
+.main-wrapper#splash {
+    
+    overflow: hidden;
+    background-color: lighten($bodyColour, 10%);
+
+    div.scroll-wrapper {
+        max-height: 100vh;
+        overflow: auto;
+        margin-right: -25px;
+    }
+
+    div.scroll-wrapper div {
+
+        width: 20%;
+        max-width: 300px;
+        float: left;
+
+        span { 
+            display: block; 
+            font-family:  Lars, "Helvetica Neue", sans-serif;
+            font-size: 1rem;
+            line-height: 1.1rem;
+            color: $backgroundColour;
+            text-transform: uppercase;
+        }
+    }
+
+    div.col-2 {
+        margin-left: 15%;
+    }
 }
