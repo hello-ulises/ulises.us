@@ -330,6 +330,26 @@ article.post div.post-content {
     overflow: hidden;
     background-color: lighten($bodyColour, 10%);
 
+    div.residents {
+        position: fixed;
+        top: 10%;
+        right: 10%;
+
+        span {
+            display: block;
+            font-family: Kadisoka;
+            text-transform: uppercase;
+            /* FF3.5+ */
+            -moz-transform: rotate(90.0deg);
+            /* Opera 10.5 */
+            -o-transform: rotate(90.0deg);
+            /* Saf3.1+, Chrome */
+            -webkit-transform: rotate(90.0deg);
+            /* Standard */
+            transform: rotate(90.0deg);
+        }
+    }
+
     div.scroll-wrapper {
         max-height: 100vh;
         overflow: auto;
