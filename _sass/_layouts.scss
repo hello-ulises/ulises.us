@@ -330,24 +330,86 @@ article.post div.post-content {
     overflow: hidden;
     background-color: lighten($bodyColour, 10%);
 
-    div.residents {
-        position: fixed;
-        top: 10%;
-        right: 10%;
+    .residents {
 
-        span {
-            display: block;
-            font-family: Kadisoka;
-            text-transform: uppercase;
-            /* FF3.5+ */
-            -moz-transform: rotate(90.0deg);
-            /* Opera 10.5 */
-            -o-transform: rotate(90.0deg);
-            /* Saf3.1+, Chrome */
-            -webkit-transform: rotate(90.0deg);
-            /* Standard */
-            transform: rotate(90.0deg);
+        position: fixed;
+        text-align: left;
+        font-family: Kadisoka;
+        text-transform: uppercase;
+        font-size: 5rem;
+        height: 0;
+        // /* FF3.5+ */
+        // -moz-transform: rotate(90.0deg);
+        // /* Opera 10.5 */
+        // -o-transform: rotate(90.0deg);
+        // /* Saf3.1+, Chrome */
+        // -webkit-transform: rotate(90.0deg);
+        // /* Standard */
+        // transform: rotate(90.0deg);
+        top: 10%;
+    }
+
+    .residents div {
+        min-height: 5rem;
+        margin-bottom: 8rem;
+    }
+
+    .residents span {
+        display: inline-block;
+        padding-left: 2rem;
+        padding-right: 2.5rem;
+        padding-top: 1rem;
+        line-height: 6rem;
+    }
+
+    .residents span:nth-of-type(1){
+        width: 30vw;
+        text-align: right;
+    }   
+
+    .residents span:nth-of-type(2){
+        width: 70%;
+        text-align: left;
+    }
+
+    .residents #bedouin{
+
+        margin-bottom: 3rem;
+        span:nth-of-type(1){
+            color: $bSalmon;
+            background-color: rgba($bYellow,.9);
         }
+        span:nth-of-type(2){
+            color: $bYellow;
+            background-color: rgba($bSalmon,.9);
+        }
+    }
+
+    .residents #hardworking {
+
+    margin-bottom: 3rem;
+        span:nth-of-type(1){
+            color: $hwBlue;
+            background-color: rgba($hwOrange,.9);
+        }
+
+        span:nth-of-type(2){
+            // float: right;
+            color: $hwOrange;
+            background-color: rgba($hwBlue,.9);
+        }
+    }
+    .residents #martine{
+
+        span:nth-of-type(1){
+            color: $msFuschia;
+            background-color: rgba($msGreen,.9);
+        }
+        span:nth-of-type(2){
+            color: $msGreen;
+            background-color: rgba($msFuschia,.9);
+        }
+
     }
 
     div.scroll-wrapper {
