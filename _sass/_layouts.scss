@@ -334,10 +334,8 @@ article.post div.post-content {
 
         position: fixed;
         text-align: left;
-        font-family: Kadisoka;
-        text-transform: uppercase;
-        font-size: 5rem;
         height: 0;
+        width: 250vw;
         // /* FF3.5+ */
         // -moz-transform: rotate(90.0deg);
         // /* Opera 10.5 */
@@ -346,35 +344,42 @@ article.post div.post-content {
         // -webkit-transform: rotate(90.0deg);
         // /* Standard */
         // transform: rotate(90.0deg);
-        top: 10%;
+        top: 15%;
+        left: 9%;
     }
 
     .residents div {
         min-height: 5rem;
-        margin-bottom: 8rem;
+        // margin-bottom: 8rem;
     }
 
     .residents span {
         display: inline-block;
-        padding-left: 2rem;
-        padding-right: 2.5rem;
+        overflow: hidden;
+        padding-left: 1rem;
+        padding-right: 2rem;
         padding-top: 1rem;
-        line-height: 6rem;
+        line-height: 8rem;
+        letter-spacing: 1rem;
+
+        font-family: Kadisoka;
+        text-transform: uppercase;
+        font-size: 9rem;
     }
 
     .residents span:nth-of-type(1){
-        width: 30vw;
-        text-align: right;
+        width: 8vw;
+        text-align: left;
+        display: none;
     }   
 
     .residents span:nth-of-type(2){
-        width: 70%;
+        // width: 39vw;
         text-align: left;
     }
 
     .residents #bedouin{
 
-        margin-bottom: 3rem;
         span:nth-of-type(1){
             color: $bSalmon;
             background-color: rgba($bYellow,.9);
@@ -387,7 +392,6 @@ article.post div.post-content {
 
     .residents #hardworking {
 
-    margin-bottom: 3rem;
         span:nth-of-type(1){
             color: $hwBlue;
             background-color: rgba($hwOrange,.9);
