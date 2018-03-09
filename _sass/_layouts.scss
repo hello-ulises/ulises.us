@@ -80,11 +80,69 @@ $col-padding: 4.5rem;
 
 // Both column headers
 
+
+// OLD STYLES
+
+// header.site-header {
+
+//     @include span-columns(6 of 6);
+//     height: auto;
+//     min-height: 10rem;
+
+//     & a, & a:hover, & a:hover,
+//     & a:focus, & a:visited { 
+//         color: $bodyColour;
+//         background-image: none;
+//         cursor: pointer;
+//     }
+
+//     & a:hover { 
+//         color: $linkColour; 
+//     }
+
+//     & a.site-title h1 {
+
+//         font-size: 56.6px;
+//         text-align: center;
+//         margin-top: 1rem;
+//     }
+    
+//     & a span{
+//         font-family: "Times New Roman Seven", Times, serif;
+//         font-weight: 300;
+//     }
+
+// }
+
 header.site-header {
 
-    @include span-columns(6 of 6);
-    height: auto;
-    min-height: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 2rem;
+    margin-bottom: 5rem;
+
+
+    a {
+        width: 33%;
+
+        h4 {
+            margin: 0;
+        }
+    }
+
+    a:nth-of-type(1),
+    a:nth-of-type(4) {
+        text-align: left;
+    }
+    a:nth-of-type(2),
+    a:nth-of-type(5) {
+        text-align: center;
+    }
+    a:nth-of-type(3),
+    a:nth-of-type(6) {
+        text-align: right;
+    }
 
     & a, & a:hover, & a:hover,
     & a:focus, & a:visited { 
@@ -96,13 +154,6 @@ header.site-header {
     & a:hover { 
         color: $linkColour; 
     }
-
-    & a.site-title h1 {
-
-        font-size: 56.6px;
-        text-align: center;
-        margin-top: 1rem;
-    }
     
     & a span{
         font-family: "Times New Roman Seven", Times, serif;
@@ -111,27 +162,39 @@ header.site-header {
 
 }
 
+div.info {
+    width: 100%;
+}
 
 header.site-header .info-wrapper{
 
     @include row();
 
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+
     & div {
 
-        @include span-columns(3 of 6);
         font-family: "Times New Roman Seven", Times, serif;
         font-size: 1.5rem;
         font-weight: 300;
-        margin-top: 1rem;
+        // margin-top: 1rem;
 
         @include media-query($on-palm){
             @include span-columns(12);
         }
 
-        & p { 
-            text-align: center;
+        & p {
+            text-align: left;
             text-indent: 0;
+            margin-top: 0;
+            line-height: 2.3rem;
         }
+    }
+
+    & div:nth-of-type(2) p {
+        text-align: center;
     }
 
     & span { font-family:  Lars, "Helvetica Neue", sans-serif; }

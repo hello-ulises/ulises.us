@@ -9,10 +9,12 @@ layout: default
 
     <div class="column typeset column--left" id="left">    
 
-        <header class="site-header left" role="banner">   
+        <header class="site-header left" role="banner">
+            {% for i in (1 .. 6) %}
             <a class="site-title" href="{{ "/" | relative_url}}">
-                  <h1>ulises<span>.us</span></h1>
+                  <h4>ulises<span>.us</span></h4>
             </a>
+            {% endfor %}
         </header>
 
         {% for post in postsLeft %}
