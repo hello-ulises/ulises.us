@@ -116,15 +116,41 @@ $col-padding: 4.5rem;
     @include transdefaults(margin .5s ease-out 0s);
 }
 
-#pasp {
+.pasp-reveal#pasp-panel:hover {
+    .close-x {
+        stroke: $linkColour;
+    }
+}
+
+.pasp-reveal#pasp-panel {
+
+    position: fixed;
+    top: 1.75rem;
+    right: 3.7rem;
+    z-index: 1;
+
+    width: 75px;
+    height: 75px;
+
+    cursor: pointer;
+
+    .close-x {
+      stroke: darken($hwBlue, 10%);
+      fill: transparent;
+      stroke-width: 2;
+    }
+}
+
+.typeset#pasp {
     
     padding: $col-padding;
-    padding-top: 5.25rem;
+    padding-top: 0rem;
     padding-right: 0;
     position: fixed;
     top: 0;
     right: 0;
     width: 49.5%;
+    height: 100vh;
     z-index: 0;
     overflow: hidden;
 
@@ -134,7 +160,22 @@ $col-padding: 4.5rem;
         color: darken($hwBlue, 10%);    
     }
 
-    // height: 150vh;
+    h3 {
+        line-height: 3rem;
+    }
+
+    & a, & a:hover, & a:hover,
+    & a:focus, & a:visited { 
+        color: darken($hwBlue, 10%);
+        background-image: none;
+        cursor: pointer;
+        text-shadow: unset;
+        text-decoration: underline;
+    }
+
+    & a:hover { 
+        color: $linkColour; 
+    }
 
     article.post {
 
@@ -142,7 +183,8 @@ $col-padding: 4.5rem;
         overflow-x: hidden;
         margin-right: -25px;
         padding-right: 5rem;
-        max-height: 80vh;
+        padding-top: 4.9rem;
+        height: 100vh;
 
     }
 
@@ -462,14 +504,6 @@ article.post div.post-content {
         text-align: left;
         height: 0;
         width: 50%;
-        // /* FF3.5+ */
-        // -moz-transform: rotate(90.0deg);
-        // /* Opera 10.5 */
-        // -o-transform: rotate(90.0deg);
-        // /* Saf3.1+, Chrome */
-        // -webkit-transform: rotate(90.0deg);
-        // /* Standard */
-        // transform: rotate(90.0deg);
         top: .75rem;
         left: 25%;
     }

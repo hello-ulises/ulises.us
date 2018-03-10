@@ -49,9 +49,4 @@ layout: default
 
     </div>
 
-    <div class="typeset" id="pasp">
-        {% assign pasp = site.posts | where: 'tags', 'pasp' %}
-        {% for post in pasp %}
-            {% include post-single.html %}
-        {% endfor %}
-    </div>
+    {% include pasp.html %}
