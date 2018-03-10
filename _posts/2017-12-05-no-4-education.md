@@ -19,6 +19,7 @@ event_date: December 2017 through February 2018
 - [February 8, 1:30–4:30PM](https://www.facebook.com/events/1591081160970349/), Workshop and Riso Printing with [BFAMFAPhD](http://bfamfaphd.com/)
 - [February 10, 2–4PM](https://www.facebook.com/events/1582297128551354/?notif_t=plan_user_joined&notif_id=1517605077830986), Frampton Tolbert, Deputy Director of the [The Center for Urban Pedagogy](http://welcometocup.org/) will present a talk on Design and Civic Engagement. The talk will focus on the history of CUP, its mission and recent projects, along with ongoing initiatives.
 - [February 11, 2–4PM](https://www.facebook.com/events/431279823956031/), Book launch and conversation for "[Àsìkò](http://www.asikoartschool.org/): On the Future of Artistic and Curatorial Pedagogies in Africa" with the publication's editorial director Stephanie Baptist and designer Nontsikelelo Mutiti.
+- [March 13, 6:30–8PM, Dear Reader: Study in Blue](https://www.facebook.com/events/227155514510749/), a group discussion facilitated by Connie Yu on two essays selected from Sepake Angiama's Reading List.
 
 ## Contributors
 
