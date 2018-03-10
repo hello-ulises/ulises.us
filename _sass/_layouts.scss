@@ -324,6 +324,10 @@ header.site-header.right {
 
         & span { font-family:  Lars, "Helvetica Neue", sans-serif; }
 
+        & .pasp-reveal:hover p{
+            color: lighten($hwOrange, 5%);
+        }
+
         @media screen and (max-width: $on-palm) {
         
             & p { margin: 0; }
@@ -506,6 +510,8 @@ article.post div.post-content {
         width: 50%;
         top: .75rem;
         left: 25%;
+
+        display: none;
     }
 
     .residents div {
@@ -592,8 +598,8 @@ article.post div.post-content {
         span { 
             display: block; 
             font-family:  Lars, "Helvetica Neue", sans-serif;
-            font-size: 1rem;
-            line-height: 1.1rem;
+            font-size: 1.5rem;
+            line-height: 1.6rem;
             color: $backgroundColour;
             text-transform: uppercase;
         }
