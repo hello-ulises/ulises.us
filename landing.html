@@ -7,7 +7,7 @@ layout: default
     {% assign postsRight = site.posts | where: 'categories', 'right' %}
 
 
-    <div class="column typeset column--left" id="left">    
+    <div class="column typeset column--left reveal" id="left">    
 
         <header class="site-header left" role="banner">
             {% for i in (1 .. 6) %}
@@ -31,7 +31,7 @@ layout: default
 
     </div>
 
-    <div class="column typeset column--right" id="right">
+    <div class="column typeset column--right reveal" id="right">
 
         {% include header.html %}
 
@@ -47,4 +47,11 @@ layout: default
             {% endunless %}
         {% endfor %}
 
+    </div>
+
+    <div class="typeset" id="pasp">
+        {% assign pasp = site.posts | where: 'tags', 'pasp' %}
+        {% for post in pasp %}
+            {% include post-single.html %}
+        {% endfor %}
     </div>

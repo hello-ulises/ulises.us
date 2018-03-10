@@ -38,7 +38,26 @@ $col-padding: 4.5rem;
     }
 }
 
-// * * * * * Home Page Elements * * * * *
+// Perfect scrollbar overrides
+//
+// issue with typeset text-indent applying to images
+// wrapped in <p> as parsed by markdown, forcing
+// x scroll
+
+.ps#left {
+
+    .ps__scrollbar-y-rail{ left: 0; }
+    .ps__scrollbar-x-rail{ display: none; }
+}
+
+.ps#right {
+
+    .ps__scrollbar-y-rail{ right: 0.2rem; }
+    .ps__scrollbar-x-rail{ display: none; }
+
+}
+
+// * * * * * Landing Page Elements * * * * *
 
 // General column content
 
@@ -52,6 +71,7 @@ $col-padding: 4.5rem;
     overflow-x: hidden;
     margin: 0;
     padding: 0 $col-padding;
+    z-index: 9;
 
     h2 { text-align: center; }
 
@@ -74,8 +94,58 @@ $col-padding: 4.5rem;
     }
 }
 
+.column#left {
+    @include transdefaults(margin .5s ease-out 0s);
+}
+
 .column#right {
     float: right;
+    @include transdefaults(margin .5s ease-out 0s);
+}
+
+
+// Publishing as Practice Reveal Pane
+
+.column#left.reveal {
+    margin-left: -50%;
+    @include transdefaults(margin .5s ease-out 0s);
+}
+
+.column#right.reveal {
+    margin-right: 50%;
+    @include transdefaults(margin .5s ease-out 0s);
+}
+
+#pasp {
+    
+    padding: $col-padding;
+    padding-top: 5.25rem;
+    padding-right: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 49.5%;
+    z-index: 0;
+    overflow: hidden;
+
+    background-color: lighten($hwOrange, 2%);
+
+    h1,h2,h3,h4,p {
+        color: darken($hwBlue, 10%);    
+    }
+
+    // height: 150vh;
+
+    article.post {
+
+        overflow-y: auto;
+        overflow-x: hidden;
+        margin-right: -25px;
+        padding-right: 5rem;
+        max-height: 80vh;
+
+    }
+
 }
 
 // Both column headers
@@ -114,35 +184,15 @@ $col-padding: 4.5rem;
 
 // }
 
+
+// bother column headers
+
 header.site-header {
 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 2rem;
-    margin-bottom: 5rem;
-
-
-    a {
-        width: 33%;
-
-        h4 {
-            margin: 0;
-        }
-    }
-
-    a:nth-of-type(1),
-    a:nth-of-type(4) {
-        text-align: left;
-    }
-    a:nth-of-type(2),
-    a:nth-of-type(5) {
-        text-align: center;
-    }
-    a:nth-of-type(3),
-    a:nth-of-type(6) {
-        text-align: right;
-    }
 
     & a, & a:hover, & a:hover,
     & a:focus, & a:visited { 
@@ -159,55 +209,89 @@ header.site-header {
         font-family: "Times New Roman Seven", Times, serif;
         font-weight: 300;
     }
-
 }
 
-div.info {
-    width: 100%;
-}
+// left column header
 
-header.site-header .info-wrapper{
+header.site-header.left {
 
-    @include row();
+    margin-bottom: 4rem;
 
-    display: flex;
-    flex-wrap: no-wrap;
-    justify-content: space-between;
+    a {
+        width: 33%;
 
-    & div {
-
-        font-family: "Times New Roman Seven", Times, serif;
-        font-size: 1.5rem;
-        font-weight: 300;
-        // margin-top: 1rem;
-
-        @include media-query($on-palm){
-            @include span-columns(12);
-        }
-
-        & p {
-            text-align: left;
-            text-indent: 0;
-            margin-top: 0;
-            line-height: 2.3rem;
+        h4 {
+            margin: 0;
         }
     }
 
-    & div:nth-of-type(2) p {
+    // header left stacked site titles
+
+    a:nth-of-type(1),
+    a:nth-of-type(4) {
+        text-align: left;
+    }
+    a:nth-of-type(2),
+    a:nth-of-type(5) {
         text-align: center;
     }
+    a:nth-of-type(3),
+    a:nth-of-type(6) {
+        text-align: right;
+    }
+}
 
-    & span { font-family:  Lars, "Helvetica Neue", sans-serif; }
+// right column header nav
 
-    @media screen and (max-width: $on-palm) {
+header.site-header.right {
+
+    margin-bottom: -3rem;
     
-        & p { margin: 0; }
+    div.info {
+        width: 100%;
+    }
 
-        & div:first-child p {
-            margin-top: $col-padding/2;
+    .info-wrapper{
+
+        display: flex;
+        flex-wrap: no-wrap;
+        justify-content: space-between;
+
+        & div {
+
+            font-family: "Times New Roman Seven", Times, serif;
+            font-size: 1.5rem;
+            font-weight: 300;
+            // margin-top: 1rem;
+
+            @include media-query($on-palm){
+                @include span-columns(12);
+            }
+
+            & p {
+                text-align: left;
+                text-indent: 0;
+                margin-top: 0;
+                line-height: 2.3rem;
+            }
         }
-        & #info-button { 
-            margin-bottom: $col-padding/2; 
+
+        & div:nth-of-type(2) p {
+            text-align: center;
+        }
+
+        & span { font-family:  Lars, "Helvetica Neue", sans-serif; }
+
+        @media screen and (max-width: $on-palm) {
+        
+            & p { margin: 0; }
+
+            & div:first-child p {
+                margin-top: $col-padding/2;
+            }
+            & #info-button { 
+                margin-bottom: $col-padding/2; 
+            }
         }
     }
 }
@@ -219,11 +303,11 @@ header.site-header {
     }
 
     & .slide div.info-wrapper:nth-child(2) {
-        margin-bottom: 4rem;
+        margin-bottom: 3rem;
     }
 }
 
-// Post
+// Info slide in panel
 
 .slide {
     height: auto;
@@ -244,7 +328,7 @@ header.site-header {
     padding: 0 $col-padding;
     max-height: 0;
     overflow: hidden;
-    @include transdefaults(max-height .3s ease-out 0s);
+    @include transdefaults(max-height .5s ease-out 0s);
     
     & > p { clear: both; }
 
@@ -335,9 +419,7 @@ header.site-header {
         }
     }
 
-    @include transdefaults(max-height .3s ease-out 0s)
-
-
+    @include transdefaults(max-height .75s ease-out 0s)
 }
 
 h2.post-title {
@@ -367,25 +449,6 @@ article.post div.post-content {
     }
 }
 
-// Perfect scrollbar overrides
-//
-// issue with typeset text-indent applying to images
-// wrapped in <p> as parsed by markdown, forcing
-// x scroll
-
-.ps#left {
-
-    .ps__scrollbar-y-rail{ left: 0; }
-    .ps__scrollbar-x-rail{ display: none; }
-}
-
-.ps#right {
-
-    .ps__scrollbar-y-rail{ right: 0.2rem; }
-    .ps__scrollbar-x-rail{ display: none; }
-
-}
-
 // * * * * * Splash Page Elements * * * * *
 
 .main-wrapper#splash {
@@ -398,7 +461,7 @@ article.post div.post-content {
         position: fixed;
         text-align: left;
         height: 0;
-        width: 250vw;
+        width: 50%;
         // /* FF3.5+ */
         // -moz-transform: rotate(90.0deg);
         // /* Opera 10.5 */
@@ -407,27 +470,28 @@ article.post div.post-content {
         // -webkit-transform: rotate(90.0deg);
         // /* Standard */
         // transform: rotate(90.0deg);
-        top: 15%;
-        left: 9%;
+        top: .75rem;
+        left: 25%;
     }
 
     .residents div {
         min-height: 5rem;
-        // margin-bottom: 8rem;
+        width: 50%;
+        margin-bottom: 1.75rem;
     }
 
     .residents span {
+
         display: inline-block;
         overflow: hidden;
         padding-left: 1rem;
-        padding-right: 2rem;
         padding-top: 1rem;
-        line-height: 8rem;
-        letter-spacing: 1rem;
+        line-height: 5.5rem;
+        letter-spacing: .9rem;
 
         font-family: Kadisoka;
         text-transform: uppercase;
-        font-size: 9rem;
+        font-size: 5rem;
     }
 
     .residents span:nth-of-type(1){
@@ -448,8 +512,8 @@ article.post div.post-content {
             background-color: rgba($bYellow,.9);
         }
         span:nth-of-type(2){
-            color: $bYellow;
-            background-color: rgba($bSalmon,.9);
+            color: $bSalmon;
+            background-color: rgba($bYellow,.9);
         }
     }
 
@@ -462,8 +526,8 @@ article.post div.post-content {
 
         span:nth-of-type(2){
             // float: right;
-            color: $hwOrange;
-            background-color: rgba($hwBlue,.9);
+            color: $hwBlue;
+            background-color: rgba($hwOrange,.9);
         }
     }
     .residents #martine{
