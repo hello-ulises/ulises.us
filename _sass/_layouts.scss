@@ -31,7 +31,7 @@ $col-padding: 4.5rem;
 
     @include outer-container(100%);
 
-    background-color: $bodyColour;
+    background-color: lighten($bodyColour, 25%);
 
     @include media-query($on-laptop){
         background-color: $backgroundColour;
@@ -95,7 +95,38 @@ $col-padding: 4.5rem;
 }
 
 .column#left {
+
     @include transdefaults(margin .5s ease-out 0s);
+
+    /** start styles for testing left column reverse **/
+
+    background-color: lighten($bodyColour, 25%);
+    color: $backgroundColour;
+
+    h2.post-title, .site-title h4, a {
+        color: $backgroundColour;
+    }
+
+    a.site-title,
+    a.site-title:hover,
+    a.site-title:focus {
+        text-decoration: none;
+    }
+
+    & a, & a:hover, & a:hover,
+    & a:focus, & a:visited { 
+        color: $backgroundColour;
+        background-image: none;
+        cursor: pointer;
+        text-shadow: unset;
+        text-decoration: underline;
+    }
+
+    & a:hover { 
+        color: $linkColour; 
+    }
+
+    /** end test styles **/
 }
 
 .column#right {
