@@ -1,6 +1,6 @@
 ---
 layout: post
-date: '2018-02-04 16:57 -0500'
+date: '2018-03-10 12:14 -0500'
 published: true
 title: Àsìkò Book Launch
 categories: left
@@ -21,3 +21,4 @@ Each year a cohort of approximately 12-15 emerging African artists and curators 
 [Stephanie Baptist](https://stephaniebaptist.carbonmade.com/) is an independent cultural producer, editor and writer. For over a decade she has collaborated with noted contemporary artists, organizations and individuals. She has previously served as Program Director for En Foco, a non profit photography organization and as Head of Exhibitions and Public Programs for Tiwani Contemporary an art gallery in London. Stephanie has edited a number of gallery monographs for: Rotimi-Fani Kayode, Simone Leigh, Njideka Akunyili, Mary Evans, and Barbara Walker. She has also been contributing editor for Another Africa and a writer for Contemporary And, both online platforms dedicated to contemporary art from Africa. She has an MA in Arts Administration and Cultural Policy from Goldsmiths University of London. Stephanie is the Curator and Director of Medium Tings, an apartment gallery and project space in Crown Heights, Brooklyn. 
 
 [Nontsikelelo Mutiti](http://nontsikelelomutiti.com/) is a Zimbabwean-born interdisciplinary artist and educator. Mutiti holds a diploma in multimedia art from the Zimbabwe Institute of Vigital Arts, and an MFA from the Yale School of Art, with a concentration in graphic design. Recently, she has been a resident artist at the Museum of Contemporary Art Detroit, Recess, and the Centre for Book Arts, both in New York City. In 2015, Mutiti was awarded the Joan Mitchell Foundation Emerging Artist Grant in its inaugural year. Mutiti has participated in several group shows including "Salon Style" at the Studio Museum, a special screening for "Dreamlands" at the Whitney Museum, "Talking Pictures" at the Metropolitan Museum, and "THREE: On Visibility and Camouflage" at We Buy Gold. Mutiti produces project-based works, founding Black Chalk and Co with Tinashe Mushakavanhu, a collective of writers, artists, curators, and educators that initiate research-based projects that result in publications, archival projects, and events. As a collaborative team, Black Chalk and Co completed a residency at Keleketla Library in Johannesburg. Mutiti is currently Assistant Professor in Graphic Design at Virginia Commonwealth University.
+
