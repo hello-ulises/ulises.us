@@ -486,10 +486,12 @@ article.post div.post-content {
 #splash {
     
     overflow: hidden;
-    background-color: lighten($bodyColour, 10%);
     width: 100vw;
     height: 100vh;
     z-index: 3;
+
+    @include transdefaults(background-color 2s linear);
+ 
 
     .residents {
 
@@ -589,12 +591,49 @@ article.post div.post-content {
             font-family:  Lars, "Helvetica Neue", sans-serif;
             font-size: 1.5rem;
             line-height: 1.6rem;
-            color: $backgroundColour;
             text-transform: uppercase;
+            @include transdefaults(color 1s linear);
         }
     }
 
     div.col-2 {
         margin-left: 15%;
+    }
+}
+
+// splash scroll color schemes
+
+#splash.default {
+    background-color: lighten($bodyColour, 10%);
+    span {
+        color: $backgroundColour;
+    }
+}
+
+#splash.inverse {
+    background-color: $backgroundColour;
+    span {
+        color: $bodyColour;
+    }
+}
+
+#splash.hw {
+    background-color: $backgroundColour;
+    span {
+        color: $hwBlue;
+    }
+}
+
+#splash.ms {
+    background-color: lighten($msGreen, 5%);
+    span {
+        color: $bodyColour;
+    }
+}
+
+#splash.bd {
+    background-color: $bYellow;
+    span {
+        color: $backgroundColour;
     }
 }

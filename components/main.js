@@ -28,14 +28,23 @@ $(function() {
 
     var el = $('#splash .scroll-wrapper');
     var height = el.height() * 2;
+    var splash = $('#splash');
+    var themes = ['default', 'inverse', 'hw', 'ms', 'bd'];
 
     el.on('scroll', function() {
+
+        console.log(el.scrollTop());
 
       if ( el.scrollTop() > height * 2) {
         el.scrollTop(height);
       }
       if ( el.scrollTop() < height / 4) {
         el.scrollTop(height);
+      }
+      if ( (Math.floor(el.scrollTop()) % 50) == 0) {
+        
+        splash.removeClass();
+        splash.addClass(themes[Math.floor(Math.random()*themes.length)]);
       }
 
     });
