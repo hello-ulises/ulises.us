@@ -27,10 +27,13 @@ $col-padding: 4.5rem;
     display: block;
 }
 
+body {
+    overflow: hidden;
+}
+
 .main-wrapper {
 
     @include outer-container(100%);
-
     background-color: $bodyColour;
 
     @include media-query($on-laptop){
@@ -50,7 +53,7 @@ $col-padding: 4.5rem;
     .ps__scrollbar-x-rail{ display: none; }
 }
 
-.ps#right {
+.ps#right, .ps#pasp {
 
     .ps__scrollbar-y-rail{ right: 0.2rem; }
     .ps__scrollbar-x-rail{ display: none; }
@@ -61,7 +64,7 @@ $col-padding: 4.5rem;
 
 // General column content
 
-.column {
+.column, .typeset#pasp {
 
     @include span-columns(6);
     background-color: $backgroundColour;
@@ -71,7 +74,7 @@ $col-padding: 4.5rem;
     overflow-x: hidden;
     margin: 0;
     padding: 0 $col-padding;
-    z-index: 9;
+    z-index: 2;
 
     h2 { text-align: center; }
 
@@ -116,18 +119,16 @@ $col-padding: 4.5rem;
     @include transdefaults(margin .5s ease-out 0s);
 }
 
-.pasp-reveal#pasp-panel:hover {
+#pasp .pasp-reveal:hover {
     .close-x {
         stroke: $linkColour;
     }
 }
 
-.pasp-reveal#pasp-panel {
+#pasp .pasp-reveal {
 
-    position: fixed;
-    top: 1.75rem;
-    right: 3.7rem;
-    z-index: 1;
+    float: right;
+    margin-top: 2rem;
 
     width: 75px;
     height: 75px;
@@ -143,51 +144,36 @@ $col-padding: 4.5rem;
 
 .typeset#pasp {
     
-    padding: $col-padding;
-    padding-top: 0rem;
-    padding-right: 0;
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 49.5%;
-    height: 100vh;
-    z-index: 0;
-    overflow: hidden;
-
+    top: -100vh;
+    float: right;
+    z-index: 1;
     background-color: lighten($hwOrange, 2%);
-
-    h1,h2,h3,h4,p {
-        color: darken($hwBlue, 10%);    
-    }
-
-    h3 {
-        line-height: 3rem;
-    }
-
-    & a, & a:hover, & a:hover,
-    & a:focus, & a:visited { 
-        color: darken($hwBlue, 10%);
-        background-image: none;
-        cursor: pointer;
-        text-shadow: unset;
-        text-decoration: underline;
-    }
-
-    & a:hover { 
-        color: $linkColour; 
-    }
 
     article.post {
 
-        overflow-y: auto;
-        overflow-x: hidden;
-        margin-right: -25px;
-        padding-right: 5rem;
-        padding-top: 4.9rem;
-        height: 100vh;
+        padding-top: 3.5rem;
 
+        h1,h2,h3,h4,p {
+            color: darken($hwBlue, 10%);    
+        }
+
+        h3 {
+            line-height: 3rem;
+        }
+
+        & a, & a:hover, & a:hover,
+        & a:focus, & a:visited { 
+            color: darken($hwBlue, 10%);
+            background-image: none;
+            cursor: pointer;
+            text-shadow: unset;
+            text-decoration: underline;
+        }
+
+        & a:hover { 
+            color: $linkColour; 
+        }
     }
-
 }
 
 // Both column headers
@@ -497,10 +483,13 @@ article.post div.post-content {
 
 // * * * * * Splash Page Elements * * * * *
 
-.main-wrapper#splash {
+#splash {
     
     overflow: hidden;
     background-color: lighten($bodyColour, 10%);
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
 
     .residents {
 
@@ -584,9 +573,9 @@ article.post div.post-content {
     }
 
     div.scroll-wrapper {
-        max-height: 100vh;
         overflow: auto;
-        margin-right: -25px;
+        width: 105vw;
+        max-height: 100vh;
     }
 
     div.scroll-wrapper div {

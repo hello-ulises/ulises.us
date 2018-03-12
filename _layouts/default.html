@@ -5,7 +5,11 @@
 
 <body>
 
-    <div class="main-wrapper"  {% if page.id != null %}id={{ page.id }}{% endif %}>{{ content }}</div>
+    {% if page.id == 'splash-body' %}
+        {% include splash.html %}
+    {% endif %}
+
+    <div class="main-wrapper" {% if page.id != null %}id={{ page.id }}{% endif %}>{{ content }}</div>
 
     <script
         src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -13,29 +17,6 @@
         crossorigin="anonymous">
     </script>
     <script src="assets/js/main.min.js"></script>
-
-
-    {% if page.id == 'splash' %}
-    <script type="text/javascript">
-    
-        var el = $('#splash .scroll-wrapper');
-        var height = $('#splash .scroll-wrapper').height() * 2;
-
-        el.scrollTop(height);
-
-        el.on('scroll', function() {
-
-            if ( el.scrollTop() > height * 2) {
-                el.scrollTop(height);
-            }
-            if ( el.scrollTop() < height / 4) {
-                el.scrollTop(height);
-            }
-            
-        });
-    {% endif %}
-    
-    </script>
 
 </body>
 
