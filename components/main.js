@@ -2,9 +2,6 @@ var Ps = require('perfect-scrollbar');
 
 $(function() {
 
-
-    console.log('perp');
-
     // Perfect Scrollbar parameters
 
     var params= {
@@ -13,16 +10,31 @@ $(function() {
         supressScrollX: true
     };
 
-    var breakpoint = 668;
-
-    var columnLeft = document.querySelector('#left');     
-    var columnRight = document.querySelector('#right');
-    var columnPasp = document.querySelector('#pasp');
+    var breakpoint = 768;
     var headerInfo = $('.content-wrapper.info');
 
-    Ps.initialize(columnLeft, params);
-    Ps.initialize(columnRight, params);
-    Ps.initialize(columnPasp, params);
+
+    function setPerfectScrollbars (params, breakpoint) {
+        
+        if ($(window).width() > breakpoint) {
+
+            var columnLeft = document.querySelector('#left');     
+            var columnRight = document.querySelector('#right');
+            var columnPasp = document.querySelector('#pasp');
+            Ps.initialize(columnLeft, params);
+            Ps.initialize(columnRight, params);
+            Ps.initialize(columnPasp, params);
+
+        }
+
+        return false;
+    }
+
+    setPerfectScrollbars(params,breakpoint);
+
+    $(window).on('resize', function(){
+        setPerfectScrollbars(params,breakpoint);
+    });
 
     // sets infinite scroll on splash
 
@@ -32,8 +44,6 @@ $(function() {
     var themes = ['default', 'inverse', 'hw', 'ms', 'bd'];
 
     el.on('scroll', function() {
-
-        console.log(el.scrollTop());
 
       if ( el.scrollTop() > height * 2) {
         el.scrollTop(height);

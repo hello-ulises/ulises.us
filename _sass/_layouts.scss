@@ -39,6 +39,16 @@ body {
     @include media-query($on-laptop){
         background-color: $backgroundColour;
     }
+
+    @include media-query($on-palm){
+        overflow-y: scroll;
+        height: 100vh;
+        margin-right: -55px;
+    }
+}
+
+.typeset p.left-justify {
+    text-indent: 0;
 }
 
 // Perfect scrollbar overrides
@@ -119,6 +129,20 @@ body {
     @include transdefaults(margin .5s ease-out 0s);
 }
 
+.column#left.reveal,
+.column#right.reveal {
+
+    @include media-query($on-palm){
+        margin: 0 auto;
+    }
+}
+
+.pasp-reveal {
+    @include media-query($on-palm) {
+        display: none;
+    }
+}
+
 #pasp .pasp-reveal:hover {
     .close-x {
         stroke: $linkColour;
@@ -151,7 +175,7 @@ body {
 
     article.post {
 
-        padding-top: 3.5rem;
+        padding-top: 7.75rem;
 
         h1,h2,h3,h4,p {
             color: darken($hwBlue, 10%);    
@@ -172,6 +196,10 @@ body {
 
         & a:hover { 
             color: $linkColour; 
+        }
+
+        img {
+            width: 200px
         }
     }
 }
@@ -492,89 +520,49 @@ article.post div.post-content {
 
     @include transdefaults(background-color 2s linear);
  
-
-    .residents {
-
-        position: fixed;
-        text-align: left;
-        height: 0;
-        width: 50%;
-        top: .75rem;
-        left: 25%;
-
-        display: none;
+    span {
+        @include transdefaults(color .5s linear);
     }
 
-    .residents div {
-        min-height: 5rem;
-        width: 50%;
-        margin-bottom: 1.75rem;
-    }
+    p {
 
-    .residents span {
+        position: absolute;
+        right: 5%;
 
         display: inline-block;
-        overflow: hidden;
-        padding-left: 1rem;
-        padding-top: 1rem;
-        line-height: 5.5rem;
-        letter-spacing: .9rem;
+        line-height: 5rem;
+        letter-spacing: .8rem;
 
         font-family: Kadisoka;
         text-transform: uppercase;
-        font-size: 5rem;
-    }
+        font-size: 4.25rem;
+        @include transdefaults(color .5s linear);
 
-    .residents span:nth-of-type(1){
-        width: 8vw;
-        text-align: left;
-        display: none;
-    }   
-
-    .residents span:nth-of-type(2){
-        // width: 39vw;
-        text-align: left;
-    }
-
-    .residents #bedouin{
-
-        span:nth-of-type(1){
-            color: $bSalmon;
-            background-color: rgba($bYellow,.9);
-        }
-        span:nth-of-type(2){
-            color: $bSalmon;
-            background-color: rgba($bYellow,.9);
+        @include media-query ($on-palm){
+            display: none;
         }
     }
 
-    .residents #hardworking {
+    p#hw {
 
-        span:nth-of-type(1){
-            color: $hwBlue;
-            background-color: rgba($hwOrange,.9);
-        }
-
-        span:nth-of-type(2){
-            // float: right;
-            color: $hwBlue;
-            background-color: rgba($hwOrange,.9);
-        }
+        top: 15%;
+        text-indent: -8rem;
     }
-    .residents #martine{
 
-        span:nth-of-type(1){
-            color: $msFuschia;
-            background-color: rgba($msGreen,.9);
-        }
-        span:nth-of-type(2){
-            color: $msGreen;
-            background-color: rgba($msFuschia,.9);
-        }
+    p#bd {
 
+        top: 47%;
+        margin-right: 10%;
+        text-align: center;
+    }
+
+    p#ms{
+        top: 65%;
     }
 
     div.scroll-wrapper {
+        position: absolute;
+        top: 0;
         overflow: auto;
         width: 105vw;
         max-height: 100vh;
@@ -584,20 +572,36 @@ article.post div.post-content {
 
         width: 20%;
         max-width: 300px;
+        margin-left: 2rem;
         float: left;
 
+        @include media-query ($on-palm){
+            width: 33%;
+            margin-left: 0;
+        }
+    
         span { 
             display: block; 
             font-family:  Lars, "Helvetica Neue", sans-serif;
-            font-size: 1.5rem;
-            line-height: 1.6rem;
+            font-size: 1.1rem;
+            line-height: 1.2rem;
             text-transform: uppercase;
-            @include transdefaults(color 1s linear);
+
+            @include media-query ($on-palm){
+                font-size: .75rem;
+                line-height: .75rem;
+            }
+
         }
     }
 
-    div.col-2 {
-        margin-left: 15%;
+    div.scroll-wrapper div.col-2 {
+        margin-left: 3%;
+
+        @include media-query($on-palm){
+            margin-left: 10%;
+        }
+
     }
 }
 
@@ -605,35 +609,35 @@ article.post div.post-content {
 
 #splash.default {
     background-color: lighten($bodyColour, 10%);
-    span {
+    span,p {
         color: $backgroundColour;
     }
 }
 
 #splash.inverse {
     background-color: $backgroundColour;
-    span {
+    span,p {
         color: $bodyColour;
     }
 }
 
 #splash.hw {
     background-color: $backgroundColour;
-    span {
+    span,p {
         color: $hwBlue;
     }
 }
 
 #splash.ms {
     background-color: lighten($msGreen, 5%);
-    span {
+    span,p {
         color: $bodyColour;
     }
 }
 
 #splash.bd {
     background-color: $bYellow;
-    span {
+    span,p {
         color: $backgroundColour;
     }
 }
