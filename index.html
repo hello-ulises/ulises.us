@@ -1,50 +1,53 @@
 ---
-
 layout: default
-id: splash
-
+id: splash-body
 ---
 
-{% assign p1 = "publishing as<br/>practice:" %}
-{% assign p2 = "a three part<br/>publishing residency" %}
 
-<a href="{{ "/landing" | relative_url }}">
+    {% assign postsLeft = site.posts | where: 'categories', 'left' %}
+    {% assign postsRight = site.posts | where: 'categories', 'right' %}
 
-<div class="residents">
 
-<div id="hardworking">
-    <span>2</span><span>hardworking goodlooking</span>
-</div>
+    <div class="column typeset column--left reveal" id="left">    
 
-<div id="bedouin">
-    <span>1</span><span>bedouin</span>
-</div>
+        <header class="site-header left" role="banner">
+            {% for i in (1 .. 6) %}
+            <a class="site-title" href="{{ "/" | relative_url}}">
+                  <h4>ulises<span>.us</span></h4>
+            </a>
+            {% endfor %}
+        </header>
 
-<div id="martine">
-    <span>3</span><span>martine syms</span>
-</div>
+        {% for post in postsLeft %}
+            {% if post.tags contains 'sticky' %}    
+                {% include post-single.html %}            
+            {% endif %}
+        {% endfor %}
 
-</div>
+        {% for post in postsLeft %}
+            {% unless post.tags contains 'sticky' %}    
+                {% include post-single.html %}            
+            {% endunless %}
+        {% endfor %}
 
-<div class="scroll-wrapper">
-<div class="col-1">
+    </div>
 
-{% for i in (1..200) %}
+    <div class="column typeset column--right reveal" id="right">
 
-<span>{{ p1 }}</span>
+        {% include header.html %}
 
-{% endfor %}
+        {% for post in postsRight %}
+            {% if post.tags contains 'sticky' %}    
+                {% include post-single.html %}            
+            {% endif %}
+        {% endfor %}
 
-</div>
+        {% for post in postsRight %}
+            {% unless post.tags contains 'sticky' %}    
+                {% include post-single.html %}            
+            {% endunless %}
+        {% endfor %}
 
-<div class="col-2">
+    </div>
 
-{% for i in (1..200) %}
-
-<span>{{ p2 }}</span>
-
-{% endfor %}
-
-</div>
-</div>
-</a>
+    {% include pasp.html %}
