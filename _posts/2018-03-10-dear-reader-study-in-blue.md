@@ -10,7 +10,7 @@ tags:
 ---
 ![dear-reader.jpg]({{site.baseurl}}/assets/img/dear-reader.jpg)
 
-Join Ulises for a group discussion facilitated by Connie Yu on the essays “Commitment as a Non-Performative" by Sara Ahmed, Andrea Long Chu's rumination in the work "Study in Blue: affect, trauma, event" from  Women & Performance, 2017, and excerpts from the book “The University and the Undercommons" by Fred Moten and Stephano Harney. [RSVP](https://www.facebook.com/events/227155514510749/) The readings are available through the links below.
+Join Ulises for a group discussion facilitated by Connie Yu on the essays “Commitment as a Non-Performative" by Sara Ahmed, Andrea Long Chu's rumination in the work "Study in Blue: affect, trauma, event" from  Women & Performance, 2017, and excerpts from the book “The Undercommons" by Fred Moten and Stefano Harney.. [RSVP](https://www.facebook.com/events/227155514510749/) The readings are available through the links below.
 
 - [Chu, Andrea Long. "Study in Blue: trauma, affect, event." _Women and Performance_, 27.3, 2017.](https://www.womenandperformance.org/bonus-articles-1/andrea-long-chu-27-3)
 - [Moten, Fred, and Stefano Harvey. "The University and the Undercommons." _The Undercommons: Fugitive Planning & Black Study_, 2013.](https://drive.google.com/file/d/1g9Rkz28SuuhZPpHPQ2A9aquY0iKEOo5b/view?usp=sharing)
