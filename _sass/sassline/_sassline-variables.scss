@@ -8,7 +8,7 @@
 $breakpoints: (
   break-0: 0,     // 0px       Mobile first
   break-1: 640,   // 640px   ~ Small tablet up
-  break-2: 800,   // 800px   ~ Large tablet up
+  break-2: 1024,   // 800px   ~ Large tablet up
 
   // disabled a number of breakpoints --
   // break-3: 1024,  // 1024px  ~ Desktop up
@@ -21,7 +21,7 @@ $rootsizes: (
   rootsize-0: 14,   // 24px line-height body text
   rootsize-1: 14,   // 28px line-height body text
   rootsize-2: 14,   // 30px line-height body text
-  // rootsize-3: 14,   // 34px line-height body text
+  rootsize-3: 14,   // 34px line-height body text
   // rootsize-4: 14    // 38px line-height body text
 ) !default;
 
@@ -33,7 +33,7 @@ $measures: (
   measure-0: 500,  // 500px wide
   measure-1: 550,  // 550px wide
   measure-2: 600,  // 600px wide
-  // measure-3: 680,  // 680px wide
+  measure-3: 680,  // 680px wide
   // measure-4: 750   // 750px wide
 ) !default;
 
@@ -43,15 +43,15 @@ $maxwidths: (
   width-0: 500,  // 500px wide
   width-1: 600,  // 600px wide
   width-2: 800,  // 800px wide
-  // width-3: 1100, // 110px wide
+  width-3: 1100, // 110px wide
   // width-4: 1300  // 1300px wide
 ) !default;
 
 // Gutter widths
 $gutterwidths: (
-  small: 1rem,
-  medium: 2rem,
-  large: 4rem
+  small: 0rem,
+  medium: 0rem,
+  large: 0rem
 ) !default;
 
 // Define defaults for each variable.
@@ -80,9 +80,8 @@ $monospacetype: (
 
 // Width of the content area
 $content-width:    800px !default;
-
 $on-palm:          768px !default;
-$on-laptop:        800px !default;
+$on-laptop:        1024px !default;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -97,18 +96,6 @@ $on-laptop:        800px !default;
   }
 }
 
-$headingColour: #DFDFDF !default;
-$bodyColour: #DFDFDF !default;
-// $linkColour: #D8BFD8 !default;
-$linkColour: #DFDFDF !default;
-$hoverColour: darken($bodyColour,25%) !default;
-$captionColour: #BDC8CC !default;
-$white: #FFFFFF !default;
-
-// Background colours.
-$backgroundColour: #16161D !default;
-$codeBackgroundColour: #F5F4F2 !default;
-
 // Publishing as Practice colors
 $bSalmon: #AE535C;
 $bYellow: #FFE800;
@@ -116,3 +103,32 @@ $hwOrange: #FF6C2F;
 $hwBlue: #0078BF;
 $msFuschia: #FF48B0;
 $msGreen: #19975D;
+
+$PasP-primary: darken($hwBlue, 10%);
+$PasP-contrast: lighten($hwOrange, 2%);
+
+// $headingColour: #DFDFDF !default;
+// $bodyColour: #DFDFDF !default;
+// // $linkColour: #D8BFD8 !default;
+// $linkColour: #DFDFDF !default;
+// $hoverColour: darken($bodyColour,25%) !default;
+// $captionColour: #BDC8CC !default;
+// $white: #FFFFFF !default;
+
+// Background colours.
+// $backgroundColour: #16161D !default;
+// $codeBackgroundColour: #F5F4F2 !default;
+
+/* Publishing as Practice Current Color Scheme */
+
+$headingColour: #DFDFDF !default;
+$bodyColour: #DFDFDF !default;
+// $linkColour: #D8BFD8 !default;
+$linkColour: #DFDFDF !default;
+$hoverColour: lighten($PasP-contrast,10%) !default;
+$captionColour: #BDC8CC !default;
+$white: #FFFFFF !default;
+
+// Background colours.
+$backgroundColour: #16161D !default;
+$codeBackgroundColour: #F5F4F2 !default;

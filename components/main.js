@@ -11,8 +11,6 @@ $(function() {
     };
 
     var breakpoint = 768;
-    var headerInfo = $('.content-wrapper.info');
-
 
     function setPerfectScrollbars (params, breakpoint) {
         
@@ -21,26 +19,24 @@ $(function() {
             var columnLeft = document.querySelector('#left');     
             var columnRight = document.querySelector('#right');
             var columnPasp = document.querySelector('#pasp');
+            var columnSplash = document.querySelector('.splash-panel .scroll-wrapper');
             Ps.initialize(columnLeft, params);
             Ps.initialize(columnRight, params);
             Ps.initialize(columnPasp, params);
+            Ps.initialize(columnSplash, {
+                supressScrollX: true
+            });
 
         }
 
         return false;
     }
 
-    setPerfectScrollbars(params,breakpoint);
-
-    $(window).on('resize', function(){
-        setPerfectScrollbars(params,breakpoint);
-    });
-
     // sets infinite scroll on splash
 
-    var el = $('#splash .scroll-wrapper');
+    var el = $('.splash-panel .scroll-wrapper');
     var height = el.height() * 2;
-    var splash = $('#splash');
+    var splash = $('.splash-panel a');
     var themes = ['default', 'inverse', 'hw', 'ms', 'bd'];
 
     el.on('scroll', function() {
@@ -59,71 +55,63 @@ $(function() {
 
     });
 
-    // sets splash scroll link to website body
+    // function toggles classes on parent element
 
-    function scrollToNextElement(el) {
+    function setExpandPanel(el) {
 
-        el.on('click', function(e){
-
-            e.preventDefault();
-            var height = el.height();
-            $("html,body").animate(
-                { scrollTop: height }
-            );
-        });
+        var parent = el.data('parent');
+        $('#' + parent + ' .excerpted').toggleClass('hide');
+        $('#' + parent + ' .expanded').toggleClass('show');
     }
-
-    scrollToNextElement($('#splash'));
-
-    // function expands info panel on click
-
-    function setExpandPost(el) {
-
-        $(el).on('click',function(e){
-
-            var parent = $(e.currentTarget).data('parent');
-            $('.' + parent + ' .excerpted').toggleClass('hide');
-            $('.' + parent + ' .expanded').toggleClass('show');
-
-        });
-    }
-
-    setExpandPost('#info-button');
 
     // function reveal PasP panel on click
 
-    function setRevealPasP(el) {
+    function setRevealPasP(el,toggleClass) {
 
-        $(el).on('click',function(e){
-
-            var target = $(e.currentTarget).data('target');
-            $('.' + target ).toggleClass('reveal');
-        });
+        var target = el.data('target');
+        $('.' + target ).toggleClass(toggleClass);
     }
 
-    setRevealPasP('.pasp-reveal');
+    function checkHeaders() {
+
+        if($(this).width() < 769) {            
+            $('header.left').append(header.remove());
+        } else {            
+            $('header.right').append(header.remove());
+        }
+    }
+
+    // sets expand on info panel
 
     // handles on how titles appear based on screen width
 
-    if ($(this).width() < 768) {
+    var header = $('.site-header .content-wrapper');
 
-        $('header.left').append(headerInfo.remove());
+    function init() {
+
+        setPerfectScrollbars(params,breakpoint);
+        checkHeaders();
+        $('#info-button').on('click', function(e){
+            e.preventDefault();
+            setExpandPanel($(e.currentTarget));
+        });
+        $('#splash-body-anchor').on('click', function(e){
+            e.preventDefault();
+            setRevealPasP($(e.currentTarget),'hide');
+        });
+        $('.pasp-reveal').on('click', function(e){
+            e.preventDefault();
+            if( $(window).width() < 769 ) {
+                setExpandPanel($(e.currentTarget));
+            } else {
+                setRevealPasP($(e.currentTarget),'reveal');
+            }
+        });    
     }
 
+    init()
+
     $(window).on('resize',function(){
-
-        if($(this).width() < 768) {
-            
-            $('header.left').append(headerInfo.remove());
-            setExpandPost('#info-button');
-        }
-
-        if($(this).width() > 768) {
-            
-            $('header.right').append(headerInfo.remove());
-            setExpandPost('#info-button');
-        }
+        init();
     });
-
-
 });
