@@ -1,3 +1,4 @@
+var _ = require('lodash');
 var Ps = require('perfect-scrollbar');
 
 $(function() {
@@ -7,8 +8,7 @@ $(function() {
     var params= {
         minScrollbarLength: 25,
         maxScrollbarLength: 25,
-        supressScrollX: true,
-        swipeEasing: true
+        supressScrollX: true
     };
 
     var breakpoint = 768;
@@ -39,22 +39,27 @@ $(function() {
     var height = el.height() * 2;
     var splash = $('.splash-panel a');
     var themes = ['default', 'inverse', 'hw', 'ms', 'bd'];
+       
+    el.on('ps-scroll-y',_.throttle( function() {
 
-    el.scroll( function() {
+      var el = $(this);
+      var currentTop = el.scrollTop();
 
-      if ( el.scrollTop() > height * 2) {
+      if ( currentTop > height * 2) {
         el.scrollTop(height);
       }
-      if ( el.scrollTop() < height / 4) {
+      if ( currentTop < height / 4) {
         el.scrollTop(height);
       }
-      if ( (Math.floor(el.scrollTop()) % 16) == 0) {
+      if ( (Math.floor(currentTop) % 12) == 0) {
         
         splash.removeClass();
         splash.addClass(themes[Math.floor(Math.random()*themes.length)]);
       }
 
-    });
+    }, 500));
+
+
 
     // function toggles classes on parent element
 
