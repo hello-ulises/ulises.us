@@ -21,7 +21,7 @@ gulp.task('jekyll',['js'], function(){
 });
 
 // Task for serving blog with Browsersync
-gulp.task('serve', ['js','jekyll'], function () {
+gulp.task('serve', ['js'], function () {
     bs.init({server: {baseDir: '_site/'}, port: 4000});
     // Reloads page when some of the already built files changed:
     gulp.watch('_site/**/*.*').on('change', bs.reload);
@@ -43,4 +43,4 @@ gulp.task('watch',function(){
     gulp.watch('./components/*.js', ['js']);
 });
 
-gulp.task('default', ['jekyll','js','watch','serve']);
+gulp.task('default', ['js','watch','serve']);

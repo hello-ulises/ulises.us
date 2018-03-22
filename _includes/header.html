@@ -1,11 +1,14 @@
 <header class="site-header right">
-<div class="content-wrapper info">
+
+<div class="content-wrapper">
 <div class="info-wrapper">
 <div><p>Sat &amp; Sun<br/><span>12</span> – <span>6</span>PM</p></div>
 <div id="info-button" data-parent="info"><p><a>info</a></p></div>
-<div class="pasp-reveal" data-target="column"><a><p><span>PUBLISHING <br/>AS PRACTICE:</span></p></a></div>
+<div class="pasp-reveal" data-parent="pasp" data-target="column"><a><p><span>PUBLISHING <br/>AS PRACTICE:</span></p></a>
+</div>
 </div>
 
+<div id="info">
 <div class="slide">
 
 <div class="expanded">
@@ -58,5 +61,22 @@
 <div class="excerpted">
 </div>
 </div>
-<div>
+</div>
+
+<div id="pasp">
+<div class="slide">
+
+<div class="expanded">
+
+
+    {% assign pasp = site.posts | where: 'tags', 'pasp' %}
+    {{ pasp[0].content }}
+
+
+</div>
+
+<div class="excerpted">
+</div>
+</div>
+</div>
 </header>

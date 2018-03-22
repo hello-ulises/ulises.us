@@ -5,10 +5,6 @@
 
 <body>
 
-    {% if page.id == 'splash-body' %}
-        {% include splash.html %}
-    {% endif %}
-
     <div class="main-wrapper" {% if page.id != null %}id={{ page.id }}{% endif %}>{{ content }}</div>
 
     <script
