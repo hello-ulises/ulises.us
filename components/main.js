@@ -11,19 +11,20 @@ $(function() {
         supressScrollX: true
     };
 
+    var ps1 = 3, ps2, ps3;
+
     var breakpoint = 768;
 
     function setPerfectScrollbars (params, breakpoint) {
         
-        if ($(window).width() > breakpoint) {
+        console.log($(window).width());
 
-            var columnLeft = document.querySelector('#left');     
-            var columnRight = document.querySelector('#right');
-            var columnPasp = document.querySelector('.column#pasp');
-            Ps.initialize(columnLeft, params);
-            Ps.initialize(columnRight, params);
-            Ps.initialize(columnPasp, params);
-        }
+        var columnLeft = document.querySelector('#left');     
+        var columnRight = document.querySelector('#right');
+        var columnPasp = document.querySelector('.column#pasp');
+        Ps.initialize(columnLeft, params);
+        Ps.initialize(columnRight, params);
+        Ps.initialize(columnPasp, params);
 
         return false;
     }
