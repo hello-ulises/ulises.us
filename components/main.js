@@ -18,7 +18,7 @@ $(function() {
 
             var columnLeft = document.querySelector('#left');     
             var columnRight = document.querySelector('#right');
-            var columnPasp = document.querySelector('#pasp');
+            var columnPasp = document.querySelector('.column#pasp');
             var columnSplash = document.querySelector('.splash-panel .scroll-wrapper');
             Ps.initialize(columnLeft, params);
             Ps.initialize(columnRight, params);
@@ -99,12 +99,17 @@ $(function() {
             e.preventDefault();
             setRevealPasP($(e.currentTarget),'hide');
         });
+        $('#pasp-reveal').on('click', function(e){
+            e.preventDefault();
+            if( $(window).width() > 768 ) {
+                setRevealPasP($(e.currentTarget),'reveal');
+                $(e.currentTarget).find('svg').toggleClass('hide');
+            }
+        });
         $('.pasp-reveal').on('click', function(e){
             e.preventDefault();
             if( $(window).width() < 769 ) {
                 setExpandPanel($(e.currentTarget));
-            } else {
-                setRevealPasP($(e.currentTarget),'reveal');
             }
         });    
     }

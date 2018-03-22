@@ -185,21 +185,62 @@ body {
     }
 }
 
-#pasp .pasp-reveal {
+.column.column--right .pasp-reveal {
+    visibility: hidden;
 
-    float: right;
-    margin-top: 2rem;
-
-    width: 75px;
-    height: 75px;
-
-    cursor: pointer;
-
-    .close-x {
-      stroke: $PasP-primary;
-      fill: transparent;
-      stroke-width: 2;
+    @include media-query($on-palm) {
+        visibility: visible;
     }
+}
+
+#pasp-reveal {
+
+    @include transdefaults(color .2s ease-out);
+
+    z-index: 3;
+    cursor: pointer;
+    font-family: unquote(map-get($headingtype,font-family));
+    line-height: 2.3rem;
+
+    p {
+        display: inline-block;
+        float: right;
+    }
+    
+    svg {
+        display: inline-block;
+        width: 5.5rem;
+        height: 5.5rem;
+        stroke: $bodyColour;
+        fill: transparent;
+        stroke-width: .75;
+        @include transdefaults(stroke .2s ease-out);
+
+        position: relative;
+        top: 1rem;
+        right: -13.75rem;
+    }
+
+    svg.hide,
+    &:hover svg.hide {
+        stroke: rgba(255,255,255,0);
+    }
+
+    &:hover, &:hover svg {
+        color: $PasP-primary;
+        stroke: $PasP-primary;
+    }
+
+
+    @include media-query($on-palm) {
+        display: none;
+    }
+}
+
+#pasp-reveal.fixed {
+    position: fixed;
+    right: $col-padding;
+    top: 1rem;
 }
 
 .typeset#pasp {
@@ -210,7 +251,7 @@ body {
     right: -50vw;
 
     article.post {
-      padding-top: 7.75rem;  
+      padding-top: 6.5rem;  
     }
 
     @include media-query($on-palm){
@@ -296,17 +337,11 @@ header.site-header {
 header.site-header.left {
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     min-height: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 
-    a {
-        // width: 33%;
-
-        h4 {
-            margin: 0;
-        }
-    }
+    a h4 { margin: 0; }
 
     #info-button p a:hover, a:hover p {
         color: $PasP-primary;
@@ -319,7 +354,7 @@ header.site-header.right {
 
     @include span-columns(12);
 
-    margin-bottom: -3rem;
+    margin-bottom: 1rem;
     
     div.info {
         width: 100%;
@@ -334,9 +369,6 @@ header.site-header.right {
         & div {
 
             font-family: "Times New Roman Seven", Times, serif;
-            // font-size: 1.5rem;
-            font-size: 1.5rem;
-            font-weight: 300;
 
             & p {
                 text-align: left;
@@ -353,7 +385,11 @@ header.site-header.right {
         }
 
         & div:nth-of-type(2) p {
-            text-align: center;
+            padding-left: 1.5rem;
+
+            @include media-query($on-laptop){
+                padding-left: 0;
+            }
         }
 
         & span { font-family:  Lars, "Helvetica Neue", sans-serif; }
@@ -361,6 +397,10 @@ header.site-header.right {
         & .pasp-reveal:hover p{
             color: $hoverColour;
         }
+    }
+
+    @include media-query($on-laptop) {
+        margin-top: 9rem;
     }
 }
 
@@ -391,7 +431,7 @@ header.site-header {
         }
     }
  
-    @include media-query($on-palm) {
+    @include media-query($on-laptop) {
 
         .info-wrapper {
             width: 100%;
@@ -411,7 +451,7 @@ header.site-header {
 .slide {
 
     width: 50vw;
-    height: auto;
+    height: 0;
     position: relative;
     left: -$col-padding;
 
@@ -596,11 +636,11 @@ article.post div.post-content {
 .splash-panel.hide {
     top: -50vh;
     height: 50vh;
-    @include transdefaults(all .6s ease-out);
+    @include transdefaults(all .6s linear);
 
-    p {
-        color: rgba(255,255,255, 0) !important;
-        @include transdefaults(color .5s linear);
+    a#splash-body-anchor p {
+        top: -25vh !important;
+        @include transdefaults(top .6s linear .2s);
     }
 
 }
