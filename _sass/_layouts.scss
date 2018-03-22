@@ -522,6 +522,10 @@ header.site-header {
         left: -1rem;
         & > p:last-child { padding-bottom: 1rem; }
     }
+
+    @media screen and (max-width: 480px) {
+        padding: 0 1rem;
+    }
 }
 
 .slide .expanded.show {
@@ -552,6 +556,9 @@ header.site-header {
 
 #info .slide .expanded{    
 
+    background-color: lighten($bodyColour, 25%);
+    color: $backgroundColour;
+
     @include media-query($on-palm) {
 
         background-color: $backgroundColour;
@@ -560,8 +567,6 @@ header.site-header {
 }
 
 #info .slide .expanded {
-
-    background-color: lighten($bodyColour, 25%);
 
     // mailchimp embed form
     & div#mc_embed_signup {
