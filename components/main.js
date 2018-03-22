@@ -42,8 +42,6 @@ $(function() {
 
     el.scroll( function() {
 
-    console.log(Math.floor(el.scrollTop()));
-
       if ( el.scrollTop() > height * 2) {
         el.scrollTop(height);
       }
