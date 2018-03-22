@@ -20,14 +20,9 @@ $(function() {
             var columnLeft = document.querySelector('#left');     
             var columnRight = document.querySelector('#right');
             var columnPasp = document.querySelector('.column#pasp');
-            var columnSplash = document.querySelector('.splash-panel .scroll-wrapper');
             Ps.initialize(columnLeft, params);
             Ps.initialize(columnRight, params);
             Ps.initialize(columnPasp, params);
-            Ps.initialize(columnSplash, {
-                supressScrollX: true
-            });
-
         }
 
         return false;
