@@ -17,16 +17,12 @@ $(function() {
 
     function setPerfectScrollbars (params, breakpoint) {
         
-        console.log($(window).width());
-
         var columnLeft = document.querySelector('#left');     
         var columnRight = document.querySelector('#right');
         var columnPasp = document.querySelector('.column#pasp');
         Ps.initialize(columnLeft, params);
         Ps.initialize(columnRight, params);
         Ps.initialize(columnPasp, params);
-
-        return false;
     }
 
     // sets infinite scroll on splash
