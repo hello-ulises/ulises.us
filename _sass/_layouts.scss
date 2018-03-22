@@ -129,6 +129,26 @@ body {
         color: $backgroundColour;
     }
 
+    a.site-title {
+        padding: 0 .5rem;
+    }
+
+    a.site-title:nth-of-type(1),
+    a.site-title:nth-of-type(4){
+        padding-left: 0;
+    }
+
+    a.site-title:nth-of-type(3),
+    a.site-title:nth-of-type(6){
+        padding-right: 0;
+    }
+
+    @media screen and (max-width:1320px) {
+        a.site-title {
+            padding: 0;
+        }
+    }
+
    article {
         & a, & a:hover, & a:hover,
         & a:focus, & a:visited { 
