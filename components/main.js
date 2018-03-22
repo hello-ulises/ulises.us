@@ -7,7 +7,8 @@ $(function() {
     var params= {
         minScrollbarLength: 25,
         maxScrollbarLength: 25,
-        supressScrollX: true
+        supressScrollX: true,
+        swipeEasing: true
     };
 
     var breakpoint = 768;
@@ -39,7 +40,9 @@ $(function() {
     var splash = $('.splash-panel a');
     var themes = ['default', 'inverse', 'hw', 'ms', 'bd'];
 
-    el.on('scroll', function() {
+    el.scroll( function() {
+
+    console.log(Math.floor(el.scrollTop()));
 
       if ( el.scrollTop() > height * 2) {
         el.scrollTop(height);
@@ -47,7 +50,7 @@ $(function() {
       if ( el.scrollTop() < height / 4) {
         el.scrollTop(height);
       }
-      if ( (Math.floor(el.scrollTop()) % 50) == 0) {
+      if ( (Math.floor(el.scrollTop()) % 16) == 0) {
         
         splash.removeClass();
         splash.addClass(themes[Math.floor(Math.random()*themes.length)]);

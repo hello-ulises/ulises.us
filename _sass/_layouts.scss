@@ -130,7 +130,7 @@ body {
     }
 
     a.site-title {
-        padding: 0 .5rem;
+        padding: 0 1.25rem;
     }
 
     a.site-title:nth-of-type(1),
@@ -500,14 +500,13 @@ header.site-header {
 
 .slide .expanded {
 
-    background-color: lighten($bodyColour, 25%);
     margin-bottom: $col-padding/2;
-    padding: 0 $col-padding;
     max-height: 0;
+    padding: 0rem $col-padding;
     overflow: hidden;
     z-index: 99;
-    @include transdefaults(max-height .75s ease-out 0s);
-    
+    @include transdefaults(max-height .5s ease-in-out);
+
     & > p { clear: both; }
 
     & > p:last-child { padding-bottom: $col-padding/2; }
@@ -517,13 +516,10 @@ header.site-header {
         left: -2 * $col-padding;
     }
 
-
     @include media-query($on-palm) {
 
         min-width: 100vw;
         left: -1rem;
-        padding: 0 1rem;
-    
         & > p:last-child { padding-bottom: 1rem; }
     }
 }
@@ -532,35 +528,40 @@ header.site-header {
 
     // height for expanded info panel
     width: 100%;
-    max-height: 100rem;
-    @include transdefaults(max-height .75s ease-out 0s);
+    max-height: 200rem;
+    padding: 0rem $col-padding;
+
+    @media screen and (max-width: 480px) {
+        padding: 0 1rem;
+    }
+
+    -webkit-box-shadow: 0 .75rem 6px -6px rgba(200,200,200,.75);
+    -moz-box-shadow: 0 .75rem 6px -6px rgba(200,200,200,.75);
+    box-shadow: 0 .75rem 6px -6px rgba(200,200,200,.75);
 }
 
 #pasp .slide .expanded {
 
-    &.show {
-        // @include media-query($on-palm) { min-height: 175vh; }
-        // @media screen and (max-width: 480px) { min-height: 240vh; }
-    }
+    & > p:first-child { margin-top: 2rem;}
 }
 
 #info .slide .expanded {
+
+    & > div.info-wrapper:nth-of-type(1) { margin-top: 1rem;}
+}
+
+#info .slide .expanded{    
 
     @include media-query($on-palm) {
 
         background-color: $backgroundColour;
         color: $bodyColour;
     }
-
-    &.show {
-
-        // @include media-query($on-palm) { max-height: 48rem;  }
-        // @media screen and (max-width: 480px) { max-height: 116rem; }
-    }
-
 }
 
 #info .slide .expanded {
+
+    background-color: lighten($bodyColour, 25%);
 
     // mailchimp embed form
     & div#mc_embed_signup {
