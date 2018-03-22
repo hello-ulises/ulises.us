@@ -40,7 +40,7 @@ $(function() {
     var splash = $('.splash-panel a');
     var themes = ['default', 'inverse', 'hw', 'ms', 'bd'];
        
-    el.on('ps-scroll-y',_.throttle( function() {
+    el.on('scroll',_.throttle( function() {
 
       var el = $(this);
       var currentTop = el.scrollTop();
@@ -51,7 +51,7 @@ $(function() {
       if ( currentTop < height / 4) {
         el.scrollTop(height);
       }
-      if ( (Math.floor(currentTop) % 12) == 0) {
+      if ( (Math.floor(currentTop) % 9) == 0) {
         
         splash.removeClass();
         splash.addClass(themes[Math.floor(Math.random()*themes.length)]);
