@@ -1,6 +1,6 @@
 
 
-// mixins & constants
+// * * * * * Mixins & Globals * * * * *
 
 @mixin border {
     border: 5px solid #0ff;
@@ -64,14 +64,46 @@ body {
     .ps__scrollbar-x-rail{ display: none; }
 }
 
-.ps#right, .ps#pasp {
+.ps#right {
 
     .ps__scrollbar-y-rail{ right: 0.2rem; }
     .ps__scrollbar-x-rail{ display: none; }
 
 }
 
-// * * * * * Landing Page Elements * * * * *
+// * * * * * End Mixins & Globals * * * * *
+
+
+// * * * * * Basic Two Column Layout * * * * *
+
+// general post article/post
+
+h2.post-title {
+    text-transform: uppercase;
+}
+
+header.post-header p {
+    text-indent: 0;
+    text-align: center;
+}
+
+article.post {
+    margin-bottom: 4rem;
+}
+
+article.post div.post-content {
+
+    & ul {
+        list-style: decimal;
+    }
+
+    & ol li, & ul li {
+
+        padding-top: .75rem;
+        text-indent: 0;
+        padding-left: .5rem;
+    }
+}
 
 // General column content
 
@@ -107,13 +139,6 @@ body {
     @media screen and (max-width: 480px) {
         padding: 0 1rem;
     }
-
-    a.site-title,
-    a.site-title:hover,
-    a.site-title:focus {
-        text-decoration: none;
-        cursor: pointer;
-    }
 }
 
 .column#left {
@@ -127,26 +152,6 @@ body {
 
     h2.post-title, .site-title h4, a {
         color: $backgroundColour;
-    }
-
-    a.site-title {
-        padding: 0 1.25rem;
-    }
-
-    a.site-title:nth-of-type(1),
-    a.site-title:nth-of-type(4){
-        padding-left: 0;
-    }
-
-    a.site-title:nth-of-type(3),
-    a.site-title:nth-of-type(6){
-        padding-right: 0;
-    }
-
-    @media screen and (max-width:1320px) {
-        a.site-title {
-            padding: 0;
-        }
     }
 
    article {
@@ -169,8 +174,110 @@ body {
     @include transdefaults(margin .5s ease-out 0s);
 }
 
+// bother column headers
 
-// Publishing as Practice Reveal Pane
+header.site-header {
+
+    @include span-columns(12);
+    padding-top: 2rem;
+
+    .title-stack {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .info-wrapper {
+        display: flex;
+        flex-wrap: no-wrap;
+        justify-content: space-between;
+        @include fontsize(delta);
+
+        p {
+            text-indent: unset;
+            margin-top: 0;
+            line-height: 2.3rem;
+        }
+    }
+
+    .content-wrapper {
+        width: 100%;
+    }
+
+    & a, & a:hover, & a:hover,
+    & a:focus, & a:visited { 
+        color: $bodyColour;
+        background-image: none;
+        cursor: pointer;
+        text-decoration: none;
+        background-image: none;
+        text-shadow: unset;
+    }
+
+    & a:hover { 
+        color: $linkColour; 
+    }
+    
+    & a span{
+        font-family: unquote(map-get($bodytype, font-family));
+        font-weight: 300;
+    }
+
+    &   p span {
+        font-family: unquote(map-get($headingtype, font-family));
+        font-weight: 300;
+    }
+
+    @include media-query($on-laptop) {
+        .typeset h4, .info-wrapper {
+            font-size: inherit;
+        }
+
+        .info-wrapper {
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+
+            p,span { 
+                margin: 1rem 0 0 0;
+                text-align: center;
+            }
+        }
+    }
+}
+
+// left column header
+
+header.site-header.left {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 4rem;
+    margin-bottom: 2rem;
+
+    a h4 { margin: 0; }
+
+    #info-button p a:hover, a:hover p {
+        color: $PasP-primary;
+    }
+}
+
+// right column header
+
+header.site-header.right {
+
+    @include media-query($on-laptop) {
+        margin-top: 9rem;
+    }
+
+    #info-button {
+        margin-left: 2em;
+    }
+}
+
+
+// column styles for PasP Reveal pane animation
 
 .column#left.reveal {
     margin-left: -50%;
@@ -221,13 +328,14 @@ body {
 
     p {
         display: inline-block;
+        @include fontsize(delta);
         float: right;
     }
     
     svg {
         display: inline-block;
-        width: 5.5rem;
-        height: 5.5rem;
+        width: 4rem;
+        height: 4rem;
         stroke: $bodyColour;
         fill: transparent;
         stroke-width: .75;
@@ -235,7 +343,7 @@ body {
 
         position: relative;
         top: 1rem;
-        right: -13.75rem;
+        right: -14rem;
     }
 
     svg.hide,
@@ -315,155 +423,7 @@ body {
     }
 }
 
-// bother column headers
-
-header.site-header {
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-top: 2rem;
-
-    & a, & a:hover, & a:hover,
-    & a:focus, & a:visited { 
-        color: $bodyColour;
-        background-image: none;
-        cursor: pointer;
-        text-decoration: none;
-        background-image: none;
-        text-shadow: unset;
-    }
-
-    & a:hover { 
-        color: $linkColour; 
-    }
-    
-    & a span{
-        font-family: unquote(map-get($bodytype, font-family));
-        font-weight: 300;
-    }
-
-    & a p span {
-        font-family: unquote(map-get($headingtype, font-family));
-        font-weight: 300;
-    }
-}
-
-// left column header
-
-header.site-header.left {
-
-    display: flex;
-    justify-content: space-between;
-    min-height: 4rem;
-    margin-bottom: 2rem;
-
-    a h4 { margin: 0; }
-
-    #info-button p a:hover, a:hover p {
-        color: $PasP-primary;
-    }
-}
-
-// right column header nav
-
-header.site-header.right {
-
-    @include span-columns(12);
-
-    margin-bottom: 1rem;
-    
-    div.info {
-        width: 100%;
-    }
-
-    .info-wrapper{
-
-        display: flex;
-        flex-wrap: no-wrap;
-        justify-content: space-between;
-
-        & div {
-
-            font-family: "Times New Roman Seven", Times, serif;
-
-            & p {
-                text-align: left;
-                text-indent: 0;
-                margin-top: 0;
-                line-height: 2.3rem;
-            }
-
-
-            @include media-query($on-laptop){
-                font-size: 100%;
-            }
-
-        }
-
-        & div:nth-of-type(2) p {
-            padding-left: 1.5rem;
-
-            @include media-query($on-laptop){
-                padding-left: 0;
-            }
-        }
-
-        & span { font-family:  Lars, "Helvetica Neue", sans-serif; }
-
-        & .pasp-reveal:hover p{
-            color: $hoverColour;
-        }
-    }
-
-    @include media-query($on-laptop) {
-        margin-top: 9rem;
-    }
-}
-
-header.site-header {
-
-    .content-wrapper {
-        width: 100%;
-    }
-
-    .info-wrapper {
-        display: flex;
-        flex-wrap: no-wrap;
-        justify-content: space-evenly;
-    }
-
-
-    & .slide .info-wrapper p {
-        margin: 0;
-    }
-
-    & .slide div.info-wrapper:nth-child(2) {
-        margin-bottom: 3rem;
-    }
-
-    @include media-query($on-laptop) {
-        .typeset h4 {
-            font-size: unset;
-        }
-    }
- 
-    @include media-query($on-laptop) {
-
-        .info-wrapper {
-            width: 100%;
-            flex-direction: column;
-            align-items: center;
-
-            p,span { 
-                text-indent: unset;
-                margin: 1rem 0 0 0;
-            }
-        }
-    }
-}
-
-// Info slide in panel
+// column vertical slide panels
 
 .slide {
 
@@ -505,7 +465,7 @@ header.site-header {
     padding: 0rem $col-padding;
     overflow: hidden;
     z-index: 99;
-    @include transdefaults(max-height .5s ease-in-out);
+    @include transdefaults(max-height .6s ease-in-out);
 
     & > p { clear: both; }
 
@@ -539,10 +499,13 @@ header.site-header {
         padding: 0 1rem;
     }
 
-    -webkit-box-shadow: 0 .75rem 6px -6px rgba(200,200,200,.75);
-    -moz-box-shadow: 0 .75rem 6px -6px rgba(200,200,200,.75);
-    box-shadow: 0 .75rem 6px -6px rgba(200,200,200,.75);
+    -webkit-box-shadow: 0 .75rem 6px -8px rgba(100,100,100,.75);
+    -moz-box-shadow: 0 .75rem 6px -8px rgba(100,100,100,.75);
+    box-shadow: 0 .75rem 6px -8px rgba(100,100,100,.75);
 }
+
+// fudging offsets so both panels appear
+// in the same spot on mobile
 
 #pasp .slide .expanded {
 
@@ -554,7 +517,17 @@ header.site-header {
     & > div.info-wrapper:nth-of-type(1) { margin-top: 1rem;}
 }
 
-#info .slide .expanded{    
+// individual panels in mobile
+
+#info .slide .expanded{
+
+    .info-wrapper p {
+        margin: 0;
+    }
+
+    .info-wrapper:nth-child(2) {
+        margin-bottom: 3rem;
+    }
 
     background-color: lighten($bodyColour, 25%);
     color: $backgroundColour;
@@ -563,6 +536,14 @@ header.site-header {
 
         background-color: $backgroundColour;
         color: $bodyColour;
+    }
+
+    & .slide .info-wrapper p {
+        margin: 0;
+    }
+
+    & .slide div.info-wrapper:nth-child(2) {
+        margin-bottom: 3rem;
     }
 }
 
@@ -627,43 +608,16 @@ header.site-header {
     }
 }
 
-h2.post-title {
-    text-transform: uppercase;
-}
-
-header.post-header p {
-    text-indent: 0;
-    text-align: center;
-}
-
-article.post {
-    margin-bottom: 4rem;
-}
-
-article.post div.post-content {
-
-    & ul {
-        list-style: decimal;
-    }
-
-    & ol li, & ul li {
-
-        padding-top: .75rem;
-        text-indent: 0;
-        padding-left: .5rem;
-    }
-}
-
 // * * * * * Splash Page Elements * * * * *
 
 .splash-panel.hide {
     top: -50vh;
     height: 50vh;
-    @include transdefaults(all .6s linear);
+    @include transdefaults(all .5s ease-out .1s);
 
-    a#splash-body-anchor p {
-        top: -25vh !important;
-        @include transdefaults(top .6s linear .2s);
+    a#splash-body-anchor div.residents {
+        top: -100vh;
+        @include transdefaults(top .5s ease-out .1s);
     }
 
 }
@@ -689,17 +643,21 @@ article.post div.post-content {
         @include transdefaults(color .5s linear);
     }
 
+    div.residents {
+        position: absolute;
+        top: 5em;
+        right: 3em;
+    }
+
     p {
 
-        position: absolute;
-        right: 5%;
-
-        line-height: 5rem;
+        position: relative;
+        line-height: 6rem;
         letter-spacing: .8rem;
 
         font-family: Kadisoka;
         text-transform: uppercase;
-        font-size: 4.25rem;
+        font-size: 5.75rem;
         @include transdefaults(color .5s linear);
 
         @include media-query ($on-palm){
@@ -709,19 +667,20 @@ article.post div.post-content {
 
     p#hw {
 
-        top: 15%;
-        text-indent: -8rem;
-    }
-
-    p#bd {
-
-        top: 47%;
-        margin-right: 10%;
-        text-align: center;
+        text-indent: 1em;
+        left: .4em;
     }
 
     p#ms{
-        top: 65%;
+        text-indent: -1em;
+        left: .5em;
+        span {
+            font-family: unquote(map-get($headingtype, font-family));
+        }
+    }
+
+    p#bd {
+        left: -1.25em;
     }
 
     div.scroll-wrapper {
@@ -749,9 +708,9 @@ article.post div.post-content {
     
         span { 
             display: block; 
-            font-family:  Lars, "Helvetica Neue", sans-serif;
-            font-size: 1.1rem;
-            line-height: 1.2rem;
+            font-family:  unquote(map-get($headingtype,font-family));
+            font-size: 1.5rem;
+            line-height: 1.5rem;
             text-transform: uppercase;
 
             @include media-query ($on-palm){
@@ -813,6 +772,13 @@ article.post div.post-content {
         background-color: lighten($msGreen, 5%);
         span,p {
             color: $bodyColour;
+        }
+    }
+
+    &.ms2 {
+        background-color: lighten($bodyColour, 10%);
+        span,p {
+            color: $msFuschia;
         }
     }
 

@@ -30,7 +30,7 @@ $(function() {
     var el = $('.splash-panel .scroll-wrapper');
     var height = el.height() * 2;
     var splash = $('.splash-panel a');
-    var themes = ['default', 'inverse', 'hw', 'ms', 'bd'];
+    var themes = ['default', 'inverse', 'hw', 'ms', 'ms2', 'bd'];
        
     el.on('scroll',_.throttle( function() {
 
@@ -49,7 +49,7 @@ $(function() {
         splash.addClass(themes[Math.floor(Math.random()*themes.length)]);
       }
 
-    }, 500));
+    }, 150));
 
 
 
