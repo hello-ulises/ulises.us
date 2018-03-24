@@ -1,5 +1,6 @@
 
-// mixins & constants
+
+// * * * * * Mixins & Globals * * * * *
 
 @mixin border {
     border: 5px solid #0ff;
@@ -26,18 +27,83 @@ $col-padding: 4.5rem;
     display: block;
 }
 
+body {
+    overflow: hidden;
+}
+
 .main-wrapper {
 
     @include outer-container(100%);
-
-    background-color: $bodyColour;
+    background-color: $backgroundColour;
 
     @include media-query($on-laptop){
         background-color: $backgroundColour;
+        position: relative;
+    }
+
+    @include media-query($on-palm){
+        overflow-y: scroll;
+        overflow-x: hidden;
+        height: 100vh;
     }
 }
 
-// * * * * * Home Page Elements * * * * *
+.typeset p.left-justify {
+    text-indent: 0;
+}
+
+// Perfect scrollbar overrides
+//
+// issue with typeset text-indent applying to images
+// wrapped in <p> as parsed by markdown, forcing
+// x scroll
+
+.ps#left {
+
+    .ps__scrollbar-y-rail{ left: 0; }
+    .ps__scrollbar-x-rail{ display: none; }
+}
+
+.ps#right {
+
+    .ps__scrollbar-y-rail{ right: 0.2rem; }
+    .ps__scrollbar-x-rail{ display: none; }
+
+}
+
+// * * * * * End Mixins & Globals * * * * *
+
+
+// * * * * * Basic Two Column Layout * * * * *
+
+// general post article/post
+
+h2.post-title {
+    text-transform: uppercase;
+}
+
+header.post-header p {
+    text-indent: 0;
+    text-align: center;
+}
+
+article.post {
+    margin-bottom: 4rem;
+}
+
+article.post div.post-content {
+
+    & ul {
+        list-style: decimal;
+    }
+
+    & ol li, & ul li {
+
+        padding-top: .75rem;
+        text-indent: 0;
+        padding-left: .5rem;
+    }
+}
 
 // General column content
 
@@ -46,11 +112,13 @@ $col-padding: 4.5rem;
     @include span-columns(6);
     background-color: $backgroundColour;
     position: relative;
+    top: -50vh;
     height: 100vh;
     overflow-y: scroll;
     overflow-x: hidden;
     margin: 0;
     padding: 0 $col-padding;
+    z-index: 2;
 
     h2 { text-align: center; }
 
@@ -73,115 +141,333 @@ $col-padding: 4.5rem;
     }
 }
 
-.column#right {
-    float: right;
+.column#left {
+
+    @include transdefaults(margin .5s ease-out 0s);
+
+    /** styles for left column reverse color scheme **/
+
+    background-color: lighten($bodyColour, 25%);
+    color: $backgroundColour;
+
+    h2.post-title, .site-title h4, a {
+        color: $backgroundColour;
+    }
+
+   article {
+        & a, & a:hover, & a:hover,
+        & a:focus, & a:visited { 
+            color: $backgroundColour;
+            background-image: none;
+            text-decoration: underline;
+            text-shadow: unset;
+        }
+
+        & a:hover { 
+        color: lighten($PasP-primary, 5%); 
+        }
+    }
 }
 
-// Both column headers
+.column#right {
+    float: right;
+    @include transdefaults(margin .5s ease-out 0s);
+}
+
+// bother column headers
 
 header.site-header {
 
-    @include span-columns(6 of 6);
-    height: auto;
-    min-height: 10rem;
+    @include span-columns(12);
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+
+    .title-stack {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .info-wrapper {
+        display: flex;
+        flex-wrap: no-wrap;
+        justify-content: space-between;
+        @include fontsize(delta);
+
+        p {
+            text-indent: unset;
+            margin: 0;
+            line-height: 2.3rem;
+        }
+    }
+
+    .content-wrapper {
+        width: 100%;
+    }
 
     & a, & a:hover, & a:hover,
     & a:focus, & a:visited { 
         color: $bodyColour;
         background-image: none;
         cursor: pointer;
+        text-decoration: none;
+        background-image: none;
+        text-shadow: unset;
     }
 
     & a:hover { 
         color: $linkColour; 
     }
-
-    & a.site-title h1 {
-
-        font-size: 56.6px;
-        text-align: center;
-        margin-top: 1rem;
-    }
     
     & a span{
-        font-family: "Times New Roman Seven", Times, serif;
+        font-family: unquote(map-get($bodytype, font-family));
         font-weight: 300;
     }
 
+    &   p span {
+        font-family: unquote(map-get($headingtype, font-family));
+        font-weight: 300;
+    }
+
+    @include media-query($on-laptop) {
+        .typeset h4, .info-wrapper {
+            font-size: inherit;
+        }
+
+        .info-wrapper {
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+
+            p,span { 
+                margin: 1rem 0 0 0;
+                text-align: center;
+            }
+        }
+    }
+}
+
+// left column header
+
+header.site-header.left {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 4rem;
+    padding-bottom: .25rem;
+
+    a h4 { margin: 0; }
+
+    #info-button p a:hover, a:hover p {
+        color: $PasP-primary;
+    }
+}
+
+// right column header
+
+header.site-header.right {
+
+    @include media-query($on-laptop) {
+        margin-top: 9rem;
+    }
+
+    #info-button {
+        margin-left: 2em;
+    }
 }
 
 
-header.site-header .info-wrapper{
+// column styles for PasP Reveal pane animation
 
-    @include row();
+.column#left.reveal {
+    margin-left: -50%;
+    @include transdefaults(margin .5s ease-out 0s);
+}
 
-    & div {
+.column#right.reveal {
+    margin-right: 50%;
+    @include transdefaults(margin .5s ease-out 0s);
+}
 
-        @include span-columns(3 of 6);
-        font-family: "Times New Roman Seven", Times, serif;
-        font-size: 1.5rem;
-        font-weight: 300;
-        margin-top: 1rem;
+.column#left.reveal,
+.column#right.reveal {
 
-        @include media-query($on-palm){
-            @include span-columns(12);
-        }
-
-        & p { 
-            text-align: center;
-            text-indent: 0;
-        }
+    @include media-query($on-palm){
+        margin: 0 auto;
     }
+}
 
-    & span { font-family:  Lars, "Helvetica Neue", sans-serif; }
+#pasp .pasp-reveal {
+    @include media-query($on-palm) {
+        display: none;
+    }
+}
 
-    @media screen and (max-width: $on-palm) {
+#pasp .pasp-reveal:hover {
+    .close-x {
+        stroke: $linkColour;
+    }
+}
+
+.column.column--right .pasp-reveal {
+    visibility: hidden;
+
+    @include media-query($on-palm) {
+        visibility: visible;
+    }
+}
+
+#pasp-reveal {
+
+    @include transdefaults(color .2s ease-out);
+
+    z-index: 3;
+    cursor: pointer;
+    font-family: unquote(map-get($headingtype,font-family));
+    line-height: 2.3rem;
+
+    p {
+        display: inline-block;
+        @include fontsize(delta);
+        float: right;
+    }
     
-        & p { margin: 0; }
+    svg {
+        display: inline-block;
+        width: 4rem;
+        height: 4rem;
+        stroke: $bodyColour;
+        fill: transparent;
+        stroke-width: .75;
+        @include transdefaults(stroke .2s ease-out);
 
-        & div:first-child p {
-            margin-top: $col-padding/2;
+        position: relative;
+        top: 1rem;
+        right: -14rem;
+    }
+
+    svg.hide,
+    &:hover svg.hide {
+        stroke: rgba(255,255,255,0);
+    }
+
+    &:hover, &:hover svg {
+        color: $PasP-primary;
+        stroke: $PasP-primary;
+    }
+
+
+    @include media-query($on-palm) {
+        display: none;
+    }
+}
+
+#pasp-reveal.fixed {
+    position: fixed;
+    right: $col-padding;
+    top: .8rem;
+}
+
+.typeset#pasp {
+    
+    z-index: 1;
+    position: relative;
+    top: -150vh;
+    right: -50vw;
+
+    article.post {
+      padding-top: 6.5rem;  
+    }
+
+    @include media-query($on-palm){
+        display: none;
+    };
+
+}
+ 
+#pasp {
+
+    &.column,
+    article.post, 
+    .slide .expanded {
+
+        background-color: $PasP-contrast;
+
+        h1,h2,h3,h4,p {
+            color: $PasP-primary;
+            font-family: unquote(map-get($headingtype, font-family));
+            font-style: normal;
+            font-weight: map-get($bodytype, regular);            
         }
-        & #info-button { 
-            margin-bottom: $col-padding/2; 
+
+        h3 {
+            line-height: 3rem;
+        }
+
+        & a, & a:hover, & a:hover,
+        & a:focus, & a:visited { 
+            color: $PasP-primary;
+            background-image: none;
+            cursor: pointer;
+            text-shadow: unset;
+            text-decoration: underline;
+        }
+
+        & a:hover { 
+            color: $linkColour; 
+        }
+
+        img {
+            width: 200px
         }
     }
 }
 
-header.site-header {
-
-    & .slide .info-wrapper p {
-        margin: 0;
-    }
-
-    & .slide div.info-wrapper:nth-child(2) {
-        margin-bottom: 4rem;
-    }
-}
-
-// Post
+// column vertical slide panels
 
 .slide {
-    height: auto;
+
+    width: 50vw;
+    height: 0;
+    position: relative;
+    left: -$col-padding;
+
+    color: $backgroundColour;   
+
+    @include media-query($on-palm){
+
+        min-width: 100vw;
+        left: -2 * $col-padding - 1rem;
+        padding: 0 1rem;
+    
+        & > p:last-child { padding-bottom: 1rem; }
+    }
+
+    @media screen and (max-width: 480px){
+
+        min-width: 100vw;
+        left: -$col-padding/2 + .25rem;
+        padding: 0 1rem;
+
+        & > p:last-child { padding-bottom: 1rem; }
+    } 
 }
 
 .slide .excerpted {
+    max-height: 0;
     overflow: hidden;
 }
 
 .slide .expanded {
 
-    color: $backgroundColour;
-    background-color: $bodyColour;
-    position: relative;
-    left: -$col-padding;
-    min-width: 49.5vw;
     margin-bottom: $col-padding/2;
-    padding: 0 $col-padding;
     max-height: 0;
+    padding: 0rem $col-padding;
     overflow: hidden;
-    @include transdefaults(max-height .3s ease-out 0s);
-    
+    z-index: 99;
+    @include transdefaults(max-height .6s ease-in-out);
+
     & > p { clear: both; }
 
     & > p:last-child { padding-bottom: $col-padding/2; }
@@ -191,27 +477,78 @@ header.site-header {
         left: -2 * $col-padding;
     }
 
-
-    @media screen and (max-width: 480px) {
+    @include media-query($on-palm) {
 
         min-width: 100vw;
         left: -1rem;
-        padding: 0 1rem;
-    
         & > p:last-child { padding-bottom: 1rem; }
+    }
+
+    @media screen and (max-width: 480px) {
+        padding: 0 1rem;
     }
 }
 
 .slide .expanded.show {
 
     // height for expanded info panel
-
-    max-height: 65rem;
+    width: 100%;
+    max-height: 200rem;
+    padding: 0rem $col-padding;
 
     @media screen and (max-width: 480px) {
-        max-height: 100rem;
+        padding: 0 1rem;
     }
 
+    -webkit-box-shadow: 0 .75rem 6px -8px rgba(100,100,100,.75);
+    -moz-box-shadow: 0 .75rem 6px -8px rgba(100,100,100,.75);
+    box-shadow: 0 .75rem 6px -8px rgba(100,100,100,.75);
+}
+
+// fudging offsets so both panels appear
+// in the same spot on mobile
+
+#pasp .slide .expanded {
+
+    & > p:first-child { margin-top: 2rem;}
+}
+
+#info .slide .expanded {
+
+    & > div.info-wrapper:nth-of-type(1) { margin-top: 1rem;}
+}
+
+// individual panels in mobile
+
+#info .slide .expanded{
+
+    .info-wrapper p {
+        margin: 0;
+    }
+
+    .info-wrapper:nth-child(2) {
+        margin-bottom: 3rem;
+    }
+
+    background-color: lighten($bodyColour, 25%);
+    color: $backgroundColour;
+
+    @include media-query($on-palm) {
+
+        background-color: $backgroundColour;
+        color: $bodyColour;
+    }
+
+    & .slide .info-wrapper p {
+        margin: 0;
+    }
+
+    & .slide div.info-wrapper:nth-child(2) {
+        margin-bottom: 3rem;
+    }
+}
+
+#info .slide .expanded {
 
     // mailchimp embed form
     & div#mc_embed_signup {
@@ -270,54 +607,186 @@ header.site-header {
             color: $linkColour;
         }
     }
-
-    @include transdefaults(max-height .3s ease-out 0s)
-
-
 }
 
-h2.post-title {
-    text-transform: uppercase;
-}
+// * * * * * Splash Page Elements * * * * *
 
-header.post-header p {
-    text-indent: 0;
-    text-align: center;
-}
+.splash-panel.hide {
+    top: -50vh;
+    height: 50vh;
+    @include transdefaults(all .5s ease-out .1s);
 
-article.post {
-    margin-bottom: 4rem;
-}
-
-article.post div.post-content {
-
-    & ul {
-        list-style: decimal;
+    a#splash-body-anchor div.residents {
+        top: -100vh;
+        @include transdefaults(top .5s ease-out .1s);
     }
 
-    & ol li, & ul li {
+}
 
-        padding-top: .75rem;
-        text-indent: 0;
-        padding-left: .5rem;
+.splash-panel {
+    
+    @include transdefaults(height 1s ease-out);
+    background-color: lighten($bodyColour, 10%);
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: block;
+    top: 0;
+    z-index: 99;
+}
+
+.splash-panel a {
+
+    height: 100%;
+    display: block;
+
+    span {
+        @include transdefaults(color .5s linear);
+    }
+
+    div.residents {
+        position: absolute;
+        top: 5em;
+        right: 3em;
+    }
+
+    p {
+
+        position: relative;
+        line-height: 6rem;
+        letter-spacing: .8rem;
+
+        font-family: Kadisoka;
+        text-transform: uppercase;
+        font-size: 5.75rem;
+        @include transdefaults(color .5s linear);
+
+        @include media-query ($on-palm){
+            display: none;
+        }
+    }
+
+    p#hw {
+
+        text-indent: 1em;
+        left: .4em;
+    }
+
+    p#ms{
+        text-indent: -1em;
+        left: .5em;
+        span {
+            font-family: unquote(map-get($headingtype, font-family));
+        }
+    }
+
+    p#bd {
+        left: -1.25em;
+    }
+
+    div.scroll-wrapper {
+        position: absolute;
+        top: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+        width: 100vw;
+        height: 100%;
+        max-height: 100vh;
+        right: -25px;
+    }
+
+    div.scroll-wrapper div {
+
+        width: 20%;
+        max-width: 300px;
+        margin-left: 2rem;
+        float: left;
+
+        @include media-query ($on-palm){
+            width: 33%;
+            margin-left: 0;
+        }
+    
+        span { 
+            display: block; 
+            font-family:  unquote(map-get($headingtype,font-family));
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+            text-transform: uppercase;
+
+            @include media-query ($on-palm){
+                // font-size: 1.1rem;
+                // line-height: 1.rem;
+            }
+
+        }
+    }
+
+    div.scroll-wrapper div.col-2 {
+        margin-left: 3%;
+
+        @include media-query($on-palm){
+            margin-left: 10%;
+        }
+
     }
 }
 
-// Perfect scrollbar overrides
-//
-// issue with typeset text-indent applying to images
-// wrapped in <p> as parsed by markdown, forcing
-// x scroll
 
-.ps#left {
-
-    .ps__scrollbar-y-rail{ left: 0; }
-    .ps__scrollbar-x-rail{ display: none; }
+// splash scroll color schemes
+.splash-panel {
+    a, p, .scroll-wrapper {
+        display: block;
+    }
 }
 
-.ps#right {
+.splash-panel a {
 
-    .ps__scrollbar-y-rail{ right: 0.2rem; }
-    .ps__scrollbar-x-rail{ display: none; }
+    height: 100%;
+    max-height: 100%;
 
+    @include transdefaults(background-color 2s linear);
+
+
+    &.default {
+        background-color: lighten($bodyColour, 10%);
+        span,p {
+            color: $backgroundColour;
+        }
+    }
+
+    &.inverse {
+        background-color: $backgroundColour;
+        span,p {
+            color: $bodyColour;
+        }
+    }
+
+    &.hw {
+        background-color: $backgroundColour;
+        span,p {
+            color: $hwBlue;
+        }
+    }
+
+    &.ms {
+        background-color: lighten($msGreen, 5%);
+        span,p {
+            color: $bodyColour;
+        }
+    }
+
+    &.ms2 {
+        background-color: lighten($bodyColour, 10%);
+        span,p {
+            color: $msFuschia;
+        }
+    }
+
+    &.bd {
+        background-color: $bYellow;
+        span,p {
+            color: $backgroundColour;
+        }
+    }
 }

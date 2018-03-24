@@ -5,7 +5,7 @@
 
 <body>
 
-    <div class="main-wrapper">{{ content }}</div>
+    <div class="main-wrapper" {% if page.id != null %}id={{ page.id }}{% endif %}>{{ content }}</div>
 
     <script
         src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -13,7 +13,6 @@
         crossorigin="anonymous">
     </script>
     <script src="assets/js/main.min.js"></script>
-
 
 </body>
 
