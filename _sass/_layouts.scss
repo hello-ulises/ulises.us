@@ -255,7 +255,7 @@ header.site-header.left {
     justify-content: space-between;
     flex-wrap: wrap;
     min-height: 4rem;
-    padding-bottom: .25rem;
+    padding-bottom: .3rem;
 
     a h4 { margin: 0; }
 
@@ -325,7 +325,7 @@ header.site-header.right {
     z-index: 3;
     cursor: pointer;
     font-family: unquote(map-get($headingtype,font-family));
-    line-height: 2.3rem;
+    line-height: 2.26rem;
 
     p {
         display: inline-block;
@@ -377,7 +377,7 @@ header.site-header.right {
     right: -50vw;
 
     article.post {
-      padding-top: 6.5rem;  
+      padding-top: 6.1rem;  
     }
 
     @include media-query($on-palm){
