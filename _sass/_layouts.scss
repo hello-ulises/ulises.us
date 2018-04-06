@@ -23,6 +23,10 @@ $col-padding: 4.5rem;
     hyphens: auto;
 }
 
+.typeset p.no-indent {
+    text-indent: 0;
+}
+
 .typeset p img {
     display: block;
 }
@@ -377,7 +381,7 @@ header.site-header.right {
     right: -50vw;
 
     article.post {
-      padding-top: 6.1rem;  
+      padding-top: 6.1rem;
     }
 
     @include media-query($on-palm){
@@ -394,7 +398,7 @@ header.site-header.right {
 
         background-color: $PasP-contrast;
 
-        h1,h2,h3,h4,p {
+        h1,h2,h3,h4,p, ul {
             color: $PasP-primary;
             font-family: unquote(map-get($headingtype, font-family));
             font-style: normal;
@@ -403,6 +407,10 @@ header.site-header.right {
 
         h3 {
             line-height: 3rem;
+        }
+
+        ul {
+            list-style: none;
         }
 
         & a, & a:hover, & a:hover,
