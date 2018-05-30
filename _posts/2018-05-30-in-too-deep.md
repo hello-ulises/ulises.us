@@ -1,7 +1,7 @@
 ---
 layout: post
 date: '2018-05-30 18:43 -0400'
-published: true
+published: false
 title: 'IN TOO DEEP "Walking & Talking" '
 categories: left
 event_date: 'Thursday, May 31, 7:30–10PM'
