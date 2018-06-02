@@ -2,7 +2,7 @@
 
   <header class="post-header">
 
-    <h2 class="post-title" itemprop="name headline">{{ post.title | escape }}</h2>
+    <span class="post-title" itemprop="name headline">{{ post.title | prepend: "## " | markdownify }}</span>
 
     <!-- todo: add post link here when single post view designed  -->
 

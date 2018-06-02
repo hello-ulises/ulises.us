@@ -82,7 +82,7 @@ body {
 
 // general post article/post
 
-h2.post-title {
+.post-title h2 {
     text-transform: uppercase;
 }
 
@@ -116,7 +116,8 @@ article.post div.post-content {
     @include span-columns(6);
     background-color: $backgroundColour;
     position: relative;
-    top: -50vh;
+    // top: -50vh; // hack for implementing splash panel
+    top: 0;
     height: 100vh;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -154,7 +155,7 @@ article.post div.post-content {
     background-color: lighten($bodyColour, 25%);
     color: $backgroundColour;
 
-    h2.post-title, .site-title h4, a {
+    .post-title h2, .site-title h4, a {
         color: $backgroundColour;
     }
 
@@ -377,7 +378,8 @@ header.site-header.right {
     
     z-index: 1;
     position: relative;
-    top: -150vh;
+    // top: -150vh; // hack for implementing splash panel
+    top: -100vh;
     right: -50vw;
 
     article.post {
