@@ -96,17 +96,6 @@ $on-laptop:        1024px !default;
   }
 }
 
-// Publishing as Practice colors
-$bSalmon: #AE535C;
-$bYellow: #FFE800;
-$hwOrange: #FF6C2F;
-$hwBlue: #0078BF;
-$msFuschia: #FF48B0;
-$msGreen: #19975D;
-
-$PasP-primary: darken($hwBlue, 10%);
-$PasP-contrast: lighten($hwOrange, 2%);
-
 // $headingColour: #DFDFDF !default;
 // $bodyColour: #DFDFDF !default;
 // // $linkColour: #D8BFD8 !default;
@@ -119,16 +108,35 @@ $PasP-contrast: lighten($hwOrange, 2%);
 // $backgroundColour: #16161D !default;
 // $codeBackgroundColour: #F5F4F2 !default;
 
-/* Publishing as Practice Current Color Scheme */
-
-$headingColour: #DFDFDF !default;
-$bodyColour: #DFDFDF !default;
-// $linkColour: #D8BFD8 !default;
-$linkColour: #DFDFDF !default;
-$hoverColour: lighten($PasP-contrast,10%) !default;
-$captionColour: #BDC8CC !default;
-$white: #FFFFFF !default;
-
 // Background colours.
 $backgroundColour: #16161D !default;
 $codeBackgroundColour: #F5F4F2 !default;
+
+$headingColour: #DFDFDF !default;
+$bodyColour: #DFDFDF !default;
+/* Publishing as Practice Color Schemes */
+
+// Resident Contrast Colors
+
+$bSalmon: #AE535C;
+$bYellow: #FFE800;
+$hwOrange: #FF6C2F;
+$hwBlue: #0078BF;
+$msFuschia: #FF48B0;
+$msGreen: #19975D;
+
+// hardworking goodlooking scheme
+// $PasP-primary: darken($hwBlue, 10%);
+// $PasP-contrast: lighten($hwOrange, 2%);
+
+// martine syms scheme
+$PasP-contrast: $msGreen;
+$PasP-primary: $bodyColour;
+
+
+// $linkColour: #D8BFD8 !default;
+// $linkColour: #DFDFDF !default;
+$linkColour: $msGreen !default;
+$hoverColour: lighten($msGreen, 10%) !default;
+$captionColour: #BDC8CC !default;
+$white: #FFFFFF !default;

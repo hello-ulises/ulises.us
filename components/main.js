@@ -1,28 +1,52 @@
-var _ = require('lodash');
-var Ps = require('perfect-scrollbar');
+const _ = require('lodash');
+const Ps = require('perfect-scrollbar');
 
 $(function() {
 
     // Perfect Scrollbar parameters
 
-    var params= {
+    const params= {
         minScrollbarLength: 25,
         maxScrollbarLength: 25,
         supressScrollX: true
     };
 
-    var ps1 = 3, ps2, ps3;
+    const psArray = new Array(3);
 
-    var breakpoint = 768;
+    const breakpoint = 768;
 
     function setPerfectScrollbars (params, breakpoint) {
-        
-        var columnLeft = document.querySelector('#left');     
-        var columnRight = document.querySelector('#right');
-        var columnPasp = document.querySelector('.column#pasp');
-        Ps.initialize(columnLeft, params);
-        Ps.initialize(columnRight, params);
-        Ps.initialize(columnPasp, params);
+
+
+        if($(window).width() > breakpoint){
+
+            if ( psArray[0] == undefined ) {
+              var columnLeft = document.querySelector('#left');     
+              var columnRight = document.querySelector('#right');
+              var columnPasp = document.querySelector('.column#pasp');
+              psArray[0] = new Ps(columnLeft, params);
+              psArray[1] = new Ps(columnRight, params);
+              psArray[2] = new Ps(columnPasp, params);
+            } else {
+
+              for(i = 0; i < 3; i++){
+                
+                psArray[i].update();
+              } 
+            }
+
+        } else {
+
+
+            if ( psArray[0] == undefined ) { return }
+            else {
+                for(i = 0; i < 3; i++){
+                    psArray[i].destroy();
+                    delete psArray[i];
+                }
+            }
+        } 
+
     }
 
     // sets infinite scroll on splash
