@@ -130,8 +130,8 @@ $msGreen: #19975D;
 // $PasP-contrast: lighten($hwOrange, 2%);
 
 // martine syms scheme
-$PasP-contrast: $msGreen;
-$PasP-primary: $bodyColour;
+$PasP-contrast: lighten($msGreen,5%);
+$PasP-primary: $backgroundColour;
 
 
 // $linkColour: #D8BFD8 !default;
