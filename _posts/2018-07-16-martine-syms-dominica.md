@@ -7,7 +7,7 @@ categories: right
 ---
 July 22–September 30, 2018
 
-![]({{site.baseurl}}/assets/img/2018_Ulises_Dominica_Opening-5164.jpg)![2018_Ulises_Dominica_Opening-5164.jpg]({{site.baseurl}}/assets/img/2018_Ulises_Dominica_Opening-5164.jpg)
+![]({{site.baseurl}}/assets/img/2018_Ulises_Dominica_Opening-5164.jpg)![2018_Ulises_Dominica_Opening-5164.jpg]![2018_Ulises_Dominica_Opening-5091.jpg]({{site.baseurl}}/assets/img/2018_Ulises_Dominica_Opening-5091.jpg)
 Photo: Constance Mensh
 
 For the second installment of Publishing As Practice, [Martine Syms](http://martinesy.ms/) will front as [Dominica](http://dominicapublishing.com/), the publishing imprint founded by the artist in 2011 dedicated to exploring blackness as a reference, marker, and topic. For the duration of the residency, Martine will transform the Ulises space into a shop selling new screen printed apparel and feature select texts, visual materials, and programming produced by the artist and collaborators. Syms will refashion the Dominica and Ulises websites into in a digital storefront and live streaming platform in the style of an online Home Shopping Network. Publishing as Practice: Martine Syms considers the shop as a central aspect of independent publishing—not only a site of commercial transaction, but also a locus of social exchange.
