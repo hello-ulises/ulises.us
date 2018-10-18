@@ -8,7 +8,7 @@ event_date: 'Saturday, October 27,  6pm'
 ---
 ![Bio_Cover-2.gif]({{site.baseurl}}/assets/img/Bio_Cover-2.gif)
 
-Bio: Artists’ Canceled Texts and the World Wide Web
+Bio: Artists’ Canceled Texts and the World Wide Web,
 Maryam Monalisa Gharavi in Conversation with Malcolm Harris 
 
 Maryam Monalisa Gharavi’s "[Bio](http://www.inventorypress.com/product/bio)" (Inventory Press, 2018) is a hybrid work that reconfigures canceled text and the World Wide Web. The book captures a span of 365 days during which the artist updated the 160-character “bio” section of her Twitter account each day. While tweets are regularly captured by corporate data storage centers this “bio” section remains the only untraceable and non-archived part of the software’s superstructure. “Bio” ultimately left no record of itself, complicating the normative binaries of online/offline and digital/print. An experiment in erasure, self-deletion, and visibility in the expanded sphere of the net, “Bio” anchors itself in the wider lineage of artists’ canceled texts, but in the age of new data as “soft” power. 
