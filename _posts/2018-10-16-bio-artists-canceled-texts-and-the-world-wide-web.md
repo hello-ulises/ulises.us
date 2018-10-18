@@ -8,7 +8,6 @@ event_date: 'Saturday, October 27,  6pm'
 ---
 ![BIO.gif]({{site.baseurl}}/assets/img/BIO.gif)
 
-
 Bio: Artists’ Canceled Texts and the World Wide Web
 Maryam Monalisa Gharavi in Conversation with Malcolm Harris 
 
