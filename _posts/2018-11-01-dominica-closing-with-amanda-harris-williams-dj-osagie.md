@@ -8,7 +8,7 @@ categories: left
 ---
 ![IMG_6688.JPG]({{site.baseurl}}/assets/img/IMG_6688.JPG)
 
-Celebrate the closing of our second of three publisher residents for Publishing as Practice: Martine Syms / Dominica. The event will launch with a workshop with LA/NOLA/NYC-based artist [Amanda Harris Williams](https://www.instagram.com/idealblackfemale) and continue with a set from beloved local DJ, [Osagie OG](https://soundcloud.com/osagiebeats). Discussion, beats, drinks, and snacks.
+Celebrate the closing of our second of three publisher residents for Publishing as Practice: [Martine Syms](http://martinesy.ms/) has operated through [Dominica Publishing](http://dominicapublishing.com/). The event will launch with a workshop with LA/NOLA/NYC-based artist [Amanda Harris Williams](https://www.instagram.com/idealblackfemale) and continue with a set from beloved local DJ, [Osagie OG](https://soundcloud.com/osagiebeats). Discussion, beats, drinks, and snacks.
 
 2PM [Amanda Williams](https://www.instagram.com/idealblackfemale/) will lead audiences in the workshop [#BrownUpYourFeed](https://www.instagram.com/explore/tags/brownupyourfeed/) - Getting Fed by Your Feed: An image says a thousand words and reifies hundreds of concepts. An image indicates tens of race, gender and interactive structures in how it is conceived, created, distributed and attended to. This talk/workshop asks us to examine why we follow what we do, and more importantly, how it is serving us. Many of us use Instagram with automaticity, not acknowledging that the images we are feeding ourselves work against our self esteem and value system. How can we design our followed media to sustain and augment our self esteem?
 
