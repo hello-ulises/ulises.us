@@ -5,7 +5,7 @@ published: true
 title: Martine Syms/Dominica
 categories: right
 ---
-July 22–September 30, 2018
+July 22–November 4, 2018
 
 ![2018_Ulises_Dominica_Opening-5164.jpg]({{site.baseurl}}/assets/img/2018_Ulises_Dominica_Opening-5164.jpg)
 Photo: [Constance Mensh](http://www.constancemensh.com/)
