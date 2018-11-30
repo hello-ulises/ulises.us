@@ -7,6 +7,7 @@ categories: left
 event_date: 'Wednesday, December 5,  6pm'
 ---
 ![46984668_1984830651600493_4508748683273043968_o.jpg]({{site.baseurl}}/assets/img/46984668_1984830651600493_4508748683273043968_o.jpg)
+"Sleeping With the Devil," 1988. USA. Directed by Reza Abdoh
 
 This screening is at the [ICA Philadelphia](https://icaphila.org/events/48768/) and is free and open to the public, though registration is appreciated. [Register Here](https://icaphila.org/events/48768/)
 
