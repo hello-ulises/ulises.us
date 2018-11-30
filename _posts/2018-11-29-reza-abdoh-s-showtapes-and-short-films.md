@@ -8,7 +8,7 @@ event_date: 'Wednesday, December 5,  6pm'
 ---
 ![46984668_1984830651600493_4508748683273043968_o.jpg]({{site.baseurl}}/assets/img/46984668_1984830651600493_4508748683273043968_o.jpg)
 
-This event is at the [ICA Philadelphia](https://icaphila.org/events/48768/) and is free and open to the public, though registration is appreciated. [Register Here](https://icaphila.org/events/48768/)
+This screening is at the [ICA Philadelphia](https://icaphila.org/events/48768/) and is free and open to the public, though registration is appreciated. [Register Here](https://icaphila.org/events/48768/)
 
 "Reza Abdoh: Showtapes and Short Films" is the second of three film screenings presented by Bidoun in conjunction with Publishing As Practice. Bidoun—whose work as a nonprofit and former print magazine focuses on art and culture from the Middle East and its diasporas—is Ulises’s third publisher resident as part of Publishing As Practice. As part of their programming, Bidoun has organized a selection of video excerpts and short films by Iranian-American multimedia artist, Reza Abdoh.
 
