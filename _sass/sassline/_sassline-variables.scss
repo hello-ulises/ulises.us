@@ -130,13 +130,19 @@ $msGreen: #19975D;
 // $PasP-contrast: lighten($hwOrange, 2%);
 
 // martine syms scheme
-$PasP-contrast: lighten($msGreen,5%);
-$PasP-primary: $backgroundColour;
+// $PasP-contrast: lighten($msGreen,5%);
+// $PasP-primary: $backgroundColour;
+
+// bidoun scheme
+$PasP-contrast: $bYellow;
+$PasP-primary: darken($bSalmon,5%);
 
 
 // $linkColour: #D8BFD8 !default;
 // $linkColour: #DFDFDF !default;
-$linkColour: $msGreen !default;
-$hoverColour: lighten($msGreen, 10%) !default;
+// $linkColour: $msGreen !default;
+// $hoverColour: lighten($msGreen, 10%) !default;
+$linkColour: $bYellow !default;
+$hoverColour: lighten($bYellow, 35%) !default;
 $captionColour: #BDC8CC !default;
 $white: #FFFFFF !default;

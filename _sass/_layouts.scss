@@ -169,8 +169,8 @@ article.post div.post-content {
         }
 
         & a:hover { 
-        // color: lighten($PasP-primary, 5%); 
-        color: $msFuschia;
+        color: lighten($PasP-primary, 5%); 
+        // color: $msFuschia;
         }
     }
 }
@@ -359,10 +359,10 @@ header.site-header.right {
     }
 
     &:hover, &:hover svg {
-        // color: $PasP-primary;
-        // stroke: $PasP-primary;
-        color: $msFuschia;
-        stroke: $msFuschia;
+        color: $PasP-primary;
+        stroke: $PasP-primary;
+        // color: $msFuschia;
+        // stroke: $msFuschia;
     }
 
 
@@ -370,6 +370,23 @@ header.site-header.right {
         display: none;
     }
 }
+
+// added style to avoid white on yellow for Bidoun scheme
+div#right.reveal + #pasp-reveal {
+    svg {
+        stroke: $PasP-primary;
+    }
+
+    p {
+        color: $PasP-primary;
+    }
+
+    &:hover {
+
+        p { color: lighten($PasP-primary, 15%); }
+        svg { stroke: lighten($PasP-primary, 15%); }
+    }
+} 
 
 #pasp-reveal.fixed {
     position: fixed;
@@ -420,8 +437,8 @@ header.site-header.right {
 
         & a, & a:hover, & a:hover,
         & a:focus, & a:visited { 
-            // color: $PasP-primary;
-            color: $backgroundColour;
+            color: $PasP-primary;
+            // color: $backgroundColour;
             background-image: none;
             cursor: pointer;
             text-shadow: unset;
@@ -429,7 +446,7 @@ header.site-header.right {
         }
 
         & a:hover { 
-            color: $msFuschia; 
+            color: lighten($PasP-primary, 15%); 
         }
 
         img {
