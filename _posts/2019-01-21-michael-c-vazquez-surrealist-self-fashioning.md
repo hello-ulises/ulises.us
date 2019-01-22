@@ -9,7 +9,7 @@ categories: left
 ![50276847_2060641054019452_3595583347029442560_o.jpg]({{site.baseurl}}/assets/img/50276847_2060641054019452_3595583347029442560_o.jpg)
 Image: Colette Omogbai, "Agony," 1963. Oil on Hardboard
 
-Join us on Sunday, January 27 from 2–4 pm for an illustrated lecture by Bidoun Senior Editor Michael C. Vazquez focusing on surrealist self-fashioning. 
+Join us on Sunday, January 27 from 2–4 pm for an illustrated lecture by Bidoun Senior Editor Michael C. Vazquez focusing on surrealist self-fashioning. [RSVP HERE](https://www.facebook.com/events/1839609066167763/)
 
 The paintings of the Nigerian artist Colette Omogbai provoked extreme reactions in the early 1960s, with their vivid, impastoed colors and violently abstracted figures, which conjoined human and animal, life and death. Vazquez explores the contexts on this lost-found artist—given pride of place in Okwui Enwezoor’s 2016 Postwar exhibition—amid other 1960s surrealists in Nigeria, Lebanon, and the United States.
 
