@@ -13,4 +13,6 @@ The book "I Will What I Want: Women, Design, and Empowerment" accompanied a 2018
 
 The exhibition presents objects, interfaces, and clothing that has sought to qualify those who have uteruses, menstruate, and/or identify as women as independent and creative subjects in a material world mostly designed by men and for men.
 
-The book invites the reader to contemplate, from their own perspective, the ways in which these designs have - sometimes for good and at others for bad - governed, shaped, and facilitated their embodied experiences. The event is a chance to highlight some of the stories from the book, and engage in audience discussion of this project in the context of several other great recent publications in the same vein. There will be ten copies given away to the first ten visitors who claim them. 
+The book invites the reader to contemplate, from their own perspective, the ways in which these designs have - sometimes for good and at others for bad - governed, shaped, and facilitated their embodied experiences. 
+
+The event is a chance to highlight some of the stories from the book, and engage in audience discussion of this project in the context of several other great recent publications in the same vein. There will be ten copies given away to the first ten visitors who claim them.
