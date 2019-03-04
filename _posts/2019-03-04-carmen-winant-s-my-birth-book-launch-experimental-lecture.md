@@ -10,7 +10,7 @@ event_date: 'Thursday, March 7, 6:30–8:30PM'
 
 Please join Ulises for an experimental lecture/book launch by artist and writer [Carmen Winant](http://carmenwinant.com/).
 
-In lieu of a conventional reading or talk, Carmen will deliver a fifteen-minute original script over top of a video that she created — largely looking at the visual content of artists and medical professionals — that acts a compliment to the her book, "My Birth." The performance will probe the ways that we see and do not see the experience of childbirth.
+In lieu of a conventional reading or talk, Carmen will deliver a fifteen-minute original script over top of a video that she created — largely looking at the visual content of artists and medical professionals — that acts a compliment to her book, "My Birth." The performance will probe the ways that we see and do not see the experience of childbirth.
 
 A book of text and image, "My Birth" interweaves photographs of the artist Carmen Winant’s mother giving birth to her three children with found images of other, anonymous, women undergoing the same bodily experience. As the pictorial narrative progresses, from labor through delivery, the women’s postures increasingly blend into one another, creating a collective body that strains and releases in unison.
 
