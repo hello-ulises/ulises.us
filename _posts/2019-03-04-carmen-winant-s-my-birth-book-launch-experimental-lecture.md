@@ -8,7 +8,7 @@ event_date: 'Thursday, March 7, 6:30–8:30PM'
 ---
 ![]({{site.baseurl}}/assets/img/CarmenWinant.jpg)
 
-Please join Ulises for an experimental lecture/book launch by artist and writer Carmen Winant.
+Please join Ulises for an experimental lecture/book launch by artist and writer [Carmen Winant](http://carmenwinant.com/).
 
 In lieu of a conventional reading or talk, Carmen will deliver a fifteen-minute original script over top of a video that she created — largely looking at the visual content of artists and medical professionals — that acts a compliment to the her book, "My Birth." The performance will probe the ways that we see and do not see the experience of childbirth.
 
