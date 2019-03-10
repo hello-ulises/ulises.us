@@ -1,6 +1,6 @@
 ---
 layout: post
-date: '2019-03-04 10:00 -0500'
+date: '2019-03-10 10:00 -0500'
 published: true
 title: 'Book Launch: Faith Wilding, Daniel Tucker, and Shannon Stratton'
 event_date: 'Thursday, March 14, 6:30–8PM'
