@@ -8,7 +8,7 @@ event_date: 'Sunday, March 31, 2–4PM'
 ---
 ![54379024_2140529272697296_8002580552798437376_o.jpg]({{site.baseurl}}/assets/img/54379024_2140529272697296_8002580552798437376_o.jpg)
 
-Please join Ulises for a publication release and reading event for "Conditioner" a new publication by artist Liz Barr through GenderFail Press. Barr will be joined by writers Meg Pendoley and Blanche Brown in a series of readings for the event.
+Please join Ulises for a publication release and reading event for "Conditioner" a new publication by artist [Liz Barr](https://liz-barr.com/) through [GenderFail Press](https://www.genderfail.space/). Barr will be joined by writers Meg Pendoley and Blanche Brown in a series of readings for the event.
 
 "Conditioner" considers women's sense of alienation from their bodies, caused by gender norms and beauty ideals, and the ways that the wellness and skincare industries either alleviate or exacerbate that alienation. Conditioner explores the nuances of the subject, accounting for the history of American cosmetics and skincare, as well as the ways that preceding feminist movements have addressed them. This is Barr's second publication with GenderFail.
 
