@@ -15,7 +15,9 @@ Over the past year, Common Field has worked with Ulises as part of a group of 14
 
 As a platform for gathering the many artist centered organizations, the Convening recognizes the value of their contributions as a critical and central part of the city’s cultural fabric. It builds awareness for these practices that often take place in unique contexts, and serve and represent more diverse communities. Together we understand there is an urgency to gather around issues of social justice and equity, as well as practical needs and tools for many organizations in our network. 
 
-Find out more about the Convening and get [Your Tickets to the 2019 Common Field Convening online](https://www.commonfield.org/convenings/1949/2470/tickets). Check out the program, presenters and full schedule. Follow Common Field on social media ([IG](https://www.instagram.com/common_field/) | [FB](https://www.facebook.com/commonfield/) | [TW](https://twitter.com/Common_Field)) and sign up for their [newsletter](https://www.commonfield.org/news/) for regular updates.
+Find out more about the Convening and get your tickets [online](https://www.commonfield.org/convenings/1949/2470/tickets).
+Check out the program, presenters and full [schedule](https://www.commonfield.org/convenings/1949/program/). 
+Follow Common Field on social media ([IG](https://www.instagram.com/common_field/) | [FB](https://www.facebook.com/commonfield/) | [TW](https://twitter.com/Common_Field)) and sign up for their [newsletter](https://www.commonfield.org/news/) for regular updates.
 
 Friends Center, Center City, Philadelphia, PA
 [commonfield.org/convenings](https://www.commonfield.org/convenings/)
