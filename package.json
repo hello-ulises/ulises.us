@@ -8,7 +8,7 @@
   },
   "author": "bulbil",
   "devDependencies": {
-    "browser-sync": "^2.17.5",
+    "browser-sync": "^2.26.7",
     "browserify": "^13.1.1",
     "gulp": "^3.9.1",
     "gulp-jshint": "^2.0.4",
@@ -18,8 +18,8 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
-    "jshint": "^2.9.5",
-    "lodash": "^4.17.5",
+    "jshint": "^2.10.2",
+    "lodash": "^4.17.11",
     "onchange": "^4.1.0"
   },
   "scripts": {
