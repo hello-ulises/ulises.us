@@ -6,7 +6,8 @@ title: 'Screening: Reza Abdoh''s The Blind Owl'
 categories: left
 event_date: ' Thursday, July 18, 6–8 PM'
 ---
-![]({{site.baseurl}}/assets/img/The%20Blind%20Owl%20Still%20with%20Ron%20Athey.tif)
+![The Blind Owl Still with Ron Athey.jpg]({{site.baseurl}}/assets/img/The Blind Owl Still with Ron Athey.jpg)
+
 "The Blind Owl" Still with Ron Athey
 
 Please join us for a screening of Reza Abdoh's "The Blind Owl" along with an introduction by Bidoun Senior Editor Michael C. Vazquez. This will be the final program presented by Bidoun in conjunction with Publishing As Practice, an experimental publisher-in-residence project hosted by Ulises and funded by the Pew Center for Arts & Heritage. 
