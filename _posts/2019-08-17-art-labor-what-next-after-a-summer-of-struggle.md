@@ -2,7 +2,7 @@
 layout: post
 date: '2019-08-17 15:02 -0400'
 published: true
-title: 'Art + Labor: What Next After a Summer of Struggle? '
+title: 'Art + Labor: What''s Next After a Summer of Struggle? '
 event_date: 'Thursday, August 29, 6–8pm'
 categories: left
 ---
