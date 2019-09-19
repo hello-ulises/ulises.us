@@ -21,6 +21,4 @@ Saturday, Sept. 28, 4–8pm;
 Sunday, Sept. 29, 12-4pm;
 Wednesday, Oct. 2, 4-8pm.
 
-This school is free and for the public. Anyone can be a student. 
-
-STL is presented by University of the Arts School of Dance and has been supported by The Pew Center for Arts & Heritage.
+This school is free and for the public. Anyone can be a student. STL is presented by University of the Arts School of Dance and has been supported by The Pew Center for Arts & Heritage.
