@@ -8,10 +8,9 @@ event_date: 'September 19–22, 2019'
 ---
 ![IMG_3634.jpg]({{site.baseurl}}/assets/img/IMG_3634.jpg)
 
-- September 19–22, 2019
-- Ulises Location: N37 (2nd Floor)
-- [More information (Hours, Access etc.)](https://nyabf2019.printedmatterartbookfairs.org/About)
-
+September 19–22, 2019
+Ulises Location: N37 (2nd Floor)
+[More information (Hours, Access etc.)](https://nyabf2019.printedmatterartbookfairs.org/About)
 
 Initiated in 2005, Printed Matter’s NY Art Book Fair (NYABF) is the leading international gathering for the distribution of artists’ books, celebrating the full breadth of the art publishing community.
 
