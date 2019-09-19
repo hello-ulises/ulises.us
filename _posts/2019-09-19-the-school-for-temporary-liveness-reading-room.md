@@ -1,7 +1,7 @@
 ---
 layout: post
 date: '2019-09-19 12:31 -0400'
-published: false
+published: true
 title: 'The School for Temporary Liveness, Reading Room'
 event_date: 'September 25 – October 2, 2019'
 categories: left
