@@ -8,7 +8,6 @@ event_date: 'September 19–22, 2019'
 ---
 ![IMG_3634.jpg]({{site.baseurl}}/assets/img/IMG_3634.jpg)
 
-September 19–22, 2019
 Ulises Location: N37 (2nd Floor)
 [More information (Hours, Access etc.)](https://nyabf2019.printedmatterartbookfairs.org/About)
 
