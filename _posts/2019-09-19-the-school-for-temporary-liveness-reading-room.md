@@ -14,7 +14,7 @@ Ulises will be participating as part of [Study Hall](https://temporaryliveness.o
 
 Ulises will also host a pop-up shop during select hours. Browse a selection of domestic and international titles—including independent art publications and artists’ books—on critical theory, embodied practice, Black radical thought and other concepts key to the School for Temporary Liveness.
 
-Shop Hours:
+The Reading Room is always open. Shop Hours:
 Wednesday, Sept. 25, 6–7pm;
 Friday, Sept. 27, 6–8pm;
 Saturday, Sept. 28, 4–8pm;
