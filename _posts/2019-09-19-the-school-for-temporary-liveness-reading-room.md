@@ -14,12 +14,13 @@ Ulises will be participating as part of [Study Hall](https://temporaryliveness.o
 
 Ulises will also host a pop-up shop during select hours. Browse a selection of domestic and international titles—including independent art publications and artists’ books—on critical theory, embodied practice, Black radical thought and other concepts key to the School for Temporary Liveness.
 
-Shop Hours
-Wednesday, Sept. 25, 6–7pm
-Friday, Sept. 27, 6–8pm
-Saturday, Sept. 28, 4–8pm
-Sunday, Sept. 29, 12-4pm
-Wednesday, Oct. 2, 4-8pm
+Shop Hours:
+Wednesday, Sept. 25, 6–7pm;
+Friday, Sept. 27, 6–8pm;
+Saturday, Sept. 28, 4–8pm;
+Sunday, Sept. 29, 12-4pm;
+Wednesday, Oct. 2, 4-8pm.
 
-Philadelphia Art Alliance at University of the Arts
-Mon–Fri: 4–10pm, Sat: 4pm–12am, Sun: 12am–4pm
+This school is free and for the public. Anyone can be a student. 
+
+STL is presented by University of the Arts School of Dance and has been supported by The Pew Center for Arts & Heritage.
