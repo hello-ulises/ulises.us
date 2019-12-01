@@ -2,7 +2,7 @@
 layout: post
 date: '2019-12-01 12:01 -0500'
 published: true
-title: Odds and Ends Art Book Fair
+title: Odds and Ends
 event_date: 'Friday, December 6, 2019'
 categories: left
 ---
