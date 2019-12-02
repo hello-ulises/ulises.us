@@ -6,7 +6,7 @@ title: Publishing As Practice
 categories: right
 event_date: 2017–2019
 ---
-![]({{site.baseurl}}/assets/img/Hardworking%20Goodlooking_Mosquito_press-82%20(2).jpg)![Hardworking Goodlooking_Mosquito_press-82 (2).jpg]({{site.baseurl}}/assets/img/Hardworking Goodlooking_Mosquito_press-82 (2).jpg)
+![]({{site.baseurl}}/assets/img/Hardworking%20Goodlooking_Mosquito_press-82%20(2).jpg)
 
 
 Publishing As Practice, a three-part publisher residency designed to explore publishing as an incubator for new forms of editorial, curatorial, and artistic practice. Three experimental art publishers activated Ulises from 2017-19 as an exhibition space and public programming hub, engaging the public through workshops, discussions, and projects.
