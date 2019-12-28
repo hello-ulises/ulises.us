@@ -498,7 +498,7 @@ div#right.reveal + #pasp-reveal {
     padding: 0rem $col-padding;
     overflow: hidden;
     z-index: 99;
-    @include transdefaults(max-height .6s ease-in-out);
+    @include transdefaults(max-height 500ms ease);
 
     & > p { clear: both; }
 
