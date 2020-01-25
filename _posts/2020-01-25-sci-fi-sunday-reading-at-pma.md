@@ -2,7 +2,7 @@
 layout: post
 date: '2020-01-25 15:30 -0500'
 published: true
-title: Sci-Fi Sunday Reading at PMA
+title: 'Sci-Fi Sunday, Reading'
 categories: left
 event_date: 'Sunday, January 26, 2020,  2–3pm'
 ---
