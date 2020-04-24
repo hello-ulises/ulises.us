@@ -6,7 +6,7 @@ title: 'A Certain Kind of Space: How We Sustain Each Other'
 categories: left
 event_date: 'Friday, April 24, 3–4PM'
 ---
-![]({{site.baseurl}}/assets/img/_MG_6884.jpg)![_MG_6884.jpg]({{site.baseurl}}/assets/img/_MG_6884.jpg)
+![]({{site.baseurl}}/assets/img/_MG_6884.jpg)![_MG_6884.jpg]
 
 
 Friday, April 24, 2020
