@@ -8,9 +8,7 @@ event_date: 'Friday, April 24, 3–4PM'
 ---
 ![]({{site.baseurl}}/assets/img/_MG_6884.jpg)
 
-
-Friday, April 24, 2020
-3-4:30pm CDT
+[Program Details](https://www.commonfield.org/convenings/3248/program/4026/a-certain-kind-of-space-how-we-sustain-each-other)
 
 UPDATE: This sessions is FULL to capacity and the waitlist is also full. We thank you for your overwhelming interest and apologize if you can't get into a session you were hoping to attend. Most session are still open and we encourage you to join in. All sessions are being recorded and captioned and will uploaded to Common Field's Vimeo channel soon.
 
