@@ -26,5 +26,3 @@
 ```
 
 :alien: Repository for [ulises.us](http://ulises.us) :alien:
-
-webhook testing
