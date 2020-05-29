@@ -10,7 +10,7 @@ event_date: 'Sunday, May 31, 2–4PM'
 
 [Register](https://moorecad.zoom.us/meeting/register/tJUodOisqDMoG9wVU75dJv8fwr4yl5tF7oh-)
 
-Looking forward to participating in Many Fortunes' online panel with other QT/POC-run small presses and print spaces, including No Shame Distro, Sponge Gourd Collective, Endless Editions, and Other Publishing to discuss print resources and futures. 
+Looking forward to participating in FORTUNE's online panel with other QT/POC-run small presses and print spaces, including No Shame Distro, Sponge Gourd Collective, Endless Editions, and Other Publishing to discuss print resources and futures. 
 
 As we come together toward an uncertain future, we hope to ground ourselves in print as an act of resource-sharing, of radical gathering, of material resilience — something to hold on to. Join us as we connect with print collectives to share experiences and best practices for inspired, sustainable, accessible, and community-oriented work. 
 
