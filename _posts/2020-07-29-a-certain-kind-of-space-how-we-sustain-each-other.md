@@ -5,7 +5,7 @@ published: true
 title: 'A Certain Kind of Space: How We Sustain Each Other'
 categories: left
 ---
-https://vimeo.com/419445780
+![]({{site.baseurl}}/https://vimeo.com/419445780)
     
     <iframe src="https://player.vimeo.com/video/419445780" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/419445780">[Convening 2020] A Certain Kind of Space: How We Sustain Each Other</a> from <a href="https://vimeo.com/commonfield">Common Field</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
