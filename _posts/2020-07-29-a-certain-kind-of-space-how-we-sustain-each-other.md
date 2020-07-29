@@ -14,6 +14,5 @@ Building on previous convening dialogues, presenters ask each other and audience
 
 What does it mean for artistic spaces to survive the current capitalist economic system we work under? Members of artist-run collectives Grizzly Grizzly, Living Room Light Exchange, ‘sindikit, and Ulises openly discuss how organizational development in itself has become a creative practice, and how that informs their accountability to the artists and the communities they engage. Running an organization often means interacting with, and subverting, an economic system. What is the impact of working this way? This conversation places independent organizations from various geographic locations, which are negotiating different constraints, in dialogue to expand practical strategies for survival, stewardship, and conceptual engagement.
 
-***
 - [Common Field Convening](https://www.commonfield.org/convenings/3248/documentation/4170/a-certain-kind-of-space-how-we-sustain-each-other)
 - [Archival Video](https://vimeo.com/419445780)
