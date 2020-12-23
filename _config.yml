@@ -12,8 +12,8 @@ title: ULISES
 email: hello@ulises.us
 description: >
     Ulises / Books / Curation
-baseurl: "dev/ulises"
-url: "/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/dev/ulises"
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  hello-ulises
 
 # Build settings
