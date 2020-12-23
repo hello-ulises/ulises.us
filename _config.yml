@@ -12,7 +12,7 @@ title: ULISES
 email: hello@ulises.us
 description: >
     Ulises / Books / Curation
-baseurl: "/dev"
+baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  hello-ulises
 

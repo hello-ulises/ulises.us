@@ -18,7 +18,7 @@ after_success:
 - eval "$(ssh-agent -s)"
 - chmod 600 /tmp/travis-deploy-rsa
 - ssh-add /tmp/travis-deploy-rsa
-- rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/_site ulisesus@ulises.us:~/www/dev/
+- rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/_site ulisesus@ulises.us:~/www
 branches:
   only:
   - master
