@@ -19,6 +19,14 @@ cache: bundler
 #   upload_dir: dev/ulises
 #   detect_encoding: true
 #   default_text_charset: utf-8
+addons:
+  ssh_known_hosts: 184.154.26.130
+before_deploy:
+- openssl aes-256-cbc -K $encrypted_0a45f04ad4d5_key -iv $encrypted_0a45f04ad4d5_iv
+  -in travis-deploy-rsa.enc -out /tmp/travis-deploy-rsa -d
+- eval "$(ssh-agent -s)"
+- chmod 600 /tmp/travis-deploy-rsa
+- ssh-add /tmp/travis-deploy-rsa
 deploy:
   provider: script
   skip_cleanup: true
@@ -31,6 +39,3 @@ notifications:
   - digitalscholarship@swarthmore.edu
   slack:
     secure: AetDr+I2gPTRJN5eOI1Hrbj+lvRtEc8L2ZdpfiOXAPveDhWxEYho46uxcu1YNskosEc/Hd4c5KR1YmIfj+YCxYwUuUmORkDnyzHxXhP+LBxDUwMs7i+kD+WabbJi1ws84llOlx21BjM2vrBZ1w4Z+RpP/G+VqbYCr7tI9xrTp0PbzmUbhemQUrEVD+UUBFdA7XTcWFPDYOyjBK9OHJS9xxEobxI4T6mxc3AZVBNLjLoQGjBqub8G/1xr/8aJXb8ZYceAijT8ellsqZIo70NOkZCLlCf8qGYTTdmNqKoaU6rsiPkguRAPQX0sekWZi7fqGfZEjtd6IK4+FnTIHxhg2xKAyauq16ZfhlEvVWxnYBZr/IoLyAEpuKVoSJbPZLWZ1pZjrJsbRaShPfrf33IadiMBDGBub9zpxpzSqKQwQyXPErS5qRX9CiNPABgyc1KKxKF4sBQRJ3AHBuiEy18uGVI12OvqBkPZHO4YRfiEIUKBMUXfXR8qnUR91aQJK6A7NK7yByPuBAUuwkHiU2ThkQysZlw3pmjTeD+On4YiKYzXmyuNUueCOV1Kqhy5NcCKiGoqTZ871YiujiTZuvOpJBZOdV3e1vfnvDVRmceFWwwbrbpKiOTVjBbfktdbQW5KaivElC4JurzhFPISPoKw3Ykydf0tJ+ju8t64JrVTT5U=
-before_install:
-- openssl aes-256-cbc -K $encrypted_0a45f04ad4d5_key -iv $encrypted_0a45f04ad4d5_iv
-  -in travis-deploy-rsa.enc -out /tmp/travis-deploy-rsa -d
