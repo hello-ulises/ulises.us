@@ -9,16 +9,6 @@ env:
 script:
 - bundle exec jekyll build
 cache: bundler
-# deploy:
-#   provider: s3
-#   access_key_id: "${S3_ACCESS_KEY_ID}"
-#   secret_access_key: "${S3_SECRET}"
-#   bucket: sc-lib-ds-static
-#   skip_cleanup: true
-#   local_dir: _site
-#   upload_dir: dev/ulises
-#   detect_encoding: true
-#   default_text_charset: utf-8
 addons:
   ssh_known_hosts: ulises.us
 before_install:
@@ -28,12 +18,13 @@ after_success:
 - eval "$(ssh-agent -s)"
 - chmod 600 /tmp/travis-deploy-rsa
 - ssh-add /tmp/travis-deploy-rsa
-- rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/_site ulisesus@ulises.us:~/dev/ 
+- rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/_site ulisesus@ulises.us:~/dev/
 branches:
   only:
   - master
 notifications:
-  email:
-  - digitalscholarship@swarthmore.edu
+  email: false
   slack:
-    secure: AetDr+I2gPTRJN5eOI1Hrbj+lvRtEc8L2ZdpfiOXAPveDhWxEYho46uxcu1YNskosEc/Hd4c5KR1YmIfj+YCxYwUuUmORkDnyzHxXhP+LBxDUwMs7i+kD+WabbJi1ws84llOlx21BjM2vrBZ1w4Z+RpP/G+VqbYCr7tI9xrTp0PbzmUbhemQUrEVD+UUBFdA7XTcWFPDYOyjBK9OHJS9xxEobxI4T6mxc3AZVBNLjLoQGjBqub8G/1xr/8aJXb8ZYceAijT8ellsqZIo70NOkZCLlCf8qGYTTdmNqKoaU6rsiPkguRAPQX0sekWZi7fqGfZEjtd6IK4+FnTIHxhg2xKAyauq16ZfhlEvVWxnYBZr/IoLyAEpuKVoSJbPZLWZ1pZjrJsbRaShPfrf33IadiMBDGBub9zpxpzSqKQwQyXPErS5qRX9CiNPABgyc1KKxKF4sBQRJ3AHBuiEy18uGVI12OvqBkPZHO4YRfiEIUKBMUXfXR8qnUR91aQJK6A7NK7yByPuBAUuwkHiU2ThkQysZlw3pmjTeD+On4YiKYzXmyuNUueCOV1Kqhy5NcCKiGoqTZ871YiujiTZuvOpJBZOdV3e1vfnvDVRmceFWwwbrbpKiOTVjBbfktdbQW5KaivElC4JurzhFPISPoKw3Ykydf0tJ+ju8t64JrVTT5U=
+    on_success: always
+    on_failure: always
+    secure: McLnT+wO18IeC7npVaqrUxxseKxIQIQECg255TlAxdXiAOKxLWX2sf4/dNPp/rB627cTvvE2WfAs5Mt1h0TPR7mnBGlgLromhtcjEOGDedyHM2mQYpjkwG/lkGhhifLCmcjwfuBQH2S2sbU0+o9TPr3/aFNK3TOIvKwefH9MztGuerla+yWpnH56Vw2Gu/RhSFWReLhoPVacVUvst43P4Ey5dmofq4KwbKfprw9rVV8oFjh7VMoZgmOc++mSXVaaj02/qOpO00jJXo8ZR44KKKzR3Ikjd1G2X7AgK7SYvPeVoy99yX0SC4FPeZBOK2fsonFWA3bJrDnZns9YBQwQ+65aiUGJen6/EZ62iZPWhPJVLJF37sKXSVrS0zJHSzYGwt3MH7vWUm77DDKfI6lzhDf/8mdpg82bOOMzuX1SUcf7HBgT6dRSns3ARW9Ko15rY4ZlAKAW4EjRgDHHl5UuUES5Krg8GfMZNPHNNnZ2SC3mwOmbcX4VQ2av7hoSTV/AuVmGQ5aCATWr1KUPYGfTK+C2w2U7Zh2lYbfbitKuSX37v//smWRWwCYrcPQcYRWgeHuwNVUKJqJwcXLCKWzZflm/0paQmnkn+vWjNSDfFLJ5lMcCyXh/z+GgaBc9C/U34fcamOlCr8JV3naxCDV99mavt5FNV3h0Pcl8mR422wA=
