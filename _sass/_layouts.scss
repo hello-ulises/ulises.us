@@ -181,7 +181,7 @@ article.post div.post-content {
     @include transdefaults(margin .5s ease-out 0s);
 }
 
-// bother column headers
+// both column headers
 
 header.site-header {
 
@@ -252,6 +252,37 @@ header.site-header {
             }
         }
     }
+    
+    a#instagram-link {
+        display: block;
+        width: 15rem;
+        margin: 1.5rem auto;
+        border: 2px solid $backgroundColour;
+        border-radius: 75%;
+        clear: both;
+        @include transdefaults(background-color .25s ease-out 0s);
+    }
+
+    a#instagram-link span {
+        font-family: unquote(map-get($headingtype,font-family));
+        color: $backgroundColour;
+        text-transform: uppercase;
+        max-width: 8rem;
+        padding: .5rem 0;
+        margin: 0 auto;
+        display: block;
+        @include transdefaults(color .1s linear 0s);
+    }
+    
+    a:hover#instagram-link,
+    a:visited#instagram-link {
+        color: unset;
+    }
+
+    a:hover#instagram-link {
+        background-color: $backgroundColour;
+        span {color: $bodyColour;}
+    }
 }
 
 // left column header
@@ -268,6 +299,24 @@ header.site-header.left {
 
     #info-button p a:hover, a:hover p {
         color: $PasP-primary;
+    }
+
+    a#instagram-link {
+        border: 2px solid $bodyColour;
+    }
+
+    a#instagram-link span {
+        color: $bodyColour;
+    }
+    
+    a:hover#instagram-link,
+    a:visited#instagram-link {
+        color: unset;
+    }
+
+    a:hover#instagram-link {
+        background-color: $bodyColour;
+        span {color: $backgroundColour;}
     }
 }
 
