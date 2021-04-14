@@ -547,7 +547,7 @@ div#right.reveal + #pasp-reveal {
     padding: 0rem $col-padding;
     overflow: hidden;
     z-index: 99;
-    @include transdefaults(max-height 500ms ease);
+    @include transdefaults(max-height 500ms linear);
 
     & > p { clear: both; }
 
@@ -688,6 +688,45 @@ div#right.reveal + #pasp-reveal {
             color: $linkColour;
         }
     }
+}
+
+// square buy now button
+
+h1.button#buy {
+    display: block;
+    margin: 1.5rem auto;
+    @include transdefaults(background-color .25s ease-out 0s);
+    max-width: 30rem;
+    background-image: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-image: none;
+    text-shadow: unset;
+
+    border: 2px solid $bodyColour;
+    border-radius: 2rem;
+}
+
+h1.button#buy a {
+    font-family: unquote(map-get($headingtype,font-family));
+    color: $backgroundColour;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: .5rem 1rem 1rem 1rem;
+    text-align: center;
+    display: block;
+    @include transdefaults(color .1s linear 0s);
+
+}
+
+h1.button#buy a:hover,
+h1.button#buy a:visited{
+    color: unset;
+}
+
+h1.button#buy:hover {
+    background-color: $bodyColour;
+    a {color: $backgroundColour;}
 }
 
 // * * * * * Splash Page Elements * * * * *
