@@ -204,7 +204,7 @@ header.site-header {
         p {
             text-indent: unset;
             margin: 0;
-            line-height: 2.3rem;
+            line-height: 2rem;
         }
     }
 
@@ -247,7 +247,7 @@ header.site-header {
             align-items: center;
 
             p,span { 
-                margin: 1rem 0 0 0;
+                margin: 0 0 0 0;
                 text-align: center;
             }
         }
@@ -325,11 +325,11 @@ header.site-header.left {
 header.site-header.right {
 
     @include media-query($on-laptop) {
-        margin-top: 9rem;
+        // margin-top: 9rem;
     }
 
     #info-button {
-        margin-left: 2em;
+        // margin-left: 2em;
     }
 }
 
@@ -542,11 +542,14 @@ div#right.reveal + #pasp-reveal {
 
 .slide .expanded {
 
-    margin-bottom: $col-padding/2;
+    // margin-bottom: $col-padding/2;
     max-height: 0;
     padding: 0rem $col-padding;
     overflow: hidden;
     z-index: 99;
+    // border-top: 2rem solid $backgroundColour;
+    // border-top: 2rem solid magenta;
+
     @include transdefaults(max-height 500ms linear);
 
     & > p { clear: both; }
@@ -568,6 +571,10 @@ div#right.reveal + #pasp-reveal {
     @media screen and (max-width: 480px) {
         padding: 0 1rem;
     }
+}
+
+.site-header.left .slide .expanded {
+    // border-top: 2rem solid lighten($bodyColour, 25%);
 }
 
 .slide .expanded.show {
@@ -709,7 +716,7 @@ h1.button#buy {
 
 h1.button#buy a {
     font-family: unquote(map-get($headingtype,font-family));
-    color: $backgroundColour;
+    color: $bodyColour;
     text-transform: uppercase;
     margin: 0 auto;
     padding: .5rem 1rem 1rem 1rem;
@@ -819,7 +826,7 @@ h1.button#buy:hover {
 
         width: 20%;
         max-width: 300px;
-        margin-left: 2rem;
+        // margin-left: 2rem;
         float: left;
 
         @include media-query ($on-palm){

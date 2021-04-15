@@ -9,7 +9,7 @@ event_date: 2017–2019
 
 ![Publishing as Practice Book animated gif](/assets/img/pasp.gif )
 
-<h1 class="button" id="buy"><a href="https://checkout.square.site/merchant/JAV3EEGW2X7KX/checkout/O2GORNNWMDLUXAX5XAWR67DE">pre-order now</a></h1>
+<h1 class="button" id="buy"><a href="https://checkout.square.site/merchant/JAV3EEGW2X7KX/checkout/O2GORNNWMDLUXAX5XAWR67DE">preorder now</a></h1>
 
 Edited by Ulises: Kayla Romberger, Gee Wesley, Nerissa Cooney, Lauren Downing, and Ricky Yanas  
 Co-published by: Inventory Press & Ulises  
