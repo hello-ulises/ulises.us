@@ -9,8 +9,9 @@ event_date: 2017–2019
 
 ![Publishing as Practice Book animated gif](/assets/img/pasp.gif )
 
+{% comment %}
 <h1 class="button" id="buy"><a href="https://checkout.square.site/merchant/JAV3EEGW2X7KX/checkout/O2GORNNWMDLUXAX5XAWR67DE">preorder now</a></h1>
-
+{% endcomment %}
 Edited by Ulises: Kayla Romberger, Gee Wesley, Nerissa Cooney, Lauren Downing, and Ricky Yanas  
 Co-published by: Inventory Press & Ulises  
 Design by: Joel Evey & David Wise
@@ -20,8 +21,8 @@ Design by: Joel Evey & David Wise
 ISBN 978-1-941753-40-8
 {: .no-indent}
 
-Available for Pre-Order  
-Shipping May 2021  
+
+**Available May 2021**
 $35.00
 {: .no-indent}
 
