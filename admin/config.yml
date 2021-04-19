@@ -2,6 +2,7 @@
 backend:
   name: git-gateway # Netlify’s Git Gateway connects to Git provider’s API
   branch: main # Branch to update (master by default)
+  site_domain: ulises.us
 
 media_folder: assets/img
 site_url: http://ulises.us
