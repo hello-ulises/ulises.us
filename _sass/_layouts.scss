@@ -547,7 +547,7 @@ div#right.reveal + #pasp-reveal {
     padding: 0rem $col-padding;
     overflow: hidden;
     z-index: 99;
-    // border-top: 2rem solid $backgroundColour;
+    border-top: 2rem solid $backgroundColour;
     // border-top: 2rem solid magenta;
 
     @include transdefaults(max-height 500ms linear);
@@ -574,7 +574,7 @@ div#right.reveal + #pasp-reveal {
 }
 
 .site-header.left .slide .expanded {
-    // border-top: 2rem solid lighten($bodyColour, 25%);
+    border-top: 2rem solid lighten($bodyColour, 25%);
 }
 
 .slide .expanded.show {
