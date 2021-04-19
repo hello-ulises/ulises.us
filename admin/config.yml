@@ -4,7 +4,7 @@ backend:
   repo: hello-ulises/ulises.us
   branch: main # Branch to update (master by default)
 #  base_url: https://heavy-painted-perfume.glitch.me
-  site_domain: pedantic-heyrovsky-2f6199.netlify.app
+  site_domain: ulises.us
 
 media_folder: assets/img
 site_url: http://ulises.us
