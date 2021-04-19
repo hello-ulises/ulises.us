@@ -1,8 +1,10 @@
 # config.yml
 backend:
-  name: git-gateway # Netlify’s Git Gateway connects to Git provider’s API
+  name: github # Netlify’s Git Gateway connects to Git provider’s API
+  repo: hello-ulises/ulises.us
   branch: main # Branch to update (master by default)
-  site_domain: ulises.us
+#  base_url: https://heavy-painted-perfume.glitch.me
+  site_domain: pedantic-heyrovsky-2f6199.netlify.app
 
 media_folder: assets/img
 site_url: http://ulises.us
