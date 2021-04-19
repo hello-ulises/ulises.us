@@ -21,7 +21,7 @@ after_success:
 - rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/_site/** ulisesus@ulises.us:~/www
 branches:
   only:
-  - master
+  - main
 notifications:
   email:
     recipients:
