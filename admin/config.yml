@@ -24,6 +24,6 @@ collections:
       - { name: 'event_date', label: 'Event Date', widget: 'string', description: 'If applicable, enter date and time of event as it should appear in the text of the post', required: false }
       - { name: 'layout', label: 'Layout', widget: 'hidden', default: 'post' }
       - { name: 'categories', label: 'Column', widget: 'select', options: ["left", "right"], required: false }
-      - { name: 'tags', label: 'Tags', widget: 'select', multiple: true, options: ['sticky','active-voice','intimacy'] }
+      - { name: 'tags', label: 'Tags', widget: 'select', multiple: true, options: ['sticky','active-voice','intimacy'], required: false }
       - { name: 'published', label: 'Published', widget: 'boolean', default: true}
       - { name: 'body', label: 'Body', widget: 'markdown'}
