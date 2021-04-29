@@ -176,6 +176,13 @@ article.post div.post-content {
     }
 }
 
+.column#left .mobile-only {
+    display: none;
+    @include media-query($on-palm) {
+        display: unset;
+    }
+}
+
 .column#right {
     float: right;
     @include transdefaults(margin .5s ease-out 0s);
@@ -706,7 +713,6 @@ h1.button#buy {
     max-width: 30rem;
     background-image: none;
     cursor: pointer;
-    text-decoration: none;
     background-image: none;
     text-shadow: unset;
 
@@ -718,6 +724,7 @@ h1.button#buy a {
     font-family: unquote(map-get($headingtype,font-family));
     color: $bodyColour;
     text-transform: uppercase;
+    text-decoration: none;
     margin: 0 auto;
     padding: .5rem 1rem 1rem 1rem;
     text-align: center;
@@ -729,11 +736,23 @@ h1.button#buy a {
 h1.button#buy a:hover,
 h1.button#buy a:visited{
     color: unset;
+    text-decoration: none;
 }
 
 h1.button#buy:hover {
     background-color: $bodyColour;
     a {color: $backgroundColour;}
+}
+
+.mobile-only h1.button#buy {
+    border: 2px solid $backgroundColour;
+
+    a { color: $backgroundColour; }
+
+    &:hover {
+        background-color: $backgroundColour;
+        a {color: $bodyColour;}
+    }
 }
 
 // * * * * * Splash Page Elements * * * * *
