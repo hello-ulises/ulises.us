@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "jshint": "^2.10.2",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "onchange": "^4.1.0"
   },
   "scripts": {
