@@ -1,10 +1,10 @@
 ---
-layout: post
-date: '2019-12-01 21:48 -0500'
-published: true
 title: Publishing As Practice
-categories: right
+date: 2019-12-01 21:48 -0500
 event_date: 2017–2019
+layout: post
+categories: right
+published: true
 ---
 
 ![Publishing as Practice Book animated gif](/assets/img/pasp.gif )
@@ -21,7 +21,7 @@ ISBN 978-1-941753-40-8
 {: .no-indent}
 
 $35.00  
-**Available May 2021**
+**Available August 2021**
 {: .no-indent}
 
 *Publishing as Practice: Hardworking Goodlooking, Martine Syms/Dominica, Bidoun* centers on the work of three contemporary artists/book publishers who have developed fresh ways of broaching the political in publishing.
