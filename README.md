@@ -25,4 +25,4 @@
 
 ```
 
-:alien: Repository for [ulises.us](http://ulises.us) :alien:
+:alien: Repository for [ulises.us](http://ulises.us)
