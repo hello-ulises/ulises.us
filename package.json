@@ -13,7 +13,7 @@
     "gulp": "^4.0.2",
     "gulp-jshint": "^2.0.4",
     "gulp-uglify": "^2.0.0",
-    "object-path": ">=0.11.5",
+    "object-path": ">=0.11.8",
     "perfect-scrollbar": "^1.4.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
