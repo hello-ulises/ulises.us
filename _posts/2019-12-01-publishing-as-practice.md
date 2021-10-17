@@ -6,23 +6,23 @@ layout: post
 categories: right
 published: true
 ---
-
 ![Publishing as Practice Book animated gif](/assets/img/pasp.gif )
 
-<h1 class="button" id="buy"><a href="https://checkout.square.site/merchant/JAV3EEGW2X7KX/checkout/O2GORNNWMDLUXAX5XAWR67DE">preorder now</a></h1>
 
-Edited by Ulises: Kayla Romberger, Gee Wesley, Nerissa Cooney, Lauren Downing, and Ricky Yanas  
-Co-published by: Inventory Press & Ulises  
+
+Edited by Ulises: Kayla Romberger, Gee Wesley, Nerissa Cooney, Lauren Downing, and Ricky Yanas\
+Co-published by: Inventory Press & Ulises\
 Design by: Joel Evey & David Wise
 {: .no-indent}
 
-7 ¾ × 10 inches, 176 pages  
+7 ¾ × 10 inches, 176 pages\
 ISBN 978-1-941753-40-8
 {: .no-indent}
 
-$35.00  
-**Available August 2021**
+$35.00
 {: .no-indent}
+
+<h1 class="button" id="buy"><a href="https://checkout.square.site/merchant/JAV3EEGW2X7KX/checkout/O2GORNNWMDLUXAX5XAWR67DE">order now</a></h1>
 
 *Publishing as Practice: Hardworking Goodlooking, Martine Syms/Dominica, Bidoun* centers on the work of three contemporary artists/book publishers who have developed fresh ways of broaching the political in publishing.
 
@@ -38,6 +38,6 @@ Publishing As Practice, a three-part publisher residency designed to explore pub
 
 Residents included [Hardworking Goodlooking](https://www.instagram.com/hardworkinggoodlooking/?hl=en), the publishing arm of Philippines-based, social practice platform The Office of Culture and Design; [Dominica](https://dominica.la/), an imprint run by Martine Syms dedicated to exploring blackness as a topic, reference, marker and audience in visual culture; and [Bidoun](https://www.bidoun.org/), a non-profit organization focused on art and culture from the Middle East and its diasporas.
 
-[PRE-ORDER](https://ulises.pmvabf.org/) _Publishing As Practice: Hardworking Goodlooking, Martine Syms/Dominica, Bidoun_
+[PRE-ORDER](https://ulises.pmvabf.org/) *Publishing As Practice: Hardworking Goodlooking, Martine Syms/Dominica, Bidoun*
 
 {% endcomment %}
