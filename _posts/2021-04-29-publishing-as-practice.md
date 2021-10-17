@@ -1,8 +1,8 @@
 ---
-title: Publishing As Practice
-date: 2019-12-01 21:48 -0500
-event_date: 2017–2019
 layout: post
+title: Publishing As Practice
+date: '2019-12-01 21:48 -0500'
+event_date: 2017–2019
 categories: left
 tags:
   - sticky
@@ -40,6 +40,6 @@ Publishing As Practice, a three-part publisher residency designed to explore pub
 
 Residents included [Hardworking Goodlooking](https://www.instagram.com/hardworkinggoodlooking/?hl=en), the publishing arm of Philippines-based, social practice platform The Office of Culture and Design; [Dominica](https://dominica.la/), an imprint run by Martine Syms dedicated to exploring blackness as a topic, reference, marker and audience in visual culture; and [Bidoun](https://www.bidoun.org/), a non-profit organization focused on art and culture from the Middle East and its diasporas.
 
-[PRE-ORDER](https://ulises.pmvabf.org/) *Publishing As Practice: Hardworking Goodlooking, Martine Syms/Dominica, Bidoun*
+[ORDER NOW](https://ulises.pmvabf.org/) *Publishing As Practice: Hardworking Goodlooking, Martine Syms/Dominica, Bidoun*
 
 {% endcomment %}
