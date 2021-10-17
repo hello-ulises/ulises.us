@@ -11,8 +11,6 @@ published: true
 ---
 ![Publishing as Practice Book animated gif](/assets/img/pasp.gif )
 
-<h1 class="button" id="buy"><a href="https://checkout.square.site/merchant/JAV3EEGW2X7KX/checkout/O2GORNNWMDLUXAX5XAWR67DE">ORDER NOW</a></h1>
-
 Edited by Ulises: Kayla Romberger, Gee Wesley, Nerissa Cooney, Lauren Downing, and Ricky Yanas\
 Co-published by: Inventory Press & Ulises\
 Design by: Joel Evey & David Wise
@@ -24,6 +22,8 @@ ISBN 978-1-941753-40-8
 
 $35.00
 {: .no-indent}
+
+<h1 class="button" id="buy"><a href="https://checkout.square.site/merchant/JAV3EEGW2X7KX/checkout/O2GORNNWMDLUXAX5XAWR67DE">ORDER NOW</a></h1>
 
 *Publishing as Practice: Hardworking Goodlooking, Martine Syms/Dominica, Bidoun* centers on the work of three contemporary artists/book publishers who have developed fresh ways of broaching the political in publishing.
 
