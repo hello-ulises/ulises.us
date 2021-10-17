@@ -23,7 +23,6 @@ ISBN 978-1-941753-40-8
 {: .no-indent}
 
 $35.00\
-**Available August 2021**
 {: .no-indent}
 
 *Publishing as Practice: Hardworking Goodlooking, Martine Syms/Dominica, Bidoun* centers on the work of three contemporary artists/book publishers who have developed fresh ways of broaching the political in publishing.
