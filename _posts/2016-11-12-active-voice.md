@@ -1,9 +1,9 @@
 ---
-date: '2016-11-12'
-event_date: 'November 12, 2016 through January 22, 2017'
-layout: post
 title: No. 1 Active Voice
-categories: right
+date: 2016-11-12
+event_date: November 12, 2016 through January 22, 2017
+layout: post
+categories: left
 published: true
 ---
 
