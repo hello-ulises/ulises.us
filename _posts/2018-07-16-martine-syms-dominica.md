@@ -1,9 +1,9 @@
 ---
-layout: post
-date: '2018-07-16 21:13 -0400'
-published: true
 title: Martine Syms/Dominica
-categories: right
+date: 2018-07-16 21:13 -0400
+layout: post
+categories: left
+published: true
 ---
 July 22–November 4, 2018
 
