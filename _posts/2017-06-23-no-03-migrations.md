@@ -1,12 +1,12 @@
 ---
+title: "Opening: No. 3 Migrations "
+date: 2017-06-23 11:24 -0400
+event_date: Saturday, July 1, 2017,  3–7PM
 layout: post
-date: '2017-06-23 11:24 -0400'
-published: true
-title: 'Opening: No. 3 Migrations '
-categories: left
+categories: right
 tags:
   - migrations
-event_date: 'Saturday, July 1, 2017,  3–7PM'
+published: true
 ---
 ![Superunknown 2.jpg]({{site.baseurl}}/assets/img/Superunknown 2.jpg)
 
