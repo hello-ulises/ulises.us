@@ -1,12 +1,12 @@
 ---
-layout: post
-date: '2017-12-05 23:21 -0400'
-published: true
 title: No. 4 Education
-categories: right
+date: 2017-12-05 23:21 -0400
+event_date: December 2017 through February 2018
+layout: post
+categories: left
 tags:
   - education
-event_date: December 2017 through February 2018
+published: true
 ---
 
 
