@@ -3,7 +3,7 @@ title: "Opening: No. 3 Migrations "
 date: 2017-06-23 11:24 -0400
 event_date: Saturday, July 1, 2017,  3–7PM
 layout: post
-categories: right
+categories: left
 tags:
   - migrations
 published: true
