@@ -1,12 +1,12 @@
 ---
-layout: post
-date: '2017-02-08 01:34 -0500'
-event_date: 'February 11 through June 11, 2017'
-published: true
 title: No. 2 Intimacy
-categories: right
+date: 2017-02-08 01:34 -0500
+event_date: February 11 through June 11, 2017
+layout: post
+categories: left
 tags:
   - intimacy
+published: true
 ---
 
 In this quarter, Ulises considers intimacy through a close-knit constellation of topics, ranging from proximity and privacy to love, friendship, sex, and sexuality. Through a season of artworks, programs, and explorations, Ulises seeks to offer space for artists, thinkers, and communities of care to interrogate our role as social and civic participants, engage notions of inclusion and belonging, and discuss and employ affect, empathy, and love-based politics. Artist Sharon Hayes, scholar Lauren Berlant, and independent publishing imprint Badlands Unlimited provide principal contributions, with additional contributors extending these ideas and communities over a period of three months.
