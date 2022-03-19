@@ -18,4 +18,4 @@ About the books
 * Ronaldo V. Wilson, [Carmelina: Figures](https://www.wendyssubway.com/publishing/titles/carmelina-figures) (2021)
 * Jaamil Olawale Kosoko, [Black Body Amnesia: Poems and Other Speech Acts](http://wendyssubway.com/publishing/titles/black-body-amnesia) (2022)
 
-Event is in-person at Icebox Project Space, 1400 N American Street, Philly, PA — Masks required. Se
+Event is in-person at Icebox Project Space, 1400 N American Street, Philly, PA — Masks required. [RSVPs](https://www.facebook.com/events/359849852682371?ref=newsfeed) not required but welcome.
