@@ -7,9 +7,7 @@ layout: post
 categories: left
 published: true
 ---
-![Gif of books by JJJJJerome Ellis, Shala Miller, Ronaldo V. Wilson, Jaamil Olawale Kosoko](/assets/img/outloud-04-2.gif "Out Loud: JJJJJerome Ellis, Shala Miller, Ronaldo V. Wilson, Jaamil Olawale Kosoko")
-
-
+![](/assets/img/outloud-04-2.gif)
 
 [Wendy’s Subway](http://wendyssubway.com/) and Ulises are pleased to present a reading, screening, and performance with authors [JJJJJerome Ellis](https://jjjjjerome.com/), [Jaamil Olawale Kosoko](https://www.jaamil.com/), [Shala Miller](https://www.smille.co/), and [Ronaldo V. Wilson](https://www.ronaldovwilson.com/), on the occasion of the 2022 AWP Conference (Association of Writers and Writing Programs). All published in 2021-2022, The Clearing, Black Body Amnesia, Tender Noted, and Carmelina: Figures, respectively, are the newest titles in the Document series, an interdisciplinary publishing initiative that highlights the work of time-based artists in printed form. 
 
