@@ -5,6 +5,8 @@ date: 2022-03-25T23:00:58.639Z
 event_date: Friday, March 25, 2022 – 7pm
 layout: post
 categories: left
+tags:
+  - sticky
 published: true
 ---
 ![](/assets/img/outloud-04-2.gif)
