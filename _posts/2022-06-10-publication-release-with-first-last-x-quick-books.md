@@ -1,5 +1,5 @@
 ---
-title: "Publication Release with First Last x Quick Books "
+title: First Last x Quick Books Publication Release
 date: 2022-06-10T14:00:23.058Z
 event_date: Saturday, June 25, 2022 at 2pm
 layout: post
