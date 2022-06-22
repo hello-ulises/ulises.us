@@ -28,4 +28,4 @@ Books and prints and goods from our friends:
 
 Ulises deadstock will be available for 25%, 50% and 75% off! 
 
-Snacks, burgers, hot dogs — and specially designed dog toppings and beverages from the FORTUNE team. Free & open to the public! Raffle every hour (win big on books!)
+There will be snacks, burgers, hot dogs, and vegan options. Plus specially designed toppings and beverages from the FORTUNE team.  Free & open to the public! Raffle every hour (win big on books!)
