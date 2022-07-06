@@ -26,8 +26,6 @@ Books and prints and goods from our friends:
 * [The Soapbox](https://www.phillysoapbox.org/)
 * [Solita Zine](https://www.instagram.com/solitazine/?hl=en)
 
-Ulises deadstock will be available for 25%, 50% and 75% off! 
-
-There will be snacks, burgers, hot dogs, and vegan options. Plus specially designed toppings and beverages from the FORTUNE team.  Free & open to the public! Raffle every hour (win big on books!)
+There will be snacks, burgers, hot dogs, and vegan options. Plus specially designed toppings and beverages from the FORTUNE team.  Free & open to the public! Raffle every hour (win big on books!) Ulises deadstock will be available for 25%, 50% and 75% off! 
 
 Please note: Food and drink will be served outdoors. Masks are requested while indoors. Icebox Project Space is ADA accessible.
