@@ -29,3 +29,5 @@ Books and prints and goods from our friends:
 Ulises deadstock will be available for 25%, 50% and 75% off! 
 
 There will be snacks, burgers, hot dogs, and vegan options. Plus specially designed toppings and beverages from the FORTUNE team.  Free & open to the public! Raffle every hour (win big on books!)
+
+Please note: Food and drink will be served outdoors. Masks are requested while indoors. Icebox Project Space is ADA accessible.
