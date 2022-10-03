@@ -17,7 +17,6 @@ gem "jekyll", "~> 4.0.0"
 # gem "minima", "~> 2.0"
 gem "neat"
 gem "mini_magick"
-gem "nokogiri", ">= 1.10.8"
 gem "json"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -26,6 +25,5 @@ gem "json"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
    # gem "jekyll-feed", "~> 0.6"
-   gem "jekyll-minimagick", github: "benubois/jekyll-minimagick", branch: "patch-1"
    gem "jemoji"
 end
