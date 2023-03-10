@@ -24,20 +24,14 @@ jobs:
       uses: Burnett01/rsync-deployments@5.2.1
       with:
         # The switches
-        switches: 
-        # The remote shell argument
-        rsh: # optional, default is 
+        switches: -r --delete-after
         # The local path
-        path: # optional, default is 
+        path: _site/ 
         # The remote path
-        remote_path: 
+        remote_path: ~/www/
         # The remote host
-        remote_host: 
-        # The remote port
-        remote_port: # optional, default is 22
+        remote_host: ulises.us
         # The remote user
-        remote_user: 
+        remote_user: ulisesus
         # The remote key
-        remote_key: 
-        # The remote key passphrase
-        remote_key_pass: # optional, default is 
+        remote_key: ${{ secrets.GREENGEEKS_KEY }}
