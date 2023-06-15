@@ -3,7 +3,7 @@ title: Big Summer Book Sale 2023
 date: 2023-06-15T00:38:43.719Z
 event_date: Sunday, June 25, 2023
 layout: post
-categories: right
+categories: left
 published: true
 ---
 ![](/assets/img/ulises-2023_production-files_02-02.jpg)
