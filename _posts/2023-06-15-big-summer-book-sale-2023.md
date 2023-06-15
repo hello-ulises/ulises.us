@@ -1,5 +1,5 @@
 ---
-title: Big Summer Book Sale 2023
+title: Big Summer Book Sale
 date: 2023-06-15T00:38:43.719Z
 event_date: Sunday, June 25, 2023
 layout: post
