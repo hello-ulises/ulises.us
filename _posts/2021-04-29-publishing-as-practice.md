@@ -1,7 +1,7 @@
 ---
 title: Publishing As Practice
 date: 2019-12-01 21:48 -0500
-event_date: Hardworking Goodlooking, Martine Syms/Dominica, Bidoun
+event_date: A three part publishing residency
 layout: post
 categories: left
 tags:
