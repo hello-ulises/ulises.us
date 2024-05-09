@@ -1,6 +1,6 @@
 ---
 title: '"Ulises Carrion: Bookworks and Beyond" Book Launch'
-date: 2024-05-08T23:43:40.869Z
+date: 2024-05-07T23:43:40.869Z
 event_date: Saturday, May 11, 2024 from 1 – 3pm
 layout: post
 categories: left
