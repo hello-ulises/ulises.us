@@ -1,6 +1,6 @@
 ---
 title: DRAFT 04 Launch
-date: 2024-05-06T23:51:54.609Z
+date: 2024-05-16T23:51:54.609Z
 event_date: Friday, May 17, from 6 – 9pm
 layout: post
 categories: left
