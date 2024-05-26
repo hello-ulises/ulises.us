@@ -1,7 +1,7 @@
 ---
 title: "Polly Apfelbaum: For the Love of Una Hale"
 date: 2024-05-26T18:12:46.974Z
-event_date: Friday, June 28, 2024, 6 – 8pm
+event_date: Friday, June 28, 2024, 6 – 9pm
 layout: post
 categories: left
 published: true
