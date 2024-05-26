@@ -8,7 +8,7 @@ published: true
 ---
 ![*Al Mudhif: A Confluence*](/assets/img/al-mudhif-photo-by-tina-plokarz-4x3_51252521840_o-v2.jpg)
 
-[R﻿SVP](https://www.eventbrite.com/e/913573662417?aff=oddtdtcreator)
+**[R﻿SVP](https://www.eventbrite.com/e/913573662417?aff=oddtdtcreator)**
 
 Join Ulises for the launch of *Al Mudhif: A Confluence*, a catalog commemorating the installation of the first Mudhif built outside of Iraq at the Schuylkill Environmental Center for Environmental Education in 2021. Come enjoy conversation, readings, and Iraqi tea and sweets from the artists and people who brought Al Mudhif to life. \
 \
