@@ -8,7 +8,7 @@ published: true
 ---
 ![](/assets/img/all-exits-coverfinal-copy-v2.jpg)
 
-[RSVP](https://www.eventbrite.com/e/book-launch-all-exits-a-collection-of-short-stories-tickets-913581215007?aff=oddtdtcreator)
+**[RSVP](https://www.eventbrite.com/e/book-launch-all-exits-a-collection-of-short-stories-tickets-913581215007?aff=oddtdtcreator)**
 
 On this night almost one year ago a small and strange book was released to the public...Please join us on June 6 to celebrate the anniversary of *ALL EXITS*: a collection of short stories by Lane Timothy Speidel.
 
