@@ -6,7 +6,7 @@ layout: post
 categories: left
 published: true
 ---
-![*Al Mudhif: A Confluence*](/assets/img/al-mudhif-photo-by-tina-plokarz-4x3_51252521840_o.jpg)
+![*Al Mudhif: A Confluence*](/assets/img/al-mudhif-photo-by-tina-plokarz-4x3_51252521840_o-v2.jpg)
 
 Book Launch: *Al Mudhif: A Confluence;* first-hand accounts of the first Mudhif outside of Iraq
 
