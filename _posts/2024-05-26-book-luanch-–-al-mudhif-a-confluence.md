@@ -1,7 +1,7 @@
 ---
 title: "Book Luanch – Al Mudhif: A Confluence"
 date: 2024-05-26T16:33:14.920Z
-event_date: Thursday, May 30, 6 – 8 pm
+event_date: Thursday, May 30, 2024, 6 – 8pm
 layout: post
 categories: left
 published: true
