@@ -1,8 +1,9 @@
 ---
 title: "Book Launch:  ALL EXITS"
 date: 2024-05-26T18:06:07.297Z
-event_date: Thursday, June 6, 6:30 – 9pm
+event_date: Thursday, June 6, 2024, 6:30 – 9pm
 layout: post
+categories: left
 published: true
 ---
 ![](/assets/img/all-exits-coverfinal-copy-v2.jpg)
