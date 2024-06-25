@@ -3,7 +3,7 @@ title: "Commodities #1: Kameelah Janan Rasheed"
 date: 2024-06-08T22:04:48.782Z
 event_date: May 3 – August 25, 2024
 layout: post
-categories: left
+categories: right
 published: true
 ---
 ![](/assets/img/313a145e-2d0f-4d23-82be-8944ab30150e-v2.jpg)
