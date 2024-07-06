@@ -6,7 +6,7 @@ layout: post
 categories: left
 published: true
 ---
-![](/assets/img/unnamed-3-.jpg)
+![](/assets/img/unnamed-2-.jpg)
 
 [RSVP](https://www.eventbrite.com/e/part-2-game-theory-with-kameelah-janan-rasheed-game-night-tickets-939935280727)
 
