@@ -1,6 +1,6 @@
 ---
 title: Big Summer Book Sale
-date: 2024-07-06T02:10:12.342Z
+date: 2024-07-05T17:10:00.000Z
 event_date: Sunday, July 14, 2024 from 11am – 5pm
 layout: post
 categories: left
