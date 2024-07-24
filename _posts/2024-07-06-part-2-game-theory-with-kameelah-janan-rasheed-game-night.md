@@ -1,7 +1,7 @@
 ---
-title: 'Part 2: "Game" Theory with Kameelah Janan Rasheed (Game Night)'
-date: 2024-07-06T02:05:29.301Z
-event_date: Saturday, July 27, 2024 from 6 – 8pm
+title: 'Part 2: "Game Night" with Kameelah Janan Rasheed '
+date: 2024-07-23T02:05:29.301Z
+event_date: Saturday, August 24, 2024 from 6 – 8pm
 layout: post
 categories: left
 published: true
