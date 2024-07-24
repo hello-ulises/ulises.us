@@ -1,7 +1,7 @@
 ---
-title: 'Part 1: "Game" Theory with Kameelah Janan Rasheed (Writing and Mark-Making)'
-date: 2024-07-06T02:03:03.697Z
-event_date: Saturday, July 27, 2024 from 2-4pm
+title: 'Part 1: "Design" Writing and Mark-Making Games with Kameelah Janan Rasheed '
+date: 2024-07-23T02:03:03.697Z
+event_date: Saturday, August 24, 2024 from 2-4pm
 layout: post
 categories: left
 published: true
