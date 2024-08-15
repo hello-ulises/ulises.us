@@ -9,7 +9,7 @@ published: true
 ![Melly Shum billboard](/assets/img/210910_2.jpg)
 
 Opening Reception: Friday, August 30, 6pm – 9pm\
-[RSVP](https://www.eventbrite.com/e/979351726377?aff=oddtdtcreator)
+[RSVP](https://www.eventbrite.com/e/ken-lum-klump-opening-reception-tickets-979351726377)
 
 Ken Lum’s exhibition *Klump!*—the second installment of Ulises’s year-long, three-part artists’ multiples series *Commodities*—opens on August 30, 2024, at Studio 105 at Ray Philly. *Klump!* combines and holds in tension two contrary artistic impulses. The white exhibition walls signify an endpoint to art as an uninflected surface, refusing all reference and representation to arrive at a condition of pure aesthetic experience. Small pictures of individuals punctuate the walls like musical notation.
 
