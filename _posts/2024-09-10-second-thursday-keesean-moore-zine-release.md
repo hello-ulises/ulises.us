@@ -8,6 +8,8 @@ published: true
 ---
 ![](/assets/img/screen-shot-2024-09-09-at-11.53.47-pm.png)
 
+[R﻿SVP](https://www.eventbrite.com/e/second-thursday-the-seeds-this-soil-holds-zine-launch-reading-tickets-1001449411147)
+
 Join us for the launch and reading of “The Seeds This Soil Holds,” a photo and poetry zine by Keesean Moore. The zine combines a series of poems with historical imagery harvested from the John J. Wilcox Jr. Archives, and embraces an understanding of the self as a composite being through diligent memory work.
 
 Keesean Moore is a poet, artist and the owner of The Moore Vintage Archive in Queen Village, Philadelphia, PA.
