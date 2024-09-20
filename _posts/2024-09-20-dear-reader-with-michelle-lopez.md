@@ -8,6 +8,8 @@ published: true
 ---
 ![](/assets/img/f2904283f42b36c5f4d171b17252c823ec8c0a0d-694x720.jpg)
 
+[R﻿SVP](https://www.eventbrite.com/e/dear-reader-w-michelle-lopez-tickets-1003089386357)\
+\
 For this iteration of *Dear Reader*, join interdisciplinary artist, Michelle Lopez, in an active discursive exploration of selections from Ken Lum’s *Commodities* reading/viewing list produced for his exhibition *Klump!* on view in Studio 105 until November 24, 2024.
 
 *Dear Reader* is a programmatic series that follows the model of an informal book club to delve into Ulises's quarterly reading lists through facilitated workshops, lectures, performances, and screenings.
