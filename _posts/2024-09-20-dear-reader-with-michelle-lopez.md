@@ -10,7 +10,7 @@ published: true
 
 [R﻿SVP](https://www.eventbrite.com/e/dear-reader-w-michelle-lopez-tickets-1003089386357)\
 \
-For this iteration of *Dear Reader*, join interdisciplinary artist, Michelle Lopez, in an active discursive exploration of selections from Ken Lum’s *Commodities* reading/viewing list produced for his exhibition *Klump!* on view in Studio 105 until November 24, 2024.
+For this iteration of *Dear Reader*, join interdisciplinary artist, Michelle Lopez, in an active discursive exploration of Ken Lum's recommended reading, *[Japanese Death Poems written by Zen Monks and Haiku Poets](https://drive.google.com/file/d/1c8U7MCL3UwPMCaQSr7cvGuef8w8hzrPN/view?usp=drive_link)*from his reading/viewing list produced for his exhibition *Klump!* on view in Studio 105 until November 24, 2024.
 
 *Dear Reader* is a programmatic series that follows the model of an informal book club to delve into Ulises's quarterly reading lists through facilitated workshops, lectures, performances, and screenings.
 
