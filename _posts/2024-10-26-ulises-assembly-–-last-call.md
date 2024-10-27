@@ -6,7 +6,7 @@ layout: post
 categories: left
 published: true
 ---
-![](/assets/img/1080x1080.png)
+![](/assets/img/soc-media-02.jpg)
 
 LAST CALL – Don’t miss your chance to buy and see artists' books at *[Ulises: Assembly](https://artgalleries.tufts.edu/exhibitions/203-ulises-assembly)* before they’re gone from Boston! 
 
