@@ -1,7 +1,7 @@
 ---
 title: '"Table Read" with Ken Lum'
 date: 2024-11-06T04:07:36.619Z
-event_date: Sunday, Nobember 17, 2024 from 1pm – 3pm
+event_date: Sunday, November 17, 2024 from 1pm – 3pm
 categories: left
 published: true
 ---
