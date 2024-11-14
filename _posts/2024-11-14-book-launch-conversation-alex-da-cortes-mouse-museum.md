@@ -10,7 +10,7 @@ published: true
 
 In the ultimate homage to Claes Oldenburg, Alex Da Corte recreates his Mouse Museum project with his own unique twist. \
 \
-Join Ulises for the launch of Alex Da Corte’s newest publication, *Mouse Museum*. The evening will begin with a conversation (starting at 6:30pm)  between Da Corte and Paulina Pobocha, Chair and Curator of The Art Institute of Chicago, with a reception to follow. [RSVP](https://www.eventbrite.com/e/book-launch-conversation-alex-da-cortes-mouse-museum-tickets-1063921290219?aff=oddtdtcreator)\
+Join Ulises for the launch of Alex Da Corte’s newest publication, *Mouse Museum*. The evening will begin with a conversation (starting at 6:30pm) between Da Corte and Paulina Pobocha, Chair and Curator of The Art Institute of Chicago, with a reception to follow. [RSVP](https://www.eventbrite.com/e/book-launch-conversation-alex-da-cortes-mouse-museum-tickets-1063921290219?aff=oddtdtcreator)\
 \
 Designed as a “mutant facsimile” of the 1979 Rijksmuseum/Museum Ludwig catalog for Claes Oldenburg’s Mouse Museum/Ray Gun Wing, *Mouse Museum* is a codex for the eponymous installation by Alex Da Corte.\
 \
