@@ -6,7 +6,7 @@ layout: post
 categories: left
 published: true
 ---
-![Fat Roger](/assets/img/screen-shot-2024-12-01-at-9.02.13-pm.png)
+![Fat Roger](/assets/img/candice-lin-with-cats.jpg)
 
 SAVE THE DATE for the opening reception of *Candice Lin: Interspecies Imbibements,* December 14, 6-9 PM. 
 
