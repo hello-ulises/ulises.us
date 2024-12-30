@@ -1,5 +1,5 @@
 ---
-title: "Commodities #2: Candice Lin"
+title: "Commodities #3: Candice Lin"
 date: 2024-12-30T00:01:34.516Z
 event_date: December 14, 2024 – March 16, 2025
 layout: post
