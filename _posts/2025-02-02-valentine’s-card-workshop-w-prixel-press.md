@@ -8,6 +8,8 @@ published: true
 ---
 ![](/assets/img/image0-3-.jpeg)
 
+[R﻿SVP](https://www.eventbrite.com/e/free-drop-in-valentines-day-card-printing-workshop-tickets-1226550368169?aff=oddtdtcreator)
+
 Free Valentine's card printing popup presented by Ulises and PRIXEL! Stop by and print your own Valentine’s Day cards using PRIXEL, a modular printing press designed by Brandon Gamm. He’ll be on site to guide you through the process of designing and printing cards.
 
 Ages 8 and up are welcome to join. Kits will also be available for purchase.
