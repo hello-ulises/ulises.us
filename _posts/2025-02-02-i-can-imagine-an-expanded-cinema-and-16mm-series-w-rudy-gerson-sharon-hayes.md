@@ -9,6 +9,8 @@ published: true
 ---
 ![](/assets/img/stills15-optimised.jpeg)
 
+[R﻿SVP](https://www.eventbrite.com/e/i-can-imagine-an-expanded-cinema-and-16mm-series-tickets-1231672428389?aff=oddtdtcreator)
+
 Join Ulises and artists Rudy Gerson and Sharon Hayes for an evening of expanded cinema works presented on 16mm film. This event is the first in a series devoted to 16mm and live performance that explores intersections of desire, protest, and projection across time. 
 
 Prompted by Rudy’s *October 8 (After May 1st)* (2024), which occupies a similar form and voice to Sharon’s 2012 print series, *May 1st*, this shared evening features Gerson’s *Hands on Earth (Tuesday May 14 2024)* and a live reading of October 8 *(After May 1st).* Hayes presents a performed version of Gay Power (1971/2007/2012), a collaboration with the Women’s Liberation Cinema and Kate Millett. Gerson and Hayes’s works include projected 16mm film and live reading.
