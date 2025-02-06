@@ -1,6 +1,6 @@
 ---
 title: "Language Object Index: Artist Book Launch and Conversation w/ Mira Dayal
-  & Sharon Mattern"
+  & Shannon Mattern"
 date: 2025-02-02T20:06:34.724Z
 event_date: Saturday, March 1, 2025 from 5 - 7pm
 layout: post
