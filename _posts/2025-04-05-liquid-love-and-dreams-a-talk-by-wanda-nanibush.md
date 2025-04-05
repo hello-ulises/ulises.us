@@ -6,7 +6,7 @@ layout: post
 categories: left
 published: true
 ---
-![](/assets/img/_wanda_5-credit-shelley-niro.jpg)
+![Wanda Nanibush](/assets/img/_wanda_5-credit-shelley-niro-2.jpg)
 
 **[RSVP](https://www.eventbrite.com/e/liquid-love-and-dreams-a-talk-by-wanda-nanibush-tickets-1307518496019?aff=oddtdtcreator)**
 
