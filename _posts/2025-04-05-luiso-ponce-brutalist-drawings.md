@@ -10,7 +10,7 @@ published: true
 
 **[RSVP](https://www.eventbrite.com/e/luiso-ponce-brutalist-drawings-tickets-1299991602879?aff=oddtdtcreator)**
 
-Stop by all weekend (April 12 - 13 from 12pm - 6pm) for a pop-up exhibition of Luiso Ponce’s latest ink work, *Brutalist Drawings*, curated by Ryan Allen Hancock.
+Stop by all weekend (April 12 & 13 from 12pm - 6pm) for a pop-up exhibition of Luiso Ponce’s latest ink work, *Brutalist Drawings*, curated by Ryan Allen Hancock.
 
 Luiso Ponce is a self-taught Guatemalan multidisciplinary visual and sound artist living and working in Guatemala City. Ponce's work explores symbolism, information architecture, memory, and imagining new futures. Ponce's *Brutalist Drawings* explore the impact of excessive image, content, and information consumption as well as the stimulation and alienation they create in society.
 
