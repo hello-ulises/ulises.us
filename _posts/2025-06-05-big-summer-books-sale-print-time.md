@@ -8,7 +8,8 @@ published: true
 ---
 ![Big Summer Book Sale Books](/assets/img/bsbs.jpg)
 
-*PRINT TIME*: Thursday, July 10 - Sunday, July 27, 2025\
+*PRINT TIME*: Thursday, July 10 - Sunday, July 27, 2025
+
 BIG SUMMER BOOK SALE: Sunday, July 27, 11:00 AM - 5:00 PM
 
 The 4th Annual BIG SUMMER BOOK SALE is almost here! Organized again with our longtime collaborators [FORTUNE](https://printingfortunes.info/) & [Icebox Project Space](https://www.iceboxprojectspace.com/home), the SALE will feature an eclectic mix of local bookstores, print collectives, and artist-run projects—from comics to wearable multiples, from self-published zines to discounted art books—as we celebrate printed matter in its many popular, social, and liberatory forms. \
