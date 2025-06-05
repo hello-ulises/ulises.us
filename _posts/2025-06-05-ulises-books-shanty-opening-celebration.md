@@ -16,4 +16,4 @@ The Books Shanty revels in the spirit of summer by the sea—​ rowboats, beach
 **Shanty Hours:** Saturdays in July from 12:00 - 6:00 PM  \
 **Location:​** Little Harbor, 5 Beacon St, Marblehead, MA​. 
 
-Featured work by: [Genesis Báez](https://www.genesisbaez.com/), [Tamar Ettun](https://tamarettun.com/), [Jason Fulford](https://www.instagram.com/mushroom_collector/?hl=en)Design by: [Nick Massarelli](https://nickmassarelli.com/)/﻿/ Thank you to [First Harbor Company ](https://www.firstharborcompany.com/)[](https://www.instagram.com/firstharborcompany/?hl=en)or welcoming us into their shanty!
+Featured work by: [Genesis Báez](https://www.genesisbaez.com/), [Tamar Ettun](https://tamarettun.com/), [Jason Fulford](https://www.instagram.com/mushroom_collector/?hl=en)Design by: [Nick Massarelli](https://nickmassarelli.com/)/﻿/ Thank you to [First Harbor Company](https://www.firstharborcompany.com/)[](https://www.instagram.com/firstharborcompany/?hl=en)or welcoming us into their shanty!
