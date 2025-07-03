@@ -10,11 +10,11 @@ published: true
 
 ***PRINT TIME***\
 \
-**Exhibition:** Thursday, July 10 – Sunday, July 27, 2025\
-**Opening:** Thursday, July 10, 6:00 PM – 9:00 PM\
-**Gallery Hours**: 12:00 – 6:00 PM, Thursdays through Saturdays in July\
-**Programs**: Thursday, July 10 – Sunday, July 27, 2025\
-**Location:** Icebox Project Space, 1400 N American St. Phila, PA 19122\
+**Exhibition:** Thurs, July 10 – Sunday, July 27, 2025.\
+**Opening:** Thurs, July 10, 6:00 PM – 9:00 PM\
+**Gallery Hours**: 12:00 – 6:00 PM, Thurs through Sats in July\
+**Programs**: Thurs, July 10 – Sunday, July 27, 2025\
+**Location:** Icebox Project Space, 1400 N American St. Philly\
 \
 Announcing PRINT TIME — a monthlong exhibition and programming series dedicated to print culture, community publishing, and their surrounding ecosystems. PRINT TIME opens Thursday, July 10 from 6:00 – 9:00 PM at Icebox Project Space, and features large-scale printworks by Erik Ruin, Jarrah May, Kocot & Hatton, and Olivia Fredricks. Free [workshops](https://www.eventbrite.com/cc/print-time-2025-4399723?utm-campaign=social&utm-content=creatorshare&utm-medium=discovery&utm-term=odclsxcollection&utm-source=cp&aff=escb) led by FORTUNE, Rayhan Blankinship, Justin J. Keller, and Robert Baxter on weekends to follow. 
 
@@ -28,8 +28,8 @@ Announcing PRINT TIME — a monthlong exhibition and programming series dedicate
 \
 ***BIG SUMMER BOOK SALE***
 
-**BSBS**: Sunday, July 27, 11:00 AM – 5:00 PM\
-**Location:** Icebox Project Space, 1400 N American St. Phila, PA 19122\
+**BSBS**: Sun, July 27, 11:00 AM – 5:00 PM\
+**Location:** Icebox Project Space, 1400 N American St. Philly\
 \
 We’ll close out the show with our fourth annual BIG SUMMER BOOK SALE on Sunday, July 27, from 11:00 AM – 5:00 PM. Visit an eclectic mix of bookstores, print collectives, artist-run projects — from comics to wearable multiples, from self-published zines to artist books — as we celebrate printed matter among friends and family, in its many popular, social, and liberatory forms. 30 vendors (new and familiar!), cash bar, free hot dogs (while supplies last!), and a raffle every hour on the hour. \
 \
