@@ -12,8 +12,7 @@ Ulises is popping up in a historic lobster shanty on the edge of Little Harbor i
 \
 The Books Shanty revels in the spirit of summer by the sea—​ rowboats, beach towels, salty skin—and celebrates the shanty itself, where generations of lobstermen have gathered.​
 
-**Opening Celebration:** Sat, June 28, 3:00 PM to Sunset\
-**Shanty Hours:** Saturdays in July from 12:00 - 6:00 PM  \
+**Celebration:** Sat, June 28, 3:00 PM to Sunset (NOTE: ALL OTHER HOURS HAVE BEEN CANCELED) \
 **Location:​** Little Harbor, 5 Beacon St, Marblehead, MA​. 
 
 Featured work by: [Genesis Báez](https://www.genesisbaez.com/), [Tamar Ettun](https://tamarettun.com/), [Jason Fulford](https://www.instagram.com/mushroom_collector/?hl=en)Design by: [Nick Massarelli](https://nickmassarelli.com/)/﻿/ Thank you to [First Harbor Company](https://www.firstharborcompany.com/)[](https://www.instagram.com/firstharborcompany/?hl=en)or welcoming us into their shanty!
