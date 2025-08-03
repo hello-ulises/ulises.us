@@ -8,11 +8,7 @@ published: true
 ---
 ![Monument Lab's *Bulletin* Issue 02 Launch](/assets/img/mlab-till_santiagolowres25-2.jpg "Monument Lab's *Bulletin* Issue 02 Launch")
 
-Friday, August 8, 2025
-
-7:00 PM  - 8:30 PM
-
-[RSVP](https://www.eventbrite.com/e/an-offering-brotherly-love-sisterly-affection-for-emmett-till-tickets-1530773999239?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl)
+7:00 PM  - 8:30 PM, [RSVP](https://www.eventbrite.com/e/an-offering-brotherly-love-sisterly-affection-for-emmett-till-tickets-1530773999239?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl)
 
 Join us for Monument Lab's *Bulletin* Issue 02 Launch: An Offering, Brotherly Love & Sisterly Affection for Emmett Till.
 
