@@ -6,7 +6,7 @@ layout: post
 categories: left
 published: true
 ---
-![RELATED DEPARTMENT, Railing Codex](/assets/img/railing-codex-book-2.jpg)
+![RELATED DEPARTMENT, Railing Codex](/assets/img/railing-codex-book-3.jpg)
 
 This October, Ulises is hosting a pop-up, October 24 – November 2, and two programs with [RELATED DEPARTMENT](http://www.related.design/), an award-winning design practice based in Shanghai and New York. Their work spans publishing, research, and experimental design, exploring post-colonial and digital landscapes through image-making, textual production, and critical discourse. They founded their publishing practice *Page Bureau* in 2018 and a research division, *est.dept*, in 2022.\
 \
@@ -18,8 +18,6 @@ Friday, October 24, 6:00 - 8:00 PM, [RSVP](https://www.eventbrite.com/e/17664903
 Join art collective Pararailing for a talk and workshop inspired by the recent publication of their artist’s book, *Railing Codex*, published by Page Bureau. Using the publication as a point of departure, this event will feature a presentation by Jie Shao, Sixing Xu, and Snow Xuecan Ye, members of Pararailing, followed by an intimate workshop. Guided by the conceptual framework of *Railing Codex*, participants will explore expanded forms of definition-making and collective authorship through a series of prompts and exercises.\
 \
 Initially launched as an [online project](https://railingcodex.com/), *Railing Codex* is a collective dictionary by Pararailing, their friends, and friends of friends. Featuring over 60 contributors' definitions of words, spanning disciplines, geography, mathematical concepts, and everyday objects. This growing project responds to the slippage of meaning that marks our post-pandemic world through the very attempts to define, undefine, and redefine.
-
-
 
 ***PLATES: The Politics of Layout* Pop Up Reception & Conversation**\
 October 25, 6:00 - 8:00 PM, [RSVP](https://www.eventbrite.com/e/plates-the-politics-of-layout-opening-reception-tickets-1766515709039?aff=oddtdtcreator)\
