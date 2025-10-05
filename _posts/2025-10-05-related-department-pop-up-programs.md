@@ -14,16 +14,16 @@ This October, Ulises is hosting a pop-up, October 24 – November 2, and two 
 Friday, October 24, 6:00 - 8:00 PM, [RSVP](https://www.eventbrite.com/e/1766490353199?aff=oddtdtcreator)\
 *Workshop with Pararailing begins at 7:00 PM*
 
-Join art collective Pararailing for a talk and workshop inspired by the recent publication of their artist’s book, *Railing Codex*, published by Page Bureau. Using the publication as a point of departure, this event will feature a presentation by Jie Shao, Sixing Xu, and Snow Xuecan Ye, members of Pararailing, followed by an intimate workshop. Guided by the conceptual framework of *Railing Codex*, participants will explore expanded forms of definition-making and collective authorship through a series of prompts and exercises.\
+Art collective Pararailing leads a talk and workshop inspired by the recent publication of their artist’s book, *Railing Codex*, published by Page Bureau. Using the publication as a point of departure, this event will feature a presentation by Jie Shao, Sixing Xu, and Snow Xuecan Ye, members of Pararailing, followed by an intimate workshop. Guided by the conceptual framework of *Railing Codex*, participants will explore expanded forms of definition-making and collective authorship through a series of prompts and exercises.\
 \
 Initially launched as an [online project](https://railingcodex.com/), *Railing Codex* is a collective dictionary by Pararailing, their friends, and friends of friends. Featuring over 60 contributors' definitions of words, spanning disciplines, geography, mathematical concepts, and everyday objects. This growing project responds to the slippage of meaning that marks our post-pandemic world through the very attempts to define, undefine, and redefine.
 
 \
 **P﻿ROGRAM 2: *PLATES: The Politics of Layout* Pop Up Reception & Conversation**\
 October 25, 6:00 - 8:00 PM, [RSVP](https://www.eventbrite.com/e/plates-the-politics-of-layout-opening-reception-tickets-1766515709039?aff=oddtdtcreator)\
-*Conversation with RELATED DEPARTMENT & Ulises begins at 6:30 PM*
+*Conversation begins at 6:30 PM*
 
-Join Ulises for the opening of *PLATES: The Politics of Layout*, a pop-up exhibition organized by RELATED DEPARTMENT for Ulises' Project Space on view from October 24 through November 2, 2025.\
+Ulises presents *PLATES: The Politics of Layout*, a pop-up exhibition organized by RELATED DEPARTMENT for Ulises’ Project Space, on view from October 24 through November 2, 2025.\
 \
 The exhibition surveys *PLATES*, an experimental publication by RELATED DEPARTMENT and [Page Bureau](https://www.instagram.com/page.bureau/?hl=en) that explores contemporary design practice through thematic issues composed of textual and visual “plates.” The second issue, *PLATES 2: The Body Issue*, turns to the *body*: its material presence and shifting significations within capitalism, technology, politics, and media.\
 \
