@@ -4,9 +4,7 @@ date: 2019-12-01 21:48 -0500
 event_date: A three part publishing residency
 layout: post
 categories: left
-tags:
-  - sticky
-  - mobile-only
+tags: null
 published: true
 ---
 
