@@ -25,4 +25,4 @@ P﻿ast Exhibitions / Projects
 * *​Quarterly No. 4: Education, C*ontributors: Pablo Helguera, Caroline Woolard and Susan Jahoda​ of BFAMFAPhD​, Dushko Petrovich, Sepake Angiama — December 2017 – February 2018
 * *Quarterly No. 3​: Migrations*, Contributors: Marwa Arsanios, Banu Cennetoğlu, Tania Bruguera, Xaviera Simmons​ — July 1– October 1, 2017
 * *Quarterly No. ​2: Intimacy​*, Contributors: Sharon Hayes​, Badlands Unlimited, “New Lovers,”​ Lauren Berlant​ — February 11 –​ June 11, 2017
-* *Quarterly No. ​1: Active Voice*, Contributors: Steffani Jemison​, Hannah Black​, Mark Beasley​ — November 12, 2016​ – January 22, 2017
+* *Quarterly No. ​1: Active Voice*, Contributors: Steffani Jemison​, Hannah Black​, Mark Beasley​ — November 12, 2016​ – January 22, 2017
