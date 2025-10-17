@@ -11,6 +11,8 @@ Ulises is a bookshop, project space, and curatorial collective dedicated to arti
 
 Offering books, non books, anti books, pseudo books, quasi books, concrete books, conceptual books, structural books, project books, plain books, Wednesday to Sunday from 12 to 6 pm.
 
+P﻿ast Exhibitions / Projects
+
 * C﻿ommodities #3: *C﻿andice Lin: Interspecies Imbibements* — December 14, 2024 – March 16, 2025
 * C﻿ommodities #2: *Ken Lum: Klump!* — August 30 – November 24, 2024
 * *[Ulises: Assembly](https://artgalleries.tufts.edu/exhibitions/203-ulises-assembly),* Tufts University Art Galleries — August 13 – November 10, 2024
