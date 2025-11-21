@@ -20,6 +20,7 @@ P﻿ast Exhibitions / Projects
 * *[speech lives in a series of daily attempts: artists & publishing](https://wfound.org/exhibition/speech-lives-in-a-series-of-daily-attempts-artists-publishing/),* Wagner Foundation Gallery — March 7, 2024 - August 1, 2024
 * *[Ulises Friends School](https://bakonline.org/en/making+public/program/ulises_friends_school/),* part of Ultradependent Public School, BAK, basis voor actuele kunst — April 19 - 21, 2023
 * "Fifth Quarter," Study Cycle, University of the Arts, Dance MFA Program — June 28 – July 2, 2021 
+* "﻿The School for Temporary Liveness Vol. 1 Reading Room" presented by University of the Arts School of Dance, curated by Lauren Bakst — September 25 – October 2, 2019 
 * *Publishing As Practice: Bidoun* — November 29, 2018​–​ July 19, 2019
 * *Publishing As Practice: Martine Syms/Bidoun* — July 22 – November 4, 2018
 * *​Publishing As Practice: ​Hardworking Goodlooking —* April 7​ –​ 31, 2018
