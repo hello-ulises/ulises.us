@@ -8,10 +8,9 @@ published: true
 ---
 ![Pharmacy Books Pop-up](/assets/img/pharmacybooks-v2.jpg)
 
-Reception: Saturday, December 6, 6:00 – 9:00 PM, [RSVP](https://www.eventbrite.com/e/1976353957890?aff=oddtdtcreator)\
-P﻿op-up: On on view through December 21st\
+Saturday, December 6, 6:00 – 9:00 PM, [RSVP](https://www.eventbrite.com/e/1976353957890?aff=oddtdtcreator)\
 \
-Pharmacy Books is popping up at Ulises! Celebrate the opening on December 6th with bubbles by the glass and complimentary oysters from Bar Mish Mish. Explore yet-to-be-released projects and sold-out titles from the Brooklyn-based artist book publisher. 
+Pharmacy Books is popping up at Ulises! Celebrate the opening on December 6th with bubbles by the glass and complimentary oysters from Bar Mish Mish. Explore yet-to-be-released projects and sold-out titles from the Brooklyn-based artist book publisher. The pop-up will remain on view through December 21st.
 
 [Pharmacy Books](https://pharmacy-books.com/) is an independent publisher of artists’ books, founded by designer Nick Massarelli in 2024. Based in Brooklyn with roots in Philadelphia, they create limited-edition books at the intersection of photography, design, and fine art. Although longtime friends and collaborators, this will be their first event at Ulises.\
 \
