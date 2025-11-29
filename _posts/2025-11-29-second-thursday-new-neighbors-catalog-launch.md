@@ -14,12 +14,9 @@ For December's Second Thursday, join Ulises for a deeper look at *New Neighbors
 
 Reception from 6–9 PM, with an informal artist talk at 7 PM
 
-**Ursinus College studio art faculty:** David Aipperspach, Cari Freno, Sarah Kaufman, and Sarah Pater
-
-**Paired artists:** Sarah McEneaney, Chad States, Tony Bragg, and Nadia Hironaka and Matthew Suib
-
-**Contributing catalog authors:** Jacob Feige, Kati Gegenheimer, Rebecca Robertson, Stan Mir
-
-**Catalog design:** Jeanne Komp
+* **Ursinus College studio art faculty:** David Aipperspach, Cari Freno, Sarah Kaufman, and Sarah Pater
+* **Paired artists:** Sarah McEneaney, Chad States, Tony Bragg, and Nadia Hironaka and Matthew Suib
+* **Contributing catalog authors:** Jacob Feige, Kati Gegenheimer, Rebecca Robertson, Stan Mir
+* **Catalog design:** Jeanne Komp
 
 Photo: Installation view of *New Neighbors,* Courtesy of the Berman Museum
