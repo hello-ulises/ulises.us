@@ -7,10 +7,10 @@ layout: post
 categories: left
 published: true
 ---
-![Ruth Arts logo](/assets/img/act002-horizon_rear-jacket.jpg)
+![](/assets/img/act002-horizon_rear-jacket.jpg)
 
-Record Release and Listening Party: \
-Friday, January 23, 6:00 – 8:00 PM, [RSVP](https://www.eventbrite.com/e/actualite-horizon-and-other-scores-for-itinerancy-tickets-1979910137519?aff=erelexpmlt)
+Record Release and Listening Party: Friday, January 23, \
+6:00 – 8:00 PM, [RSVP](https://www.eventbrite.com/e/actualite-horizon-and-other-scores-for-itinerancy-tickets-1979910137519?aff=erelexpmlt)
 
 Join us in celebrating the launch of Actualité, artist David Hartt’s record label, and its first release, Horizon. Hartt will play selections from his personal record collection, accompanied by commentary and reflection alongside long-time collaborator and sound specialist Eugene Lew. The program offers insight into the making of Horizon and Hartt’s broader practice, interweaving musical selections with personal anecdotes to impart the documentary and conceptual elements of his work.
 
