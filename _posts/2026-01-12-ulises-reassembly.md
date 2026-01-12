@@ -6,7 +6,7 @@ layout: post
 categories: left
 published: true
 ---
-![Ruth Arts logo](/assets/img/screenshot-2026-01-12-at-12.11.15-pm.png)
+![](/assets/img/1916af22-cbf0-a66e-bb9f-27a3631af9e1.jpg)
 
 Opening Party: Saturday, January 31st, 6pm – 8pm, [RSVP](https://www.eventbrite.com/e/ulises-reassembly-opening-party-tickets-1979910762388?aff=oddtdtcreator)
 
