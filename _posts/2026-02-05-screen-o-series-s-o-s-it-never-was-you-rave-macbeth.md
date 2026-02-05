@@ -1,6 +1,6 @@
 ---
 title: "Screen O Series (S.o.S.): It Never Was You + Rave Macbeth"
-date: 2026-02-05T20:10:17.698Z
+date: 2026-02-05T20:00:17.698Z
 event_date: Sunday, February 15, 6pm - 9pm
 layout: post
 categories: left
