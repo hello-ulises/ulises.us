@@ -1,5 +1,5 @@
 ---
-title: "Ulises: Reassembly Visit the Exhibtion and Archive"
+title: "Reassembly: Visit the Exhibtion and Archive"
 date: 2026-02-05T20:16:19.240Z
 event_date: January 31st to March 22nd
 layout: post
