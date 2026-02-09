@@ -1,6 +1,6 @@
 ---
 title: " Reassembly Second Thursday: Building a Bigger Bunny"
-date: 2026-02-05T20:02:31.742Z
+date: 2026-02-05T19:59:00.000Z
 event_date: Thursday, February 12, 6pm - 9pm
 layout: post
 categories: left
