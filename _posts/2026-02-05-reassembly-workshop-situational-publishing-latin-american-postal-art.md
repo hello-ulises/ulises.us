@@ -1,7 +1,7 @@
 ---
 title: "Reassembly Workshop: Situational Publishing & Latin American Postal Art "
 date: 2026-02-05T20:15:06.083Z
-event_date: Friday, February 22, 1pm - 3pm
+event_date: Sunday, February 22, 1pm - 3pm
 layout: post
 categories: left
 published: true
