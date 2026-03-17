@@ -1,6 +1,6 @@
 ---
 title: "Book Launch: The Composer’s Black Box with Ted Gordon"
-date: 2026-03-02T22:26:04.622Z
+date: 2026-03-17T21:26:04.622Z
 event_date: Friday, March 27, 6pm - 8pm
 layout: post
 published: false
