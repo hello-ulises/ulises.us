@@ -3,7 +3,7 @@ title: "Reassembly Second Thursday: Building a Bigger (and Bigger) Bunny "
 date: 2026-03-02T22:21:06.675Z
 event_date: Thursday, March 12, 6pm - 9pm
 layout: post
-published: true
+published: false
 ---
 ![](/assets/img/2026_ulises_reassembly_installation_views-43.jpg)
 
