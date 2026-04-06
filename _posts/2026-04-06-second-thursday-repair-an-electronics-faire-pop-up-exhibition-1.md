@@ -8,9 +8,7 @@ published: true
 ---
 ![](/assets/img/ulisesexhibitionmaterials-1-.jpg)
 
-Opening Reception: Thursday, April 9, 7pm - 9pm
-
-[RSVP](https://www.eventbrite.com/e/1986344571083?aff=oddtdtcreator)
+Opening Reception: Thursday, April 9, 7pm - 9pm [RSVP](https://www.eventbrite.com/e/1986344571083?aff=oddtdtcreator)
 
 This Thursday, join us for :/>repair, an affiliated Electronics Faire Exhibition, featuring art from local and national artists engaging with the practice of repair. The exhibition theme follows the Electronics Faire founding principle that while the history of electronics is entangled with violence, manifold traditions of marginalized communities using electronics as a form of social relating, intimacy, and resistance continue to flourish. Following mending movements and care cultures, we called for works that engage with repair as a maintenance protocol, cultural practice, and queer and abolitionist methodology. Our definition of repair follows Eve Kosofsky Sedgwick’s analytic approach:
 
