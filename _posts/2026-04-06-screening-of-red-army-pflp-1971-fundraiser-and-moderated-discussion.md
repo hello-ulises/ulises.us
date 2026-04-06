@@ -6,7 +6,7 @@ layout: post
 categories: left
 published: true
 ---
-![](/assets/img/ulisesexhibitionmaterials-1-.jpg)
+![](/assets/img/pflp5_1200.jpg)
 
 Thursday, April 23, 6pm - 8:00 pm [RSVP](https://www.eventbrite.com/e/screening-of-red-armypflp-1971-fundraiser-and-moderated-discussion-tickets-1986735226544?aff=oddtdtcreator)
 
