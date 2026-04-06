@@ -12,7 +12,7 @@ Opening Reception: Thursday, April 9, 7pm - 9pm [RSVP](https://www.eventbrite.co
 
 This Thursday, join us for :/>repair, an affiliated Electronics Faire Exhibition, featuring art from local and national artists engaging with the practice of repair. The exhibition theme follows the Electronics Faire founding principle that while the history of electronics is entangled with violence, manifold traditions of marginalized communities using electronics as a form of social relating, intimacy, and resistance continue to flourish. Following mending movements and care cultures, we called for works that engage with repair as a maintenance protocol, cultural practice, and queer and abolitionist methodology. Our definition of repair follows Eve Kosofsky Sedgwick’s analytic approach:
 
-The desire of a reparative impulse… is additive and accretive. Its fear, a realistic one, is that the culture surrounding it is inadequate or inimical to its nurture; it wants to assemble and confer plenitude on an object that will then have resources to offer to an inchoate self.
+*The desire of a reparative impulse… is additive and accretive. Its fear, a realistic one, is that the culture surrounding it is inadequate or inimical to its nurture; it wants to assemble and confer plenitude on an object that will then have resources to offer to an inchoate self.*
 
 Participating Artists:  Cecilia McKinnon, Charlotte G Chin, Chris Combs, Emilia Ezeta, Hannah Tardie, Ian Byers-Gamber, Jazmyn Crosby, Jocelyn Tsui, kathy wu , Riley Cox, Ryan Scails, Woody Poulard, and Yafira Martinez 
 
