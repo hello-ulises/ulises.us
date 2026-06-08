@@ -8,8 +8,7 @@ published: true
 ---
 ![Installation photo of Jordan McDonalds ceramic sculptures in Studio 105](/assets/img/dsc_6782.png)
 
-Thursday, June 11, 6:00 PM - 8:00 PM\
-[RSVP](https://www.eventbrite.com/e/jordan-mcdonald-second-thursday-tickets-1990175925768?aff=oddtdtcreator)
+Thursday, June 11, 6:00 PM - 8:00 PM [RSVP](https://www.eventbrite.com/e/jordan-mcdonald-second-thursday-tickets-1990175925768?aff=oddtdtcreator)
 
 Join Ulises in partnership with Studio 105 for a lecture by exhibiting artist Jordan McDonald. 
 
