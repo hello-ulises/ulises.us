@@ -3,6 +3,7 @@ title: "Second Thursday: SENSUS 4.0 Launch"
 date: 2026-07-01T15:23:32.669Z
 event_date: Thursday, July 9
 layout: post
+categories: left
 published: true
 ---
 ![](/assets/img/91.png)
