@@ -1,14 +1,14 @@
 ---
 title: Acanthus/Ailanthus with Kaitlin Pomerantz and Matthew Schrader
 date: 2026-07-01T15:20:04.136Z
-event_date: To be announced
+event_date: Thursday July 23rd, 6-8pm
 layout: post
 categories: left
 published: true
 ---
 ![](/assets/img/kkp-ms.jpg)
 
-Wednesday, July 8, 6pm - 8pm (talk from 6:15 - 7:15pm) [RSVP](https://www.eventbrite.com/e/1992423856389?aff=oddtdtcreator)\*﻿\*Postponed\*\* Date to be announced.
+Thursday, July 23rd, 6-8pm (talk from 6:15 - 7:15pm) [RSVP](https://www.eventbrite.com/e/1992423856389?aff=oddtdtcreator)
 
 Ray and Ulises will host a discussion between artists Kaitlin Pomerantz and Matthew Schrader on the role of plant ecologies in their work, in conjunction with the release of Matthew Schrader’s book Ensemble and Kaitlin Pomerantz’s exhibition (de)growth on view in Studio 105.
 
