@@ -1,6 +1,6 @@
 ---
 title: Acanthus/Ailanthus with Kaitlin Pomerantz and Matthew Schrader
-date: 2026-07-01T15:20:04.136Z
+date: 2026-07-10T21:58:08.152Z
 event_date: Thursday July 23rd, 6-8pm
 layout: post
 categories: left
