@@ -1,7 +1,7 @@
 ---
 title: "Second Thursday: Portals Opening Reception"
 date: 2026-07-29T23:17:05.258Z
-event_date: Wednesday, August 19
+event_date: Thursday, August 13
 layout: post
 categories: left
 published: true
