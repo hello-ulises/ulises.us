@@ -8,8 +8,7 @@ published: true
 ---
 ![Image alt text: An opened book cover, featuring an image of two people sitting on a swing in a forested backyard, the image blurred by motion. Handwritten in pink, the English title “nostalgia is the ghost of care” climbs down the front cover and the Chinese title “在未来怀念一片云彩” on the lower left corner of the back cover.](/assets/img/259a2922.jpg)
 
-Saturday, September 19, 5pm - 7pm\
-[RSVP](https://www.eventbrite.com/e/hui-close-to-home-tickets-1999802831101?aff=ebdsoporgprofile)
+Saturday, September 19, 5pm - 7pm [RSVP](https://www.eventbrite.com/e/hui-close-to-home-tickets-1999802831101?aff=ebdsoporgprofile)
 
 In Chinese, 回 (huí) can denote a return, a response, an echo. But it can also embody a map, a memory rippling back into itself. A spiral that folds, collapses, expands. Two holes, two eyes, two mouths – an open grave, a quiet wound, a grief with no end. A portal of (im)possibilities.
 
