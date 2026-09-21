@@ -1,5 +1,5 @@
 ---
-title: "# NYABF CLASSROOM PANEL: SMLXL: Publishing by Artists, Collectives,
+title: "NYABF CLASSROOM PANEL: SMLXL: Publishing by Artists, Collectives,
   Institutions, and Networks, with Laura Coombs, Yusuf Hassan, Siddhartha
   Lokanandi, Manuel Raeder, and Rachel Valinsky"
 date: 2026-09-21T14:01:00.283Z
