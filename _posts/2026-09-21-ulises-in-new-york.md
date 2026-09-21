@@ -8,9 +8,7 @@ published: true
 ---
 We are  excited to be organizing a bunch of lovely things next weekend at the New York Art Book Fair, including a panel, a party at Index Greenpoint, and a table shared with Pharmacy Books and Many Folds Press.
 
-<hr style="border: none; height: 1px; background-color: #E0639B;" />
-
-## NYABF TABLE: Ulises and Friends with Pharmacy Books & Many Folds Press 
+# NYABF TABLE: Ulises and Friends with Pharmacy Books & Many Folds Press
 
 ![](/assets/img/screenshot-2026-09-18-at-2.14.53-pm.png)
 
@@ -33,9 +31,7 @@ Book launches and signings:
 \
 Learn more on the NYABF [website](https://nyabf2026.printedmatterartbookfairs.org/).
 
-<hr style="border: none; height: 1px; background-color: #E0639B;" />
-
-## NYABF CLASSROOM PANEL: SMLXL: Publishing by Artists, Collectives, Institutions, and Networks, with Laura Coombs, Yusuf Hassan, Siddhartha Lokanandi, Manuel Raeder, and Rachel Valinsky 
+# NYABF CLASSROOM PANEL: SMLXL: Publishing by Artists, Collectives, Institutions, and Networks, with Laura Coombs, Yusuf Hassan, Siddhartha Lokanandi, Manuel Raeder, and Rachel Valinsky
 
 ![](/assets/img/screenshot-2026-09-18-at-2.10.30-pm.png)
 
@@ -48,9 +44,7 @@ With Yusuf Hassan (BlackMass Publishing), Manuel Raeder (BOM DIA BOA TARDE BOA N
 
 Funded in partnership with the Goethe Institut-NY.
 
-<hr style="border: none; height: 1px; background-color: #E0639B;" />
-
-## NYABF AFTER-PARTY
+# NYABF AFTER-PARTY
 
 ![](/assets/img/digital-ulises-nyabf-afterparty-flyer_06.jpg)
 
