@@ -8,7 +8,7 @@ published: true
 ---
 We are  excited to be organizing a bunch of lovely things next weekend at the New York Art Book Fair, including a panel, a party at Index Greenpoint, and a table shared with Pharmacy Books and Many Folds Press.
 
-# NYABF TABLE: Ulises and Friends with Pharmacy Books & Many Folds Press
+# `NYABF TABLE: Ulises and Friends with Pharmacy Books & Many Folds Press`
 
 ![](/assets/img/screenshot-2026-09-18-at-2.14.53-pm.png)
 
@@ -44,7 +44,7 @@ With Yusuf Hassan (BlackMass Publishing), Manuel Raeder (BOM DIA BOA TARDE BOA N
 
 Funded in partnership with the Goethe Institut-NY.
 
-# NYABF AFTER-PARTY
+## NYABF AFTER-PARTY
 
 ![](/assets/img/digital-ulises-nyabf-afterparty-flyer_06.jpg)
 
